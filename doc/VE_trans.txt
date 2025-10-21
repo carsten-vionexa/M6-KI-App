@@ -1,0 +1,17 @@
+
+In Anaconda Prompt execute:
+
+1.
+conda create -c conda-forge -n trans spyder numpy scipy pandas matplotlib
+
+2. 
+conda activate trans
+
+3. CPU
+pip install torch torchvision torchaudio
+
+or GPU
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
+
+4.
+pip install transformers datasets
