@@ -1,0 +1,12 @@
+[
+  {
+    "timestamp": "2025-10-27 11:55:48",
+    "role": "user",
+    "content": "Capital of GErmany?"
+  },
+  {
+    "timestamp": "2025-10-27 11:55:53",
+    "role": "assistant",
+    "content": "Berlin ist die Hauptstadt Deutschlands."
+  }
+]

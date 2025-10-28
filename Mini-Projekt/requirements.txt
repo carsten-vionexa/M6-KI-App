@@ -1,0 +1,17 @@
+# Requirements for Fine-Tuning DistilRoBERTa on Financial PhraseBank
+
+torch==2.3.1
+torchvision==0.18.1
+torchaudio==2.3.1
+
+transformers==4.41.2
+datasets==2.18.0
+evaluate==0.4.2
+accelerate==0.30.1
+scikit-learn==1.5.0
+numpy==1.26.4
+pandas==2.2.2
+matplotlib==3.9.2
+
+# Optional utilities
+tqdm>=4.66
