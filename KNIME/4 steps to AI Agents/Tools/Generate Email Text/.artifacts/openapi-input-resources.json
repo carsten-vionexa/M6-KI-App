@@ -1,0 +1,16 @@
+{
+    "schema": {
+        "type": "object",
+        "properties": {
+            "negative-feedback-with-detected-language-input-table": {
+                "type": "string",
+                "format": "binary"
+            }
+        }
+    },
+    "encoding": {
+        "negative-feedback-with-detected-language-input-table": {
+            "contentType": "knime-port/org.knime.core.node.BufferedDataTable"
+        }
+    }
+}

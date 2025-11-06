@@ -1,0 +1,16 @@
+{
+    "schema": {
+        "type": "object",
+        "properties": {
+            "detected-language-output-table": {
+                "type": "string",
+                "format": "binary"
+            }
+        }
+    },
+    "encoding": {
+        "detected-language-output-table": {
+            "contentType": "knime-port/org.knime.core.node.BufferedDataTable"
+        }
+    }
+}

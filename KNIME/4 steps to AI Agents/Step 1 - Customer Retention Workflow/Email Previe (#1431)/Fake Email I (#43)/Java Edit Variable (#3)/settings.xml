@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <entry key="scriptImports" type="xstring" value="// Your custom imports:%%00010import com.icegreen.greenmail.configuration.GreenMailConfiguration;%%00010import com.icegreen.greenmail.imap.ImapServer;%%00010import com.icegreen.greenmail.util.GreenMail;%%00010import com.icegreen.greenmail.util.ServerSetup;%%00010import jakarta.mail.Folder;%%00010import jakarta.mail.MessagingException;%%00010import jakarta.mail.Store;%%00010import jakarta.mail.Session;%%00010"/>
+        <entry key="scriptFields" type="xstring" value="// Your custom variables:%%00010/** First email user. */%%00010    public static final String USER1 = &quot;knime-1@localhost&quot;;%%00010%%00010    /** First email user password. */%%00010    public static final String PWD1 = &quot;knime1234&quot;;%%00010%%00010    /** Second email user. */%%00010    public static final String USER2 = &quot;knime-2@localhost&quot;;%%00010%%00010    /** Second email login. */%%00010    public static final String PWD2 = &quot;knime1234&quot;;%%00010%%00010    /** Second email user. */%%00010    public static final String USER3 = &quot;knime-3@localhost&quot;;%%00010%%00010    /** Second email login. */%%00010    public static final String PWD3 = &quot;knime1234&quot;;%%00010%%00010    /** {@link GreenMailConfiguration} with the two test users. */%%00010    public static final GreenMailConfiguration CONFIG =%%00010            new GreenMailConfiguration().withUser(USER1, PWD1).withUser(USER2, PWD2).withUser(USER3, PWD3);%%00010%%00010    /** {@link ServerSetup} for SMTP and IMAP tests. */%%00010    public static final ServerSetup[] SETUP = new ServerSetup[]{ServerSetup.SMTP.dynamicPort().setVerbose(true),%%00010        ServerSetup.IMAP.dynamicPort().setVerbose(true)};%%00010%%00009%%00010%%00009%%00010    public static Folder createFolder(final Store store, final String name) throws MessagingException {%%00010        final Folder someFolder = store.getFolder(name);%%00010        if (!someFolder.exists()) {%%00010            if (someFolder.create(Folder.HOLDS_MESSAGES | Folder.HOLDS_FOLDERS)) {%%00010                someFolder.setSubscribed(true);%%00010            }%%00010        }%%00010        return someFolder;%%00010    }%%00010"/>
+        <entry key="scriptBody" type="xstring" value="%%00009final Thread t = Thread.currentThread();%%00010%%00009final ClassLoader orig = t.getContextClassLoader();%%00010%%00009//use the ClassLoader of the Session.class from the email libs project which contains the meta_inf with the%%00010%%00009//service definitions%%00010%%00009t.setContextClassLoader(Session.class.getClassLoader());%%00010%%00009try {%%00010%%00009%%00009GreenMail m_mail = new GreenMail(SETUP);%%00010%%00009%%00009m_mail.withConfiguration(CONFIG);%%00010%%00009%%00009m_mail.start();%%00010%%00009%%00009final ImapServer imap = m_mail.getImap();%%00010%%00009%%00009final ServerSetup serverSetup = imap.getServerSetup();%%00010%%00009%%00009out_serverAddress = serverSetup.getBindAddress();%%00010%%00009%%00009out_serverImapPort = serverSetup.getPort();%%00010%%00009%%00009final var smtp = m_mail.getSmtp();%%00010%%00009%%00009out_serverSmtpPort = smtp.getPort();%%00010%%00009%%00009out_user1 = USER1;%%00010%%00009%%00009out_user1_pwd = PWD1;%%00010%%00009%%00009out_user2 = USER2;%%00010%%00009%%00009out_user2Pwd = PWD2;%%00010%%00009%%00009out_user3 = USER3;%%00010%%00009%%00009out_user3Pwd = PWD3;%%00010%%00009%%00010%%00009%%00009//create folder%%00010%%00009%%00009out_mailFolder = &quot;MyFolder&quot;;%%00010%%00009%%00009final Store store = m_mail.getImap().createSession().getStore();%%00010%%00009     store.connect(USER2, PWD2);%%00010%%00009     createFolder(store, out_mailFolder);%%00010%%00009     createFolder(store, &quot;Reports&quot;);%%00010%%00009     createFolder(store, &quot;Meeting Recaps&quot;);%%00010%%00009     createFolder(store, &quot;Quarter Results&quot;);%%00010%%00009} catch (Exception e) {%%00010%%00009%%00009throw new Abort(e);%%00010%%00009} finally {%%00010%%00009%%00009t.setContextClassLoader(orig);%%00010     }%%00010%%00009%%00010%%00010%%00010%%00010"/>
+        <config key="jarFiles">
+            <entry key="array-size" type="xint" value="3"/>
+            <entry key="0" type="xstring" value="knime://knime.workflow/data/greenmail-2.1.0-alpha-2.jar"/>
+            <entry key="1" type="xstring" value="knime://knime.workflow/data/slf4j-api-1.7.36.jar"/>
+            <entry key="2" type="xstring" value="knime://knime.workflow/data/jakarta.mail-2.0.2.jar"/>
+        </config>
+        <config key="outCols">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="outVars">
+            <entry key="array-size" type="xint" value="10"/>
+            <config key="0">
+                <entry key="Name" type="xstring" value="serverAddress"/>
+                <entry key="JavaName" type="xstring" value="out_serverAddress"/>
+                <entry key="JavaType" type="xstring" value="java.lang.String"/>
+                <entry key="Type" type="xstring" value="STRING"/>
+                <entry key="replaceExisting" type="xboolean" value="false"/>
+            </config>
+            <config key="1">
+                <entry key="Name" type="xstring" value="serverImapPort"/>
+                <entry key="JavaName" type="xstring" value="out_serverImapPort"/>
+                <entry key="JavaType" type="xstring" value="java.lang.Integer"/>
+                <entry key="Type" type="xstring" value="INTEGER"/>
+                <entry key="replaceExisting" type="xboolean" value="false"/>
+            </config>
+            <config key="2">
+                <entry key="Name" type="xstring" value="serverSmtpPort"/>
+                <entry key="JavaName" type="xstring" value="out_serverSmtpPort"/>
+                <entry key="JavaType" type="xstring" value="java.lang.Integer"/>
+                <entry key="Type" type="xstring" value="INTEGER"/>
+                <entry key="replaceExisting" type="xboolean" value="false"/>
+            </config>
+            <config key="3">
+                <entry key="Name" type="xstring" value="email1"/>
+                <entry key="JavaName" type="xstring" value="out_user1"/>
+                <entry key="JavaType" type="xstring" value="java.lang.String"/>
+                <entry key="Type" type="xstring" value="STRING"/>
+                <entry key="replaceExisting" type="xboolean" value="false"/>
+            </config>
+            <config key="4">
+                <entry key="Name" type="xstring" value="email1Pwd"/>
+                <entry key="JavaName" type="xstring" value="out_user1_pwd"/>
+                <entry key="JavaType" type="xstring" value="java.lang.String"/>
+                <entry key="Type" type="xstring" value="STRING"/>
+                <entry key="replaceExisting" type="xboolean" value="false"/>
+            </config>
+            <config key="5">
+                <entry key="Name" type="xstring" value="email2"/>
+                <entry key="JavaName" type="xstring" value="out_user2"/>
+                <entry key="JavaType" type="xstring" value="java.lang.String"/>
+                <entry key="Type" type="xstring" value="STRING"/>
+                <entry key="replaceExisting" type="xboolean" value="false"/>
+            </config>
+            <config key="6">
+                <entry key="Name" type="xstring" value="email2Pwd"/>
+                <entry key="JavaName" type="xstring" value="out_user2Pwd"/>
+                <entry key="JavaType" type="xstring" value="java.lang.String"/>
+                <entry key="Type" type="xstring" value="STRING"/>
+                <entry key="replaceExisting" type="xboolean" value="false"/>
+            </config>
+            <config key="7">
+                <entry key="Name" type="xstring" value="email3"/>
+                <entry key="JavaName" type="xstring" value="out_user3"/>
+                <entry key="JavaType" type="xstring" value="java.lang.String"/>
+                <entry key="Type" type="xstring" value="STRING"/>
+                <entry key="replaceExisting" type="xboolean" value="false"/>
+            </config>
+            <config key="8">
+                <entry key="Name" type="xstring" value="email3Pwd"/>
+                <entry key="JavaName" type="xstring" value="out_user3Pwd"/>
+                <entry key="JavaType" type="xstring" value="java.lang.String"/>
+                <entry key="Type" type="xstring" value="STRING"/>
+                <entry key="replaceExisting" type="xboolean" value="false"/>
+            </config>
+            <config key="9">
+                <entry key="Name" type="xstring" value="mailFolder"/>
+                <entry key="JavaName" type="xstring" value="out_mailFolder"/>
+                <entry key="JavaType" type="xstring" value="java.lang.String"/>
+                <entry key="Type" type="xstring" value="STRING"/>
+                <entry key="replaceExisting" type="xboolean" value="false"/>
+            </config>
+        </config>
+        <config key="inCols">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="inVars">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <entry key="version" type="xstring" value="version 1.x"/>
+        <entry key="templateUUID" type="xstring" isnull="true" value=""/>
+        <entry key="runOnExecute" type="xboolean" value="true"/>
+        <config key="bundles">
+            <entry key="array-size" type="xint" value="1"/>
+            <entry key="0" type="xstring" value="org.knime.email.libs 5.2.0.v202311221642"/>
+        </config>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="IDLE"/>
+    <config key="nodecontainer_message">
+        <entry key="type" type="xstring" value="WARNING"/>
+        <entry key="message" type="xstring" value="Component does not have input data, execute upstream nodes first"/>
+    </config>
+    <entry key="factory" type="xstring" value="org.knime.base.node.jsnippet.JavaEditVarNodeFactory"/>
+    <entry key="node-name" type="xstring" value="Java Edit Variable"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Java Snippet Nodes"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.jsnippets"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="5.5.0.v202506051602"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Javasnippet"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.javasnippet.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="5.5.0.v202506051602"/>
+    <config key="factory_settings"/>
+    <entry key="name" type="xstring" value="Java Edit Variable"/>
+    <entry key="hasContent" type="xboolean" value="false"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
+    </config>
+</config>

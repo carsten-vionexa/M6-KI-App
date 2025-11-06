@@ -1,0 +1,317 @@
+{
+    "version": "5.5.2.v202509292032",
+    "created": "2025-11-03 09:05",
+    "nodestats": {
+        "nodes": [
+            {
+                "id": "org.knime.base.node.io.tablecreator.TableCreator2NodeFactory",
+                "nodename": "Table Creator",
+                "nrexecs": 4,
+                "nrfails": 0,
+                "exectime": 128,
+                "nrcreated": 0,
+                "nrsettingsChanged": 0,
+                "successor": "org.knime.buildworkflows.capture.start.CaptureWorkflowStartNodeFactory",
+                "successornodename": "Capture Workflow Start"
+            },
+            {
+                "id": "org.knime.js.base.node.configuration.input.credentials.CredentialsDialogNodeFactory",
+                "nodename": "Credentials Configuration",
+                "nrexecs": 15,
+                "nrfails": 0,
+                "exectime": 41,
+                "nrcreated": 1,
+                "nrsettingsChanged": 18,
+                "successor": "org.knime.python3.nodes.extension.ExtensionNodeSetFactory$DynamicExtensionNodeFactory#org.knime.python.llm_!_OpenAIAuthenticator",
+                "successornodename": "OpenAI Authenticator"
+            },
+            {
+                "id": "org.knime.python3.nodes.extension.ExtensionNodeSetFactory$DynamicExtensionNodeFactory#org.knime.python.llm_!_OpenAIAuthenticator",
+                "nodename": "OpenAI Authenticator",
+                "nrexecs": 9,
+                "nrfails": 5,
+                "exectime": 25669,
+                "nrcreated": 3,
+                "nrsettingsChanged": 5,
+                "successor": "org.knime.python3.nodes.extension.ExtensionNodeSetFactory$DynamicExtensionNodeFactory#org.knime.python.llm_!_LLMPrompter",
+                "successornodename": "LLM Prompter"
+            },
+            {
+                "id": "org.knime.python3.nodes.extension.ExtensionNodeSetFactory$DynamicExtensionNodeFactory#org.knime.python.llm_!_OpenAIChatModelConnector",
+                "nodename": "OpenAI LLM Selector",
+                "nrexecs": 17,
+                "nrfails": 0,
+                "exectime": 2491,
+                "nrcreated": 3,
+                "nrsettingsChanged": 8,
+                "successor": "org.knime.python3.nodes.extension.ExtensionNodeSetFactory$DynamicExtensionNodeFactory#org.knime.python.llm_!_LLMPrompter",
+                "successornodename": "LLM Prompter"
+            },
+            {
+                "id": "org.knime.python3.nodes.extension.ExtensionNodeSetFactory$DynamicExtensionNodeFactory#org.knime.python.llm_!_LLMPrompter",
+                "nodename": "LLM Prompter",
+                "nrexecs": 59,
+                "nrfails": 0,
+                "exectime": 537916,
+                "nrcreated": 0,
+                "nrsettingsChanged": 1,
+                "successor": "org.knime.buildworkflows.capture.end.CaptureWorkflowEndNodeFactory",
+                "successornodename": "Capture Workflow End"
+            },
+            {
+                "id": "org.knime.base.node.preproc.constantvalue.ConstantValueColumnNodeFactory",
+                "nodename": "Constant Value Column",
+                "nrexecs": 4,
+                "nrfails": 0,
+                "exectime": 46,
+                "nrcreated": 0,
+                "nrsettingsChanged": 0,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.preproc.append.row.AppendedRowsNodeFactory",
+                "nodename": "Concatenate",
+                "nrexecs": 2,
+                "nrfails": 0,
+                "exectime": 7,
+                "nrcreated": 0,
+                "nrsettingsChanged": 0,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.views.node.tableview.TableViewNodeFactory",
+                "nodename": "Table View",
+                "nrexecs": 2,
+                "nrfails": 0,
+                "exectime": 5,
+                "nrcreated": 0,
+                "nrsettingsChanged": 0,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.io.variablecreator.VariableCreatorNodeFactory",
+                "nodename": "Variable Creator",
+                "nrexecs": 0,
+                "nrfails": 0,
+                "exectime": 0,
+                "nrcreated": 1,
+                "nrsettingsChanged": 0,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.io.filehandling.csv.reader.CSVTableReaderNodeFactory",
+                "nodename": "CSV Reader",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 627,
+                "nrcreated": 0,
+                "nrsettingsChanged": 0,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.preproc.pmml.missingval.compute.MissingValueHandlerNodeFactory",
+                "nodename": "Missing Value",
+                "nrexecs": 3,
+                "nrfails": 0,
+                "exectime": 453,
+                "nrcreated": 0,
+                "nrsettingsChanged": 0,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.preproc.sample.SamplingNodeFactory",
+                "nodename": "Row Sampler",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 130,
+                "nrcreated": 0,
+                "nrsettingsChanged": 0,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.views.node.barchart.BarChartNodeFactory",
+                "nodename": "Bar Chart",
+                "nrexecs": 3,
+                "nrfails": 0,
+                "exectime": 631,
+                "nrcreated": 0,
+                "nrsettingsChanged": 0,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory",
+                "nodename": "Column Filter",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 13,
+                "nrcreated": 0,
+                "nrsettingsChanged": 0,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.expressions.node.row.mapper.ExpressionRowMapperNodeFactory",
+                "nodename": "Expression",
+                "nrexecs": 56,
+                "nrfails": 0,
+                "exectime": 1730,
+                "nrcreated": 0,
+                "nrsettingsChanged": 0,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.preproc.valuelookup.ValueLookupNodeFactory",
+                "nodename": "Value Lookup",
+                "nrexecs": 2,
+                "nrfails": 0,
+                "exectime": 27,
+                "nrcreated": 0,
+                "nrsettingsChanged": 0,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.preproc.pivot.Pivot2NodeFactory",
+                "nodename": "Pivot",
+                "nrexecs": 2,
+                "nrfails": 0,
+                "exectime": 191,
+                "nrcreated": 0,
+                "nrsettingsChanged": 0,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.viz.property.color.ColorManager2NodeFactory",
+                "nodename": "Color Manager",
+                "nrexecs": 2,
+                "nrfails": 0,
+                "exectime": 0,
+                "nrcreated": 0,
+                "nrsettingsChanged": 0,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.buildworkflows.capture.start.CaptureWorkflowStartNodeFactory",
+                "nodename": "Capture Workflow Start",
+                "nrexecs": 6,
+                "nrfails": 0,
+                "exectime": 148,
+                "nrcreated": 1,
+                "nrsettingsChanged": 7,
+                "successor": "org.knime.base.expressions.node.row.mapper.ExpressionRowMapperNodeFactory",
+                "successornodename": "Expression"
+            },
+            {
+                "id": "org.knime.buildworkflows.capture.end.CaptureWorkflowEndNodeFactory",
+                "nodename": "Capture Workflow End",
+                "nrexecs": 5,
+                "nrfails": 0,
+                "exectime": 387,
+                "nrcreated": 1,
+                "nrsettingsChanged": 0,
+                "successor": "org.knime.python3.nodes.extension.ExtensionNodeSetFactory$DynamicExtensionNodeFactory#org.knime.python.llm_!_GiskardLLMScanner",
+                "successornodename": "Giskard LLM Scanner"
+            },
+            {
+                "id": "org.knime.workflowservices.knime.callee.WorkflowInputNodeFactory",
+                "nodename": "Workflow Input",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 3,
+                "nrcreated": 1,
+                "nrsettingsChanged": 0,
+                "successor": "org.knime.base.expressions.node.row.mapper.ExpressionRowMapperNodeFactory",
+                "successornodename": "Expression"
+            },
+            {
+                "id": "org.knime.workflowservices.knime.callee.WorkflowOutputNodeFactory",
+                "nodename": "Workflow Output",
+                "nrexecs": 2,
+                "nrfails": 0,
+                "exectime": 119,
+                "nrcreated": 1,
+                "nrsettingsChanged": 0,
+                "successor": "org.knime.python3.nodes.extension.ExtensionNodeSetFactory$DynamicExtensionNodeFactory#org.knime.python.llm_!_GiskardLLMScanner",
+                "successornodename": "Giskard LLM Scanner"
+            },
+            {
+                "id": "org.knime.python3.nodes.extension.ExtensionNodeSetFactory$DynamicExtensionNodeFactory#org.knime.python.llm_!_GiskardLLMScanner",
+                "nodename": "Giskard LLM Scanner",
+                "nrexecs": 2,
+                "nrfails": 0,
+                "exectime": 924725,
+                "nrcreated": 1,
+                "nrsettingsChanged": 0,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.core.node.workflow.virtual.DefaultVirtualPortObjectInNodeFactory#Virtual Start",
+                "nodename": "Virtual Start",
+                "nrexecs": 46,
+                "nrfails": 0,
+                "exectime": 34,
+                "nrcreated": 0,
+                "nrsettingsChanged": 0,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.core.node.exec.dataexchange.in.PortObjectInNodeFactory",
+                "nodename": "PortObject Reference Reader",
+                "nrexecs": 46,
+                "nrfails": 0,
+                "exectime": 413,
+                "nrcreated": 0,
+                "nrsettingsChanged": 0,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            },
+            {
+                "id": "org.knime.core.node.workflow.virtual.DefaultVirtualPortObjectOutNodeFactory#Virtual End",
+                "nodename": "Virtual End",
+                "nrexecs": 46,
+                "nrfails": 0,
+                "exectime": 19,
+                "nrcreated": 0,
+                "nrsettingsChanged": 0,
+                "successor": "n/a",
+                "successornodename": "n/a"
+            }
+        ],
+        "metaNodes": {
+        },
+        "wrappedNodes": {
+        },
+        "createdVia": {
+            "WEB_UI": 13
+        }
+    },
+    "uptime": 4346090,
+    "workflowsOpened": 22,
+    "remoteWorkflowsOpened": 0,
+    "workflowsCreated": 1,
+    "remoteWorkflowsCreated": 0,
+    "columnarStorageWorkflowsOpened": 9,
+    "workflowsImported": 7,
+    "workflowsExported": 0,
+    "webUIPerspectiveSwitches": 0,
+    "javaUIPerspectiveSwitches": 0,
+    "lastUsedPerspective": "none",
+    "launches": 7,
+    "lastApplicationID": "org.knime.product.KNIME_APPLICATION",
+    "timeSinceLastStart": 134272,
+    "crashes": 0,
+    "properlyShutDown": false
+}

@@ -1,0 +1,26 @@
+{
+    "dummy-credentials-2049": {
+        "label": "Label",
+        "type": "object",
+        "username": {
+            "type": "string",
+            "default": ""
+        },
+        "password": {
+            "type": "string",
+            "default": "*************"
+        }
+    },
+    "credentials-2033": {
+        "label": "OpenAI API key",
+        "type": "object",
+        "username": {
+            "type": "string",
+            "default": ""
+        },
+        "password": {
+            "type": "string",
+            "default": null
+        }
+    }
+}

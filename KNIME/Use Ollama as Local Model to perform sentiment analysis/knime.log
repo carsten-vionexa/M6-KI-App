@@ -1,0 +1,1455 @@
+2024-06-25 14:28:16,611 : WARN  : comm-pool-thread-9 :  : CloseablePythonNodeProxy : Local GPT4All LLM Connector (Labs) : 5:1 : Traceback (most recent call last):
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\knime\extension\nodes.py", line 1199, in wrapper
+    results = func(*args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python.llm_5.3.0.v202406191214\src\main\python\src\models\gpt4all.py", line 390, in configure
+    is_valid_model(self.settings.local_path)
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python.llm_5.3.0.v202406191214\src\main\python\src\models\gpt4all.py", line 332, in is_valid_model
+    raise knext.InvalidParametersError("Path to local model is missing")
+knime.extension.nodes.InvalidParametersError: Path to local model is missing
+
+2024-06-25 14:28:16,611 : WARN  : comm-pool-thread-9 :  : Node : Local GPT4All LLM Connector (Labs) : 5:1 : Path to local model is missing
+2024-06-25 14:28:16,623 : WARN  : comm-pool-thread-7 :  : CloseablePythonNodeProxy : Local GPT4All Chat Model Connector (Labs) : 5:2 : Traceback (most recent call last):
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\knime\extension\nodes.py", line 1199, in wrapper
+    results = func(*args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python.llm_5.3.0.v202406191214\src\main\python\src\models\gpt4all.py", line 455, in configure
+    is_valid_model(self.settings.local_path)
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python.llm_5.3.0.v202406191214\src\main\python\src\models\gpt4all.py", line 332, in is_valid_model
+    raise knext.InvalidParametersError("Path to local model is missing")
+knime.extension.nodes.InvalidParametersError: Path to local model is missing
+
+2024-06-25 14:28:16,624 : WARN  : comm-pool-thread-7 :  : Node : Local GPT4All Chat Model Connector (Labs) : 5:2 : Path to local model is missing
+2024-06-25 16:13:00,145 : WARN  : comm-pool-thread-10 :  : CloseablePythonNodeProxy : Local GPT4All Chat Model Connector (Labs) : 5:2 : Traceback (most recent call last):
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\knime\extension\nodes.py", line 1199, in wrapper
+    results = func(*args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python.llm_5.3.0.v202406191214\src\main\python\src\models\gpt4all.py", line 455, in configure
+    is_valid_model(self.settings.local_path)
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python.llm_5.3.0.v202406191214\src\main\python\src\models\gpt4all.py", line 335, in is_valid_model
+    raise knext.InvalidParametersError(f"No file found at path: {model_path}")
+knime.extension.nodes.InvalidParametersError: No file found at path: C:\Users\Francesco\OneDrive\Desktop\llama3
+
+2024-06-25 16:13:00,146 : WARN  : comm-pool-thread-10 :  : Node : Local GPT4All Chat Model Connector (Labs) : 5:2 : No file found at path: C:\Users\Francesco\OneDrive\Desktop\llama3
+2024-06-25 16:50:50,188 : WARN  : comm-pool-thread-27 :  : Node : CSV Writer : 5:7 : Please specify a file
+2024-06-25 17:02:58,233 : WARN  : comm-pool-thread-29 :  : Node : CSV Writer : 5:8 : Please specify a file
+2024-06-25 17:03:02,343 : WARN  : main :  : Node : CSV Writer : 5:8 : Please specify a file
+2024-06-25 17:03:53,512 : WARN  : comm-pool-thread-29 :  : CloseablePythonNodeProxy : LLM Prompter (Labs) : 5:3 : Traceback (most recent call last):
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\knime\extension\nodes.py", line 1199, in wrapper
+    results = func(*args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python.llm_5.3.0.v202406191214\src\main\python\src\models\base.py", line 340, in configure
+    util.check_column(
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python.llm_5.3.0.v202406191214\src\main\python\src\util.py", line 63, in check_column
+    raise knext.InvalidParametersError(
+knime.extension.nodes.InvalidParametersError: The prompt column 'Text' is missing in the input table.
+
+2024-06-25 17:03:53,512 : WARN  : comm-pool-thread-29 :  : Node : LLM Prompter (Labs) : 5:3 : The prompt column 'Text' is missing in the input table.
+2024-06-25 17:07:38,198 : WARN  : comm-pool-thread-31 :  : Node : Row Sampling : 5:10 : No sampling method selected
+2024-06-25 17:09:09,978 : WARN  : comm-pool-thread-33 :  : Node : String Manipulation : 5:11 : No expression has been set.
+2024-06-25 17:11:02,321 : WARN  : KNIME-Worker-43-String Manipulation 5:11 :  : ColumnCalculator : String Manipulation : 5:11 : Row "Row6002" contains missing value in column "Review Text" - returning missing (omitting further warnings)
+2024-06-25 17:11:29,098 : WARN  : comm-pool-thread-34 :  : CloseablePythonNodeProxy : LLM Prompter (Labs) : 5:3 : Traceback (most recent call last):
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\knime\extension\nodes.py", line 1199, in wrapper
+    results = func(*args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python.llm_5.3.0.v202406191214\src\main\python\src\models\base.py", line 340, in configure
+    util.check_column(
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python.llm_5.3.0.v202406191214\src\main\python\src\util.py", line 63, in check_column
+    raise knext.InvalidParametersError(
+knime.extension.nodes.InvalidParametersError: The prompt column 'Text' is missing in the input table.
+
+2024-06-25 17:11:29,099 : WARN  : comm-pool-thread-34 :  : Node : LLM Prompter (Labs) : 5:3 : The prompt column 'Text' is missing in the input table.
+2024-06-25 17:11:34,706 : WARN  : KNIME-Worker-44-Chunk Loop Start 5:12 :  : CloseablePythonNodeProxy : LLM Prompter (Labs) : 5:3 : Traceback (most recent call last):
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\knime\extension\nodes.py", line 1199, in wrapper
+    results = func(*args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python.llm_5.3.0.v202406191214\src\main\python\src\models\base.py", line 340, in configure
+    util.check_column(
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python.llm_5.3.0.v202406191214\src\main\python\src\util.py", line 63, in check_column
+    raise knext.InvalidParametersError(
+knime.extension.nodes.InvalidParametersError: The prompt column 'Text' is missing in the input table.
+
+2024-06-25 17:11:34,706 : WARN  : KNIME-Worker-44-Chunk Loop Start 5:12 :  : Node : LLM Prompter (Labs) : 5:3 : The prompt column 'Text' is missing in the input table.
+2024-06-25 17:16:14,667 : WARN  : KNIME-Worker-47-String Manipulation 5:11 :  : ColumnCalculator : String Manipulation : 5:11 : Row "Row6002" contains missing value in column "Review Text" - returning missing (omitting further warnings)
+2024-06-25 17:16:29,876 : WARN  : KNIME-Worker-48-String Manipulation 5:11 :  : ColumnCalculator : String Manipulation : 5:11 : Row "Row6002" contains missing value in column "Review Text" - returning missing (omitting further warnings)
+2024-06-25 17:26:41,331 : WARN  : KNIME-Worker-55-String Manipulation 5:11 :  : ColumnCalculator : String Manipulation : 5:11 : Row "Row6002" contains missing value in column "Review Text" - returning missing (omitting further warnings)
+2024-06-25 17:27:26,102 : WARN  : KNIME-Worker-60-String Manipulation 5:17 :  : ColumnCalculator : String Manipulation : 5:17 : Row "Row6002" contains missing value in column "Review Text" - returning missing (omitting further warnings)
+2024-06-25 17:31:33,884 : WARN  : KNIME-Worker-62-String Manipulation 5:11 :  : ColumnCalculator : String Manipulation : 5:11 : Row "Row1004" contains missing value in column "Review Text" - returning missing (omitting further warnings)
+2024-06-25 17:31:35,428 : WARN  : KNIME-Worker-64-LLM Prompter (Labs) 5:3 :  : CloseablePythonNodeProxy : LLM Prompter (Labs) : 5:3 : Traceback (most recent call last):
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\_node_backend_launcher.py", line 940, in execute
+    outputs = self._node.execute(exec_context, *inputs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\knime\extension\nodes.py", line 1199, in wrapper
+    results = func(*args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python.llm_5.3.0.v202406191214\src\main\python\src\models\base.py", line 387, in execute
+    responses = asyncio.run(
+                ^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\bundling\envs\org_knime_python_llm\Lib\asyncio\runners.py", line 190, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\bundling\envs\org_knime_python_llm\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\bundling\envs\org_knime_python_llm\Lib\asyncio\base_events.py", line 654, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python.llm_5.3.0.v202406191214\src\main\python\src\models\base.py", line 331, in aprocess_batches_concurrently
+    return await util.abatched_apply(func, prompts, n_requests)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python.llm_5.3.0.v202406191214\src\main\python\src\util.py", line 268, in abatched_apply
+    outputs.extend(await afn(batch))
+                   ^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python.llm_5.3.0.v202406191214\src\main\python\src\models\base.py", line 314, in aprocess_batch
+    responses = await llm.abatch(sub_batch)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\bundling\envs\org_knime_python_llm\Lib\site-packages\langchain_core\runnables\base.py", line 737, in abatch
+    return await gather_with_concurrency(configs[0].get("max_concurrency"), *coros)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\bundling\envs\org_knime_python_llm\Lib\site-packages\langchain_core\runnables\utils.py", line 63, in gather_with_concurrency
+    return await asyncio.gather(*coros)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\bundling\envs\org_knime_python_llm\Lib\site-packages\langchain_core\runnables\base.py", line 734, in ainvoke
+    return await self.ainvoke(input, config, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\bundling\envs\org_knime_python_llm\Lib\site-packages\langchain_core\language_models\chat_models.py", line 180, in ainvoke
+    [self._convert_input(input)],
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\bundling\envs\org_knime_python_llm\Lib\site-packages\langchain_core\language_models\chat_models.py", line 142, in _convert_input
+    raise ValueError(
+ValueError: Invalid input type <class 'pandas._libs.missing.NAType'>. Must be a PromptValue, str, or list of BaseMessages.
+
+2024-06-25 17:31:35,596 : ERROR : KNIME-Worker-64-LLM Prompter (Labs) 5:3 :  : Node : LLM Prompter (Labs) : 5:3 : Execute failed: Invalid input type <class 'pandas._libs.missing.NAType'>. Must be a PromptValue, str, or list of BaseMessages.
+org.knime.python3.nodes.PythonNodeRuntimeException: Invalid input type <class 'pandas._libs.missing.NAType'>. Must be a PromptValue, str, or list of BaseMessages.
+	at org.knime.python3.nodes.CloseablePythonNodeProxy$FailureState.throwIfFailure(CloseablePythonNodeProxy.java:798)
+	at org.knime.python3.nodes.CloseablePythonNodeProxy.execute(CloseablePythonNodeProxy.java:562)
+	at org.knime.python3.nodes.DelegatingNodeModel.lambda$4(DelegatingNodeModel.java:180)
+	at org.knime.python3.nodes.DelegatingNodeModel.runWithProxy(DelegatingNodeModel.java:237)
+	at org.knime.python3.nodes.DelegatingNodeModel.execute(DelegatingNodeModel.java:178)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:588)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1286)
+	at org.knime.core.node.Node.execute(Node.java:1049)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:594)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:198)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2024-06-25 17:31:36,093 : WARN  : KNIME-Worker-65-String Manipulation 5:17 :  : ColumnCalculator : String Manipulation : 5:17 : Row "Row1004" contains missing value in column "Review Text" - returning missing (omitting further warnings)
+2024-06-25 17:31:40,784 : WARN  : KNIME-Worker-67-LLM Prompter (Labs) 5:14 :  : CloseablePythonNodeProxy : LLM Prompter (Labs) : 5:14 : Traceback (most recent call last):
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\_node_backend_launcher.py", line 940, in execute
+    outputs = self._node.execute(exec_context, *inputs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\knime\extension\nodes.py", line 1199, in wrapper
+    results = func(*args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python.llm_5.3.0.v202406191214\src\main\python\src\models\base.py", line 387, in execute
+    responses = asyncio.run(
+                ^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\bundling\envs\org_knime_python_llm\Lib\asyncio\runners.py", line 190, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\bundling\envs\org_knime_python_llm\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\bundling\envs\org_knime_python_llm\Lib\asyncio\base_events.py", line 654, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python.llm_5.3.0.v202406191214\src\main\python\src\models\base.py", line 331, in aprocess_batches_concurrently
+    return await util.abatched_apply(func, prompts, n_requests)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python.llm_5.3.0.v202406191214\src\main\python\src\util.py", line 268, in abatched_apply
+    outputs.extend(await afn(batch))
+                   ^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python.llm_5.3.0.v202406191214\src\main\python\src\models\base.py", line 314, in aprocess_batch
+    responses = await llm.abatch(sub_batch)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\bundling\envs\org_knime_python_llm\Lib\site-packages\langchain_core\runnables\base.py", line 737, in abatch
+    return await gather_with_concurrency(configs[0].get("max_concurrency"), *coros)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\bundling\envs\org_knime_python_llm\Lib\site-packages\langchain_core\runnables\utils.py", line 63, in gather_with_concurrency
+    return await asyncio.gather(*coros)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\bundling\envs\org_knime_python_llm\Lib\site-packages\langchain_core\runnables\base.py", line 734, in ainvoke
+    return await self.ainvoke(input, config, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\bundling\envs\org_knime_python_llm\Lib\site-packages\langchain_core\language_models\chat_models.py", line 180, in ainvoke
+    [self._convert_input(input)],
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\bundling\envs\org_knime_python_llm\Lib\site-packages\langchain_core\language_models\chat_models.py", line 142, in _convert_input
+    raise ValueError(
+ValueError: Invalid input type <class 'pandas._libs.missing.NAType'>. Must be a PromptValue, str, or list of BaseMessages.
+
+2024-06-25 17:31:40,949 : ERROR : KNIME-Worker-67-LLM Prompter (Labs) 5:14 :  : Node : LLM Prompter (Labs) : 5:14 : Execute failed: Invalid input type <class 'pandas._libs.missing.NAType'>. Must be a PromptValue, str, or list of BaseMessages.
+org.knime.python3.nodes.PythonNodeRuntimeException: Invalid input type <class 'pandas._libs.missing.NAType'>. Must be a PromptValue, str, or list of BaseMessages.
+	at org.knime.python3.nodes.CloseablePythonNodeProxy$FailureState.throwIfFailure(CloseablePythonNodeProxy.java:798)
+	at org.knime.python3.nodes.CloseablePythonNodeProxy.execute(CloseablePythonNodeProxy.java:562)
+	at org.knime.python3.nodes.DelegatingNodeModel.lambda$4(DelegatingNodeModel.java:180)
+	at org.knime.python3.nodes.DelegatingNodeModel.runWithProxy(DelegatingNodeModel.java:237)
+	at org.knime.python3.nodes.DelegatingNodeModel.execute(DelegatingNodeModel.java:178)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:588)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1286)
+	at org.knime.core.node.Node.execute(Node.java:1049)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:594)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:198)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2024-06-25 17:32:09,201 : WARN  : KNIME-Worker-68-Missing Value 5:18 :  : Node : Missing Value : 5:18 : Column "Title" still contains missing values.
+Column "Division Name" still contains missing values.
+Column "Department Name" still contains missing values.
+Column "Class Name" still contains missing values.
+2024-06-25 21:04:22,946 : WARN  : KNIME-Worker-89-LLM Prompter (Labs) 5:3 :  : CloseablePythonNodeProxy : LLM Prompter (Labs) : 5:3 : Traceback (most recent call last):
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\_node_backend_launcher.py", line 940, in execute
+    outputs = self._node.execute(exec_context, *inputs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\knime\extension\nodes.py", line 1199, in wrapper
+    results = func(*args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python.llm_5.3.0.v202406191214\src\main\python\src\models\base.py", line 387, in execute
+    responses = asyncio.run(
+                ^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\bundling\envs\org_knime_python_llm\Lib\asyncio\runners.py", line 190, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\bundling\envs\org_knime_python_llm\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\bundling\envs\org_knime_python_llm\Lib\asyncio\base_events.py", line 654, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python.llm_5.3.0.v202406191214\src\main\python\src\models\base.py", line 331, in aprocess_batches_concurrently
+    return await util.abatched_apply(func, prompts, n_requests)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python.llm_5.3.0.v202406191214\src\main\python\src\util.py", line 268, in abatched_apply
+    outputs.extend(await afn(batch))
+                   ^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python.llm_5.3.0.v202406191214\src\main\python\src\models\base.py", line 319, in aprocess_batch
+    progress_tracker.update_progress(len(sub_batch))
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python.llm_5.3.0.v202406191214\src\main\python\src\util.py", line 291, in update_progress
+    check_canceled(self.ctx)
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python.llm_5.3.0.v202406191214\src\main\python\src\util.py", line 32, in check_canceled
+    raise RuntimeError("Execution canceled.")
+RuntimeError: Execution canceled.
+
+2024-06-25 21:04:22,947 : ERROR : KNIME-Worker-89-LLM Prompter (Labs) 5:3 :  : AsyncLineRedirector : LLM Prompter (Labs) : 5:3 : Interrupted while waiting for thread to stop.
+2024-06-25 21:04:22,948 : ERROR : KNIME-Worker-89-LLM Prompter (Labs) 5:3 :  : AsyncLineRedirector : LLM Prompter (Labs) : 5:3 : Interrupted while waiting for thread to stop.
+2024-06-25 21:04:23,140 : WARN  : KNIME-Worker-89-LLM Prompter (Labs) 5:3 :  : Node : LLM Prompter (Labs) : 5:3 : Execution canceled
+2024-06-25 21:07:37,623 : WARN  : ModalContext :  : Node : Missing Value : 3:18 : Column "Title" still contains missing values.
+Column "Division Name" still contains missing values.
+Column "Department Name" still contains missing values.
+Column "Class Name" still contains missing values.
+2024-06-25 21:07:37,698 : WARN  : ModalContext :  : Node : LLM Prompter (Labs) : 3:3 : Execution canceled
+2024-06-25 21:12:29,946 : WARN  : ModalContext :  : Node : Missing Value : 3:18 : Column "Title" still contains missing values.
+Column "Division Name" still contains missing values.
+Column "Department Name" still contains missing values.
+Column "Class Name" still contains missing values.
+2024-06-25 21:12:30,951 : WARN  : ModalContext :  : Node : LLM Prompter (Labs) : 3:3 : Execution canceled
+2024-06-25 21:13:16,003 : WARN  : main :  : Node : Strings to Document : 3:20 : Name of selected title column can't be empty.
+2024-06-25 21:13:34,739 : WARN  : main :  : Node : Document Data Extractor : 3:21 : No data extractors selected
+2024-06-25 21:13:34,741 : WARN  : main :  : Node : Document Data Extractor : 3:21 : Auto guessing: Using column 'Document' as DocumentValue column.
+2024-06-25 21:15:57,161 : WARN  : main :  : Node : Row Filter : 3:25 : The comparison value is missing.
+2024-06-25 21:15:59,154 : ERROR : main :  : InstantiationUtil : Row Filter : 3:25 : Failed to instantiate class org.knime.base.node.preproc.filter.row3.AbstractRowFilterNodeSettings.
+java.lang.InstantiationException
+	at java.base/jdk.internal.reflect.InstantiationExceptionConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Unknown Source)
+	at java.base/java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.knime.core.webui.node.dialog.defaultdialog.util.InstantiationUtil.createInstance(InstantiationUtil.java:125)
+	at org.knime.core.webui.node.dialog.defaultdialog.util.InstantiationUtil.createInstanceWithContext(InstantiationUtil.java:93)
+	at org.knime.core.webui.node.dialog.defaultdialog.jsonforms.schema.DefaultResolver.lambda$0(DefaultResolver.java:83)
+	at java.base/java.util.HashMap.computeIfAbsent(Unknown Source)
+	at org.knime.core.webui.node.dialog.defaultdialog.jsonforms.schema.DefaultResolver.apply(DefaultResolver.java:82)
+	at org.knime.core.webui.node.dialog.defaultdialog.jsonforms.schema.DefaultResolver.apply(DefaultResolver.java:1)
+	at com.github.victools.jsonschema.generator.SchemaGeneratorTypeConfigPart.lambda$getFirstDefinedValue$0(SchemaGeneratorTypeConfigPart.java:45)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.tryAdvance(Unknown Source)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at com.github.victools.jsonschema.generator.SchemaGeneratorTypeConfigPart.getFirstDefinedValue(SchemaGeneratorTypeConfigPart.java:47)
+	at com.github.victools.jsonschema.generator.SchemaGeneratorTypeConfigPart.resolveDefault(SchemaGeneratorTypeConfigPart.java:145)
+	at com.github.victools.jsonschema.generator.impl.SchemaGeneratorConfigImpl.resolveDefault(SchemaGeneratorConfigImpl.java:392)
+	at com.github.victools.jsonschema.generator.impl.AttributeCollector.collectFieldAttributes(AttributeCollector.java:75)
+	at com.github.victools.jsonschema.generator.impl.SchemaGenerationContextImpl.createFieldSchema(SchemaGenerationContextImpl.java:600)
+	at com.github.victools.jsonschema.generator.impl.SchemaGenerationContextImpl.populateFieldSchema(SchemaGenerationContextImpl.java:576)
+	at com.github.victools.jsonschema.generator.impl.SchemaGenerationContextImpl.generateObjectDefinition(SchemaGenerationContextImpl.java:427)
+	at com.github.victools.jsonschema.generator.impl.SchemaGenerationContextImpl.addSubtypeReferencesInDefinition(SchemaGenerationContextImpl.java:332)
+	at com.github.victools.jsonschema.generator.impl.SchemaGenerationContextImpl.traverseGenericType(SchemaGenerationContextImpl.java:305)
+	at com.github.victools.jsonschema.generator.impl.SchemaGenerationContextImpl.createStandardDefinition(SchemaGenerationContextImpl.java:200)
+	at com.github.victools.jsonschema.generator.impl.module.InlineSchemaModule.provideCustomSchemaDefinition(InlineSchemaModule.java:52)
+	at com.github.victools.jsonschema.generator.impl.SchemaGeneratorConfigImpl.lambda$getCustomDefinition$1(SchemaGeneratorConfigImpl.java:248)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.base/java.util.ArrayList$SubList$2.tryAdvance(Unknown Source)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at com.github.victools.jsonschema.generator.impl.SchemaGeneratorConfigImpl.getCustomDefinition(SchemaGeneratorConfigImpl.java:250)
+	at com.github.victools.jsonschema.generator.impl.SchemaGenerationContextImpl.traverseGenericType(SchemaGenerationContextImpl.java:266)
+	at com.github.victools.jsonschema.generator.impl.SchemaGenerationContextImpl.traverseGenericType(SchemaGenerationContextImpl.java:243)
+	at com.github.victools.jsonschema.generator.impl.SchemaGenerationContextImpl.parseType(SchemaGenerationContextImpl.java:96)
+	at com.github.victools.jsonschema.generator.SchemaBuilder.createSchemaForSingleType(SchemaBuilder.java:111)
+	at com.github.victools.jsonschema.generator.SchemaBuilder.createSingleTypeSchema(SchemaBuilder.java:56)
+	at com.github.victools.jsonschema.generator.SchemaGenerator.generateSchema(SchemaGenerator.java:60)
+	at org.knime.core.webui.node.dialog.defaultdialog.jsonforms.schema.JsonFormsSchemaUtil.buildSchema(JsonFormsSchemaUtil.java:225)
+	at org.knime.core.webui.node.dialog.defaultdialog.jsonforms.schema.JsonFormsSchemaUtil.lambda$2(JsonFormsSchemaUtil.java:143)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(Unknown Source)
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(Unknown Source)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(Unknown Source)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(Unknown Source)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.base/java.util.stream.ReferencePipeline.forEachOrdered(Unknown Source)
+	at org.knime.core.webui.node.dialog.defaultdialog.jsonforms.schema.JsonFormsSchemaUtil.buildCombinedSchema(JsonFormsSchemaUtil.java:143)
+	at org.knime.core.webui.node.dialog.defaultdialog.jsonforms.JsonFormsSettingsImpl.getSchema(JsonFormsSettingsImpl.java:111)
+	at org.knime.core.webui.node.dialog.defaultdialog.DefaultNodeSettingsService.jsonFormsSettingsToJson(DefaultNodeSettingsService.java:174)
+	at org.knime.core.webui.node.dialog.defaultdialog.DefaultNodeSettingsService.fromNodeSettings(DefaultNodeSettingsService.java:166)
+	at org.knime.core.webui.node.dialog.InitialData.get(InitialData.java:97)
+	at org.knime.core.webui.data.InitialDataService.getInitialData(InitialDataService.java:109)
+	at org.knime.core.webui.node.DataServiceManager.callInitialDataService(DataServiceManager.java:143)
+	at org.knime.gateway.api.entity.UIExtensionEnt.<init>(UIExtensionEnt.java:120)
+	at org.knime.gateway.api.entity.UIExtensionEnt.<init>(UIExtensionEnt.java:90)
+	at org.knime.gateway.api.entity.NodeDialogEnt.<init>(NodeDialogEnt.java:74)
+	at org.knime.js.cef.pagebuilder.PageBuilderUtil$UIExtensionEnts.<init>(PageBuilderUtil.java:337)
+	at org.knime.js.cef.pagebuilder.PageBuilderUtil.initializePageBuilderForView(PageBuilderUtil.java:124)
+	at org.knime.js.cef.nodeview.CEFNodeView.lambda$6(CEFNodeView.java:406)
+	at org.knime.js.cef.nodeview.CEFNodeView$3.completed(CEFNodeView.java:420)
+	at com.equo.chromium.swt.internal.Chromium.lambda$9(Chromium.java:870)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4047)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3663)
+	at org.knime.js.cef.nodeview.CEFNodeView.blockUntilDisposed(CEFNodeView.java:456)
+	at org.knime.js.cef.nodeview.CEFNodeView.callOpenView(CEFNodeView.java:350)
+	at org.knime.core.node.AbstractNodeView.openView(AbstractNodeView.java:197)
+	at org.knime.core.node.Node.invokeOpenView(Node.java:2708)
+	at org.knime.workbench.editor2.actions.OpenNodeViewAction.openNodeView(OpenNodeViewAction.java:146)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openNodeDialog(NodeContainerEditPart.java:865)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openNodeDialog(NodeContainerEditPart.java:850)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openDialog(NodeContainerEditPart.java:839)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.performRequest(NodeContainerEditPart.java:403)
+	at org.eclipse.gef.tools.SelectEditPartTracker.performOpen(SelectEditPartTracker.java:207)
+	at org.eclipse.gef.tools.SelectEditPartTracker.handleDoubleClick(SelectEditPartTracker.java:149)
+	at org.knime.workbench.editor2.WorkflowSelectionDragEditPartsTracker.handleDoubleClick(WorkflowSelectionDragEditPartsTracker.java:126)
+	at org.eclipse.gef.tools.AbstractTool.mouseDoubleClick(AbstractTool.java:1050)
+	at org.eclipse.gef.tools.SelectionTool.mouseDoubleClick(SelectionTool.java:542)
+	at org.eclipse.gef.EditDomain.mouseDoubleClick(EditDomain.java:223)
+	at org.eclipse.gef.ui.parts.DomainEventDispatcher.dispatchMouseDoubleClicked(DomainEventDispatcher.java:329)
+	at org.eclipse.draw2d.LightweightSystem$EventHandler.mouseDoubleClick(LightweightSystem.java:562)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:200)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4072)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:152)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:208)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+2024-06-25 21:15:59,156 : ERROR : main :  : InstantiationUtil : Row Filter : 3:25 : Failed to instantiate class org.knime.base.node.preproc.filter.row3.AbstractRowFilterNodeSettings.
+java.lang.InstantiationException
+	at java.base/jdk.internal.reflect.InstantiationExceptionConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Unknown Source)
+	at java.base/java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.knime.core.webui.node.dialog.defaultdialog.util.InstantiationUtil.createInstance(InstantiationUtil.java:125)
+	at org.knime.core.webui.node.dialog.defaultdialog.util.InstantiationUtil.createInstanceWithContext(InstantiationUtil.java:93)
+	at org.knime.core.webui.node.dialog.defaultdialog.jsonforms.schema.DefaultResolver.lambda$0(DefaultResolver.java:83)
+	at java.base/java.util.HashMap.computeIfAbsent(Unknown Source)
+	at org.knime.core.webui.node.dialog.defaultdialog.jsonforms.schema.DefaultResolver.apply(DefaultResolver.java:82)
+	at org.knime.core.webui.node.dialog.defaultdialog.jsonforms.schema.DefaultResolver.apply(DefaultResolver.java:1)
+	at com.github.victools.jsonschema.generator.SchemaGeneratorTypeConfigPart.lambda$getFirstDefinedValue$0(SchemaGeneratorTypeConfigPart.java:45)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.tryAdvance(Unknown Source)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at com.github.victools.jsonschema.generator.SchemaGeneratorTypeConfigPart.getFirstDefinedValue(SchemaGeneratorTypeConfigPart.java:47)
+	at com.github.victools.jsonschema.generator.SchemaGeneratorTypeConfigPart.resolveDefault(SchemaGeneratorTypeConfigPart.java:145)
+	at com.github.victools.jsonschema.generator.impl.SchemaGeneratorConfigImpl.resolveDefault(SchemaGeneratorConfigImpl.java:392)
+	at com.github.victools.jsonschema.generator.impl.AttributeCollector.collectFieldAttributes(AttributeCollector.java:75)
+	at com.github.victools.jsonschema.generator.impl.SchemaGenerationContextImpl.createFieldSchema(SchemaGenerationContextImpl.java:600)
+	at com.github.victools.jsonschema.generator.impl.SchemaGenerationContextImpl.populateFieldSchema(SchemaGenerationContextImpl.java:576)
+	at com.github.victools.jsonschema.generator.impl.SchemaGenerationContextImpl.generateObjectDefinition(SchemaGenerationContextImpl.java:427)
+	at com.github.victools.jsonschema.generator.impl.SchemaGenerationContextImpl.addSubtypeReferencesInDefinition(SchemaGenerationContextImpl.java:332)
+	at com.github.victools.jsonschema.generator.impl.SchemaGenerationContextImpl.traverseGenericType(SchemaGenerationContextImpl.java:305)
+	at com.github.victools.jsonschema.generator.impl.SchemaGenerationContextImpl.createStandardDefinition(SchemaGenerationContextImpl.java:200)
+	at com.github.victools.jsonschema.generator.impl.module.InlineSchemaModule.provideCustomSchemaDefinition(InlineSchemaModule.java:52)
+	at com.github.victools.jsonschema.generator.impl.SchemaGeneratorConfigImpl.lambda$getCustomDefinition$1(SchemaGeneratorConfigImpl.java:248)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.base/java.util.ArrayList$SubList$2.tryAdvance(Unknown Source)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at com.github.victools.jsonschema.generator.impl.SchemaGeneratorConfigImpl.getCustomDefinition(SchemaGeneratorConfigImpl.java:250)
+	at com.github.victools.jsonschema.generator.impl.SchemaGenerationContextImpl.traverseGenericType(SchemaGenerationContextImpl.java:266)
+	at com.github.victools.jsonschema.generator.impl.SchemaGenerationContextImpl.traverseGenericType(SchemaGenerationContextImpl.java:243)
+	at com.github.victools.jsonschema.generator.impl.SchemaGenerationContextImpl.parseType(SchemaGenerationContextImpl.java:96)
+	at com.github.victools.jsonschema.generator.SchemaBuilder.createSchemaForSingleType(SchemaBuilder.java:111)
+	at com.github.victools.jsonschema.generator.SchemaBuilder.createSingleTypeSchema(SchemaBuilder.java:56)
+	at com.github.victools.jsonschema.generator.SchemaGenerator.generateSchema(SchemaGenerator.java:60)
+	at org.knime.core.webui.node.dialog.defaultdialog.jsonforms.schema.JsonFormsSchemaUtil.buildSchema(JsonFormsSchemaUtil.java:225)
+	at org.knime.core.webui.node.dialog.defaultdialog.jsonforms.schema.JsonFormsSchemaUtil.lambda$2(JsonFormsSchemaUtil.java:143)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(Unknown Source)
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(Unknown Source)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(Unknown Source)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(Unknown Source)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.base/java.util.stream.ReferencePipeline.forEachOrdered(Unknown Source)
+	at org.knime.core.webui.node.dialog.defaultdialog.jsonforms.schema.JsonFormsSchemaUtil.buildCombinedSchema(JsonFormsSchemaUtil.java:143)
+	at org.knime.core.webui.node.dialog.defaultdialog.jsonforms.JsonFormsSettingsImpl.getSchema(JsonFormsSettingsImpl.java:111)
+	at org.knime.core.webui.node.dialog.defaultdialog.DefaultNodeSettingsService.jsonFormsSettingsToJson(DefaultNodeSettingsService.java:174)
+	at org.knime.core.webui.node.dialog.defaultdialog.DefaultNodeSettingsService.fromNodeSettings(DefaultNodeSettingsService.java:166)
+	at org.knime.core.webui.node.dialog.InitialData.get(InitialData.java:97)
+	at org.knime.core.webui.data.InitialDataService.getInitialData(InitialDataService.java:109)
+	at org.knime.core.webui.node.DataServiceManager.callInitialDataService(DataServiceManager.java:143)
+	at org.knime.gateway.api.entity.UIExtensionEnt.<init>(UIExtensionEnt.java:120)
+	at org.knime.gateway.api.entity.UIExtensionEnt.<init>(UIExtensionEnt.java:90)
+	at org.knime.gateway.api.entity.NodeDialogEnt.<init>(NodeDialogEnt.java:74)
+	at org.knime.js.cef.pagebuilder.PageBuilderUtil$UIExtensionEnts.<init>(PageBuilderUtil.java:337)
+	at org.knime.js.cef.pagebuilder.PageBuilderUtil.initializePageBuilderForView(PageBuilderUtil.java:124)
+	at org.knime.js.cef.nodeview.CEFNodeView.lambda$6(CEFNodeView.java:406)
+	at org.knime.js.cef.nodeview.CEFNodeView$3.completed(CEFNodeView.java:420)
+	at com.equo.chromium.swt.internal.Chromium.lambda$9(Chromium.java:870)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4047)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3663)
+	at org.knime.js.cef.nodeview.CEFNodeView.blockUntilDisposed(CEFNodeView.java:456)
+	at org.knime.js.cef.nodeview.CEFNodeView.callOpenView(CEFNodeView.java:350)
+	at org.knime.core.node.AbstractNodeView.openView(AbstractNodeView.java:197)
+	at org.knime.core.node.Node.invokeOpenView(Node.java:2708)
+	at org.knime.workbench.editor2.actions.OpenNodeViewAction.openNodeView(OpenNodeViewAction.java:146)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openNodeDialog(NodeContainerEditPart.java:865)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openNodeDialog(NodeContainerEditPart.java:850)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openDialog(NodeContainerEditPart.java:839)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.performRequest(NodeContainerEditPart.java:403)
+	at org.eclipse.gef.tools.SelectEditPartTracker.performOpen(SelectEditPartTracker.java:207)
+	at org.eclipse.gef.tools.SelectEditPartTracker.handleDoubleClick(SelectEditPartTracker.java:149)
+	at org.knime.workbench.editor2.WorkflowSelectionDragEditPartsTracker.handleDoubleClick(WorkflowSelectionDragEditPartsTracker.java:126)
+	at org.eclipse.gef.tools.AbstractTool.mouseDoubleClick(AbstractTool.java:1050)
+	at org.eclipse.gef.tools.SelectionTool.mouseDoubleClick(SelectionTool.java:542)
+	at org.eclipse.gef.EditDomain.mouseDoubleClick(EditDomain.java:223)
+	at org.eclipse.gef.ui.parts.DomainEventDispatcher.dispatchMouseDoubleClicked(DomainEventDispatcher.java:329)
+	at org.eclipse.draw2d.LightweightSystem$EventHandler.mouseDoubleClick(LightweightSystem.java:562)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:200)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4072)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:152)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:208)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+2024-06-25 21:16:09,424 : ERROR : main :  : InstantiationUtil : Row Filter : 3:25 : Failed to instantiate class org.knime.base.node.preproc.filter.row3.AbstractRowFilterNodeSettings.
+java.lang.InstantiationException
+	at java.base/jdk.internal.reflect.InstantiationExceptionConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Unknown Source)
+	at java.base/java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.knime.core.webui.node.dialog.defaultdialog.util.InstantiationUtil.createInstance(InstantiationUtil.java:125)
+	at org.knime.core.webui.node.dialog.defaultdialog.util.InstantiationUtil.createInstanceWithContext(InstantiationUtil.java:93)
+	at org.knime.core.webui.node.dialog.defaultdialog.jsonforms.schema.DefaultResolver.lambda$0(DefaultResolver.java:83)
+	at java.base/java.util.HashMap.computeIfAbsent(Unknown Source)
+	at org.knime.core.webui.node.dialog.defaultdialog.jsonforms.schema.DefaultResolver.apply(DefaultResolver.java:82)
+	at org.knime.core.webui.node.dialog.defaultdialog.jsonforms.schema.DefaultResolver.apply(DefaultResolver.java:1)
+	at com.github.victools.jsonschema.generator.SchemaGeneratorTypeConfigPart.lambda$getFirstDefinedValue$0(SchemaGeneratorTypeConfigPart.java:45)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.tryAdvance(Unknown Source)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at com.github.victools.jsonschema.generator.SchemaGeneratorTypeConfigPart.getFirstDefinedValue(SchemaGeneratorTypeConfigPart.java:47)
+	at com.github.victools.jsonschema.generator.SchemaGeneratorTypeConfigPart.resolveDefault(SchemaGeneratorTypeConfigPart.java:145)
+	at com.github.victools.jsonschema.generator.impl.SchemaGeneratorConfigImpl.resolveDefault(SchemaGeneratorConfigImpl.java:392)
+	at com.github.victools.jsonschema.generator.impl.AttributeCollector.collectFieldAttributes(AttributeCollector.java:75)
+	at com.github.victools.jsonschema.generator.impl.SchemaGenerationContextImpl.createFieldSchema(SchemaGenerationContextImpl.java:600)
+	at com.github.victools.jsonschema.generator.impl.SchemaGenerationContextImpl.populateFieldSchema(SchemaGenerationContextImpl.java:576)
+	at com.github.victools.jsonschema.generator.impl.SchemaGenerationContextImpl.generateObjectDefinition(SchemaGenerationContextImpl.java:427)
+	at com.github.victools.jsonschema.generator.impl.SchemaGenerationContextImpl.addSubtypeReferencesInDefinition(SchemaGenerationContextImpl.java:332)
+	at com.github.victools.jsonschema.generator.impl.SchemaGenerationContextImpl.traverseGenericType(SchemaGenerationContextImpl.java:305)
+	at com.github.victools.jsonschema.generator.impl.SchemaGenerationContextImpl.createStandardDefinition(SchemaGenerationContextImpl.java:200)
+	at com.github.victools.jsonschema.generator.impl.module.InlineSchemaModule.provideCustomSchemaDefinition(InlineSchemaModule.java:52)
+	at com.github.victools.jsonschema.generator.impl.SchemaGeneratorConfigImpl.lambda$getCustomDefinition$1(SchemaGeneratorConfigImpl.java:248)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.base/java.util.ArrayList$SubList$2.tryAdvance(Unknown Source)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at com.github.victools.jsonschema.generator.impl.SchemaGeneratorConfigImpl.getCustomDefinition(SchemaGeneratorConfigImpl.java:250)
+	at com.github.victools.jsonschema.generator.impl.SchemaGenerationContextImpl.traverseGenericType(SchemaGenerationContextImpl.java:266)
+	at com.github.victools.jsonschema.generator.impl.SchemaGenerationContextImpl.traverseGenericType(SchemaGenerationContextImpl.java:243)
+	at com.github.victools.jsonschema.generator.impl.SchemaGenerationContextImpl.parseType(SchemaGenerationContextImpl.java:96)
+	at com.github.victools.jsonschema.generator.SchemaBuilder.createSchemaForSingleType(SchemaBuilder.java:111)
+	at com.github.victools.jsonschema.generator.SchemaBuilder.createSingleTypeSchema(SchemaBuilder.java:56)
+	at com.github.victools.jsonschema.generator.SchemaGenerator.generateSchema(SchemaGenerator.java:60)
+	at org.knime.core.webui.node.dialog.defaultdialog.jsonforms.schema.JsonFormsSchemaUtil.buildSchema(JsonFormsSchemaUtil.java:225)
+	at org.knime.core.webui.node.dialog.defaultdialog.jsonforms.schema.JsonFormsSchemaUtil.lambda$2(JsonFormsSchemaUtil.java:143)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(Unknown Source)
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(Unknown Source)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(Unknown Source)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(Unknown Source)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.base/java.util.stream.ReferencePipeline.forEachOrdered(Unknown Source)
+	at org.knime.core.webui.node.dialog.defaultdialog.jsonforms.schema.JsonFormsSchemaUtil.buildCombinedSchema(JsonFormsSchemaUtil.java:143)
+	at org.knime.core.webui.node.dialog.defaultdialog.jsonforms.JsonFormsSettingsImpl.getSchema(JsonFormsSettingsImpl.java:111)
+	at org.knime.core.webui.node.dialog.defaultdialog.DefaultNodeSettingsService.jsonFormsSettingsToJson(DefaultNodeSettingsService.java:174)
+	at org.knime.core.webui.node.dialog.defaultdialog.DefaultNodeSettingsService.fromNodeSettings(DefaultNodeSettingsService.java:166)
+	at org.knime.core.webui.node.dialog.InitialData.get(InitialData.java:97)
+	at org.knime.core.webui.data.InitialDataService.getInitialData(InitialDataService.java:109)
+	at org.knime.core.webui.node.DataServiceManager.callInitialDataService(DataServiceManager.java:143)
+	at org.knime.gateway.api.entity.UIExtensionEnt.<init>(UIExtensionEnt.java:120)
+	at org.knime.gateway.api.entity.UIExtensionEnt.<init>(UIExtensionEnt.java:90)
+	at org.knime.gateway.api.entity.NodeDialogEnt.<init>(NodeDialogEnt.java:74)
+	at org.knime.js.cef.pagebuilder.PageBuilderUtil$UIExtensionEnts.<init>(PageBuilderUtil.java:337)
+	at org.knime.js.cef.pagebuilder.PageBuilderUtil.initializePageBuilderForView(PageBuilderUtil.java:124)
+	at org.knime.js.cef.nodeview.CEFNodeView.lambda$6(CEFNodeView.java:406)
+	at org.knime.js.cef.nodeview.CEFNodeView$3.completed(CEFNodeView.java:420)
+	at com.equo.chromium.swt.internal.Chromium.lambda$9(Chromium.java:870)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4047)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3663)
+	at org.knime.js.cef.nodeview.CEFNodeView.blockUntilDisposed(CEFNodeView.java:456)
+	at org.knime.js.cef.nodeview.CEFNodeView.callOpenView(CEFNodeView.java:350)
+	at org.knime.core.node.AbstractNodeView.openView(AbstractNodeView.java:197)
+	at org.knime.core.node.Node.invokeOpenView(Node.java:2708)
+	at org.knime.workbench.editor2.actions.OpenNodeViewAction.openNodeView(OpenNodeViewAction.java:146)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openNodeDialog(NodeContainerEditPart.java:865)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openNodeDialog(NodeContainerEditPart.java:850)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openDialog(NodeContainerEditPart.java:839)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.performRequest(NodeContainerEditPart.java:403)
+	at org.eclipse.gef.tools.SelectEditPartTracker.performOpen(SelectEditPartTracker.java:207)
+	at org.eclipse.gef.tools.SelectEditPartTracker.handleDoubleClick(SelectEditPartTracker.java:149)
+	at org.knime.workbench.editor2.WorkflowSelectionDragEditPartsTracker.handleDoubleClick(WorkflowSelectionDragEditPartsTracker.java:126)
+	at org.eclipse.gef.tools.AbstractTool.mouseDoubleClick(AbstractTool.java:1050)
+	at org.eclipse.gef.tools.SelectionTool.mouseDoubleClick(SelectionTool.java:542)
+	at org.eclipse.gef.EditDomain.mouseDoubleClick(EditDomain.java:223)
+	at org.eclipse.gef.ui.parts.DomainEventDispatcher.dispatchMouseDoubleClicked(DomainEventDispatcher.java:329)
+	at org.eclipse.draw2d.LightweightSystem$EventHandler.mouseDoubleClick(LightweightSystem.java:562)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:200)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4072)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:152)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:208)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+2024-06-25 21:16:09,425 : ERROR : main :  : InstantiationUtil : Row Filter : 3:25 : Failed to instantiate class org.knime.base.node.preproc.filter.row3.AbstractRowFilterNodeSettings.
+java.lang.InstantiationException
+	at java.base/jdk.internal.reflect.InstantiationExceptionConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Unknown Source)
+	at java.base/java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.knime.core.webui.node.dialog.defaultdialog.util.InstantiationUtil.createInstance(InstantiationUtil.java:125)
+	at org.knime.core.webui.node.dialog.defaultdialog.util.InstantiationUtil.createInstanceWithContext(InstantiationUtil.java:93)
+	at org.knime.core.webui.node.dialog.defaultdialog.jsonforms.schema.DefaultResolver.lambda$0(DefaultResolver.java:83)
+	at java.base/java.util.HashMap.computeIfAbsent(Unknown Source)
+	at org.knime.core.webui.node.dialog.defaultdialog.jsonforms.schema.DefaultResolver.apply(DefaultResolver.java:82)
+	at org.knime.core.webui.node.dialog.defaultdialog.jsonforms.schema.DefaultResolver.apply(DefaultResolver.java:1)
+	at com.github.victools.jsonschema.generator.SchemaGeneratorTypeConfigPart.lambda$getFirstDefinedValue$0(SchemaGeneratorTypeConfigPart.java:45)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.tryAdvance(Unknown Source)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at com.github.victools.jsonschema.generator.SchemaGeneratorTypeConfigPart.getFirstDefinedValue(SchemaGeneratorTypeConfigPart.java:47)
+	at com.github.victools.jsonschema.generator.SchemaGeneratorTypeConfigPart.resolveDefault(SchemaGeneratorTypeConfigPart.java:145)
+	at com.github.victools.jsonschema.generator.impl.SchemaGeneratorConfigImpl.resolveDefault(SchemaGeneratorConfigImpl.java:392)
+	at com.github.victools.jsonschema.generator.impl.AttributeCollector.collectFieldAttributes(AttributeCollector.java:75)
+	at com.github.victools.jsonschema.generator.impl.SchemaGenerationContextImpl.createFieldSchema(SchemaGenerationContextImpl.java:600)
+	at com.github.victools.jsonschema.generator.impl.SchemaGenerationContextImpl.populateFieldSchema(SchemaGenerationContextImpl.java:576)
+	at com.github.victools.jsonschema.generator.impl.SchemaGenerationContextImpl.generateObjectDefinition(SchemaGenerationContextImpl.java:427)
+	at com.github.victools.jsonschema.generator.impl.SchemaGenerationContextImpl.addSubtypeReferencesInDefinition(SchemaGenerationContextImpl.java:332)
+	at com.github.victools.jsonschema.generator.impl.SchemaGenerationContextImpl.traverseGenericType(SchemaGenerationContextImpl.java:305)
+	at com.github.victools.jsonschema.generator.impl.SchemaGenerationContextImpl.createStandardDefinition(SchemaGenerationContextImpl.java:200)
+	at com.github.victools.jsonschema.generator.impl.module.InlineSchemaModule.provideCustomSchemaDefinition(InlineSchemaModule.java:52)
+	at com.github.victools.jsonschema.generator.impl.SchemaGeneratorConfigImpl.lambda$getCustomDefinition$1(SchemaGeneratorConfigImpl.java:248)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.base/java.util.ArrayList$SubList$2.tryAdvance(Unknown Source)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at com.github.victools.jsonschema.generator.impl.SchemaGeneratorConfigImpl.getCustomDefinition(SchemaGeneratorConfigImpl.java:250)
+	at com.github.victools.jsonschema.generator.impl.SchemaGenerationContextImpl.traverseGenericType(SchemaGenerationContextImpl.java:266)
+	at com.github.victools.jsonschema.generator.impl.SchemaGenerationContextImpl.traverseGenericType(SchemaGenerationContextImpl.java:243)
+	at com.github.victools.jsonschema.generator.impl.SchemaGenerationContextImpl.parseType(SchemaGenerationContextImpl.java:96)
+	at com.github.victools.jsonschema.generator.SchemaBuilder.createSchemaForSingleType(SchemaBuilder.java:111)
+	at com.github.victools.jsonschema.generator.SchemaBuilder.createSingleTypeSchema(SchemaBuilder.java:56)
+	at com.github.victools.jsonschema.generator.SchemaGenerator.generateSchema(SchemaGenerator.java:60)
+	at org.knime.core.webui.node.dialog.defaultdialog.jsonforms.schema.JsonFormsSchemaUtil.buildSchema(JsonFormsSchemaUtil.java:225)
+	at org.knime.core.webui.node.dialog.defaultdialog.jsonforms.schema.JsonFormsSchemaUtil.lambda$2(JsonFormsSchemaUtil.java:143)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(Unknown Source)
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(Unknown Source)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(Unknown Source)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(Unknown Source)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.base/java.util.stream.ReferencePipeline.forEachOrdered(Unknown Source)
+	at org.knime.core.webui.node.dialog.defaultdialog.jsonforms.schema.JsonFormsSchemaUtil.buildCombinedSchema(JsonFormsSchemaUtil.java:143)
+	at org.knime.core.webui.node.dialog.defaultdialog.jsonforms.JsonFormsSettingsImpl.getSchema(JsonFormsSettingsImpl.java:111)
+	at org.knime.core.webui.node.dialog.defaultdialog.DefaultNodeSettingsService.jsonFormsSettingsToJson(DefaultNodeSettingsService.java:174)
+	at org.knime.core.webui.node.dialog.defaultdialog.DefaultNodeSettingsService.fromNodeSettings(DefaultNodeSettingsService.java:166)
+	at org.knime.core.webui.node.dialog.InitialData.get(InitialData.java:97)
+	at org.knime.core.webui.data.InitialDataService.getInitialData(InitialDataService.java:109)
+	at org.knime.core.webui.node.DataServiceManager.callInitialDataService(DataServiceManager.java:143)
+	at org.knime.gateway.api.entity.UIExtensionEnt.<init>(UIExtensionEnt.java:120)
+	at org.knime.gateway.api.entity.UIExtensionEnt.<init>(UIExtensionEnt.java:90)
+	at org.knime.gateway.api.entity.NodeDialogEnt.<init>(NodeDialogEnt.java:74)
+	at org.knime.js.cef.pagebuilder.PageBuilderUtil$UIExtensionEnts.<init>(PageBuilderUtil.java:337)
+	at org.knime.js.cef.pagebuilder.PageBuilderUtil.initializePageBuilderForView(PageBuilderUtil.java:124)
+	at org.knime.js.cef.nodeview.CEFNodeView.lambda$6(CEFNodeView.java:406)
+	at org.knime.js.cef.nodeview.CEFNodeView$3.completed(CEFNodeView.java:420)
+	at com.equo.chromium.swt.internal.Chromium.lambda$9(Chromium.java:870)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4047)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3663)
+	at org.knime.js.cef.nodeview.CEFNodeView.blockUntilDisposed(CEFNodeView.java:456)
+	at org.knime.js.cef.nodeview.CEFNodeView.callOpenView(CEFNodeView.java:350)
+	at org.knime.core.node.AbstractNodeView.openView(AbstractNodeView.java:197)
+	at org.knime.core.node.Node.invokeOpenView(Node.java:2708)
+	at org.knime.workbench.editor2.actions.OpenNodeViewAction.openNodeView(OpenNodeViewAction.java:146)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openNodeDialog(NodeContainerEditPart.java:865)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openNodeDialog(NodeContainerEditPart.java:850)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openDialog(NodeContainerEditPart.java:839)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.performRequest(NodeContainerEditPart.java:403)
+	at org.eclipse.gef.tools.SelectEditPartTracker.performOpen(SelectEditPartTracker.java:207)
+	at org.eclipse.gef.tools.SelectEditPartTracker.handleDoubleClick(SelectEditPartTracker.java:149)
+	at org.knime.workbench.editor2.WorkflowSelectionDragEditPartsTracker.handleDoubleClick(WorkflowSelectionDragEditPartsTracker.java:126)
+	at org.eclipse.gef.tools.AbstractTool.mouseDoubleClick(AbstractTool.java:1050)
+	at org.eclipse.gef.tools.SelectionTool.mouseDoubleClick(SelectionTool.java:542)
+	at org.eclipse.gef.EditDomain.mouseDoubleClick(EditDomain.java:223)
+	at org.eclipse.gef.ui.parts.DomainEventDispatcher.dispatchMouseDoubleClicked(DomainEventDispatcher.java:329)
+	at org.eclipse.draw2d.LightweightSystem$EventHandler.mouseDoubleClick(LightweightSystem.java:562)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:200)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4072)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:152)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:208)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+2024-06-25 21:16:36,792 : WARN  : main :  : Node : Top k Row Filter : 3:26 : No columns have been specified to select the top rows of. Set in the node configuration.
+2024-06-25 21:27:41,637 : WARN  : main :  : Node : Column Selection Configuration : 3:27:1:0:560 : Column 'column1' is not part of the table spec anymore.
+2024-06-25 21:34:30,800 : WARN  : comm-pool-thread-6 :  : Node : String Manipulation : 3:22 : No expression has been set.
+2024-06-25 23:00:51,652 : WARN  : comm-pool-thread-41 :  : CloseablePythonNodeProxy : Text Embedder (Labs) : 3:23 : Traceback (most recent call last):
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\_node_backend_launcher.py", line 816, in _specs_to_python
+    inputs = self._map_ports(
+             ^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\_node_backend_launcher.py", line 855, in _map_ports
+    python_port = mapping_function(spec, port, self._java_callback)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\_node_backend_launcher.py", line 459, in spec_to_python
+    return deserialize_custom_spec()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\_node_backend_launcher.py", line 436, in deserialize_custom_spec
+    incoming_port_type = self._extract_port_type_from_spec_data(data, port)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\_node_backend_launcher.py", line 504, in _extract_port_type_from_spec_data
+    raise kn.InvalidParametersError(
+knime.extension.nodes.InvalidParametersError: The provided input port type GPT4All Chat Model must be the same or a sub-type of the node's input port type Embeddings Port.
+
+2024-06-25 23:00:51,652 : WARN  : comm-pool-thread-41 :  : Node : Text Embedder (Labs) : 3:23 : The provided input port type GPT4All Chat Model must be the same or a sub-type of the node's input port type Embeddings Port.
+2024-06-25 23:02:20,280 : WARN  : KNIME-Worker-52-LLM Prompter (Labs) 3:3 :  : Node : String Manipulation : 3:22 : No expression has been set.
+2024-06-25 23:02:20,290 : WARN  : KNIME-Worker-52-LLM Prompter (Labs) 3:3 :  : CloseablePythonNodeProxy : Text Embedder (Labs) : 3:23 : Traceback (most recent call last):
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\_node_backend_launcher.py", line 816, in _specs_to_python
+    inputs = self._map_ports(
+             ^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\_node_backend_launcher.py", line 855, in _map_ports
+    python_port = mapping_function(spec, port, self._java_callback)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\_node_backend_launcher.py", line 459, in spec_to_python
+    return deserialize_custom_spec()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\_node_backend_launcher.py", line 436, in deserialize_custom_spec
+    incoming_port_type = self._extract_port_type_from_spec_data(data, port)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\_node_backend_launcher.py", line 504, in _extract_port_type_from_spec_data
+    raise kn.InvalidParametersError(
+knime.extension.nodes.InvalidParametersError: The provided input port type GPT4All Chat Model must be the same or a sub-type of the node's input port type Embeddings Port.
+
+2024-06-25 23:02:20,290 : WARN  : KNIME-Worker-52-LLM Prompter (Labs) 3:3 :  : Node : Text Embedder (Labs) : 3:23 : The provided input port type GPT4All Chat Model must be the same or a sub-type of the node's input port type Embeddings Port.
+2024-06-25 23:08:53,100 : WARN  : main :  : WrappedNodeDialog : String Manipulation : 3:22 : failed to apply settings: Unable to compile expression
+ERROR at line 66
+The method substr(java.lang.String, int) in the type org.knime.base.node.preproc.stringmanipulation.manipulator.SubstringOffsetManipulator is not applicable for the arguments (int, int)
+  Line : 65    public java.lang.String internalEvaluate() throws Abort {
+  Line : 66  return stripEnd(substr(0,indexOf(__col3,"#") ) );
+org.knime.core.node.InvalidSettingsException: Unable to compile expression
+ERROR at line 66
+The method substr(java.lang.String, int) in the type org.knime.base.node.preproc.stringmanipulation.manipulator.SubstringOffsetManipulator is not applicable for the arguments (int, int)
+  Line : 65    public java.lang.String internalEvaluate() throws Abort {
+  Line : 66  return stripEnd(substr(0,indexOf(__col3,"#") ) );
+	at org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeDialog.saveSettingsTo(StringManipulationNodeDialog.java:419)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:539)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:778)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: org.knime.ext.sun.nodes.script.compile.CompilationFailedException: Unable to compile expression
+ERROR at line 66
+The method substr(java.lang.String, int) in the type org.knime.base.node.preproc.stringmanipulation.manipulator.SubstringOffsetManipulator is not applicable for the arguments (int, int)
+  Line : 65    public java.lang.String internalEvaluate() throws Abort {
+  Line : 66  return stripEnd(substr(0,indexOf(__col3,"#") ) );
+	at org.knime.ext.sun.nodes.script.compile.JavaCodeCompiler.compile(JavaCodeCompiler.java:333)
+	at org.knime.ext.sun.nodes.script.expression.Expression.<init>(Expression.java:217)
+	at org.knime.ext.sun.nodes.script.expression.Expression.compile(Expression.java:619)
+	at org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeDialog.saveSettingsTo(StringManipulationNodeDialog.java:417)
+	... 17 more
+2024-06-25 23:09:04,396 : WARN  : main :  : WrappedNodeDialog : String Manipulation : 3:22 : failed to apply settings: Unable to compile expression
+ERROR at line 66
+The method substr(java.lang.String, int) in the type org.knime.base.node.preproc.stringmanipulation.manipulator.SubstringOffsetManipulator is not applicable for the arguments (int, java.lang.String)
+  Line : 65    public java.lang.String internalEvaluate() throws Abort {
+  Line : 66  return stripEnd(substr(0,string(indexOf(__col3,"#")) ) );
+org.knime.core.node.InvalidSettingsException: Unable to compile expression
+ERROR at line 66
+The method substr(java.lang.String, int) in the type org.knime.base.node.preproc.stringmanipulation.manipulator.SubstringOffsetManipulator is not applicable for the arguments (int, java.lang.String)
+  Line : 65    public java.lang.String internalEvaluate() throws Abort {
+  Line : 66  return stripEnd(substr(0,string(indexOf(__col3,"#")) ) );
+	at org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeDialog.saveSettingsTo(StringManipulationNodeDialog.java:419)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:539)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:778)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: org.knime.ext.sun.nodes.script.compile.CompilationFailedException: Unable to compile expression
+ERROR at line 66
+The method substr(java.lang.String, int) in the type org.knime.base.node.preproc.stringmanipulation.manipulator.SubstringOffsetManipulator is not applicable for the arguments (int, java.lang.String)
+  Line : 65    public java.lang.String internalEvaluate() throws Abort {
+  Line : 66  return stripEnd(substr(0,string(indexOf(__col3,"#")) ) );
+	at org.knime.ext.sun.nodes.script.compile.JavaCodeCompiler.compile(JavaCodeCompiler.java:333)
+	at org.knime.ext.sun.nodes.script.expression.Expression.<init>(Expression.java:217)
+	at org.knime.ext.sun.nodes.script.expression.Expression.compile(Expression.java:619)
+	at org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeDialog.saveSettingsTo(StringManipulationNodeDialog.java:417)
+	... 17 more
+2024-06-25 23:09:45,118 : WARN  : main :  : WrappedNodeDialog : String Manipulation : 3:22 : failed to apply settings: Unable to compile expression
+ERROR at line 66
+The method substr(java.lang.String, int) in the type org.knime.base.node.preproc.stringmanipulation.manipulator.SubstringOffsetManipulator is not applicable for the arguments (int, java.lang.String)
+  Line : 65    public java.lang.String internalEvaluate() throws Abort {
+  Line : 66  return strip(substr(0,string(indexOf(__col3,"#"))));
+org.knime.core.node.InvalidSettingsException: Unable to compile expression
+ERROR at line 66
+The method substr(java.lang.String, int) in the type org.knime.base.node.preproc.stringmanipulation.manipulator.SubstringOffsetManipulator is not applicable for the arguments (int, java.lang.String)
+  Line : 65    public java.lang.String internalEvaluate() throws Abort {
+  Line : 66  return strip(substr(0,string(indexOf(__col3,"#"))));
+	at org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeDialog.saveSettingsTo(StringManipulationNodeDialog.java:419)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:539)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:778)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: org.knime.ext.sun.nodes.script.compile.CompilationFailedException: Unable to compile expression
+ERROR at line 66
+The method substr(java.lang.String, int) in the type org.knime.base.node.preproc.stringmanipulation.manipulator.SubstringOffsetManipulator is not applicable for the arguments (int, java.lang.String)
+  Line : 65    public java.lang.String internalEvaluate() throws Abort {
+  Line : 66  return strip(substr(0,string(indexOf(__col3,"#"))));
+	at org.knime.ext.sun.nodes.script.compile.JavaCodeCompiler.compile(JavaCodeCompiler.java:333)
+	at org.knime.ext.sun.nodes.script.expression.Expression.<init>(Expression.java:217)
+	at org.knime.ext.sun.nodes.script.expression.Expression.compile(Expression.java:619)
+	at org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeDialog.saveSettingsTo(StringManipulationNodeDialog.java:417)
+	... 17 more
+2024-06-25 23:11:04,601 : WARN  : main :  : WrappedNodeDialog : String Manipulation : 3:22 : failed to apply settings: Unable to compile expression
+ERROR at line 66
+The method substr(java.lang.String, int) in the type org.knime.base.node.preproc.stringmanipulation.manipulator.SubstringOffsetManipulator is not applicable for the arguments (java.lang.String, int, java.lang.String)
+  Line : 65    public java.lang.String internalEvaluate() throws Abort {
+  Line : 66  return strip(substr(__col3,0,string(indexOf(__col3,"#"))));
+org.knime.core.node.InvalidSettingsException: Unable to compile expression
+ERROR at line 66
+The method substr(java.lang.String, int) in the type org.knime.base.node.preproc.stringmanipulation.manipulator.SubstringOffsetManipulator is not applicable for the arguments (java.lang.String, int, java.lang.String)
+  Line : 65    public java.lang.String internalEvaluate() throws Abort {
+  Line : 66  return strip(substr(__col3,0,string(indexOf(__col3,"#"))));
+	at org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeDialog.saveSettingsTo(StringManipulationNodeDialog.java:419)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:539)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:778)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: org.knime.ext.sun.nodes.script.compile.CompilationFailedException: Unable to compile expression
+ERROR at line 66
+The method substr(java.lang.String, int) in the type org.knime.base.node.preproc.stringmanipulation.manipulator.SubstringOffsetManipulator is not applicable for the arguments (java.lang.String, int, java.lang.String)
+  Line : 65    public java.lang.String internalEvaluate() throws Abort {
+  Line : 66  return strip(substr(__col3,0,string(indexOf(__col3,"#"))));
+	at org.knime.ext.sun.nodes.script.compile.JavaCodeCompiler.compile(JavaCodeCompiler.java:333)
+	at org.knime.ext.sun.nodes.script.expression.Expression.<init>(Expression.java:217)
+	at org.knime.ext.sun.nodes.script.expression.Expression.compile(Expression.java:619)
+	at org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeDialog.saveSettingsTo(StringManipulationNodeDialog.java:417)
+	... 17 more
+2024-06-25 23:13:18,607 : WARN  : comm-pool-thread-44 :  : Node : GroupBy : 3:33 : No grouping column included. Aggregate complete table.
+2024-06-25 23:13:18,608 : WARN  : comm-pool-thread-44 :  : Node : GroupBy : 3:33 : No aggregation column defined
+2024-06-25 23:13:18,608 : WARN  : comm-pool-thread-44 :  : Node : GroupBy : 3:33 : Please select at least one group or aggregation column
+2024-06-25 23:13:26,376 : WARN  : main :  : WrappedNodeDialog : GroupBy : 3:33 : failed to apply settings: Please select at least one group column or aggregation option
+org.knime.core.node.InvalidSettingsException: Please select at least one group column or aggregation option
+	at org.knime.base.node.preproc.groupby.GroupByNodeModel.validateSettings(GroupByNodeModel.java:433)
+	at org.knime.core.node.Node.validateSettings(Node.java:711)
+	at org.knime.core.node.Node.validateModelSettings(Node.java:683)
+	at org.knime.core.node.workflow.NativeNodeContainer.performValidateSettings(NativeNodeContainer.java:1193)
+	at org.knime.core.node.workflow.SingleNodeContainer.validateSettings(SingleNodeContainer.java:1106)
+	at org.knime.core.node.workflow.WorkflowManager.loadNodeSettings(WorkflowManager.java:2225)
+	at org.knime.core.node.workflow.NodeContainer.applySettingsFromDialog(NodeContainer.java:1141)
+	at org.knime.core.ui.wrapper.NodeContainerWrapper.applySettingsFromDialog(NodeContainerWrapper.java:264)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.callApplySettingsFromDialog(WrappedNodeDialog.java:671)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.doApply(WrappedNodeDialog.java:643)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.doOK(WrappedNodeDialog.java:558)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog$5.widgetSelected(WrappedNodeDialog.java:494)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4072)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.knime.workbench.ui.wrapper.WrappedNodeDialog.open(WrappedNodeDialog.java:198)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openDialog(NodeContainerEditPart.java:961)
+	at org.knime.workbench.editor2.editparts.NodeContainerEditPart.openNodeDialog(NodeContainerEditPart.java:868)
+	at org.knime.ui.java.api.NodeAPI.openNodeDialog(NodeAPI.java:99)
+	at jdk.internal.reflect.GeneratedMethodAccessor277.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.knime.ui.java.api.DesktopAPI.invokeMethod(DesktopAPI.java:174)
+	at org.knime.ui.java.api.DesktopAPI.lambda$1(DesktopAPI.java:145)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4047)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3663)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:152)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:208)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+2024-06-25 23:13:37,816 : WARN  : main :  : Node : GroupBy : 3:33 : No aggregation column defined
+2024-06-25 23:14:01,005 : WARN  : main :  : Node : GroupBy : 3:33 : No aggregation column defined
+2024-06-25 23:14:02,451 : WARN  : KNIME-Worker-119-String Manipulation 3:22 :  : Node : GroupBy : 3:33 : No aggregation column defined
+2024-06-25 23:14:14,098 : WARN  : comm-pool-thread-45 :  : CloseablePythonNodeProxy : Text Embedder (Labs) : 3:23 : Traceback (most recent call last):
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\_node_backend_launcher.py", line 816, in _specs_to_python
+    inputs = self._map_ports(
+             ^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\_node_backend_launcher.py", line 855, in _map_ports
+    python_port = mapping_function(spec, port, self._java_callback)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\_node_backend_launcher.py", line 459, in spec_to_python
+    return deserialize_custom_spec()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\_node_backend_launcher.py", line 436, in deserialize_custom_spec
+    incoming_port_type = self._extract_port_type_from_spec_data(data, port)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\_node_backend_launcher.py", line 504, in _extract_port_type_from_spec_data
+    raise kn.InvalidParametersError(
+knime.extension.nodes.InvalidParametersError: The provided input port type GPT4All Chat Model must be the same or a sub-type of the node's input port type Embeddings Port.
+
+2024-06-25 23:14:14,098 : WARN  : comm-pool-thread-45 :  : Node : Text Embedder (Labs) : 3:23 : The provided input port type GPT4All Chat Model must be the same or a sub-type of the node's input port type Embeddings Port.
+2024-06-25 23:14:14,543 : WARN  : main :  : CloseablePythonNodeProxy : Text Embedder (Labs) : 3:23 : Traceback (most recent call last):
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\_node_backend_launcher.py", line 780, in getDialogRepresentation
+    dialog_context = kn.DialogCreationContext(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\knime\extension\nodes.py", line 574, in __init__
+    self._python_specs = specs_to_python_converter(specs, portmap)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\_node_backend_launcher.py", line 816, in _specs_to_python
+    inputs = self._map_ports(
+             ^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\_node_backend_launcher.py", line 855, in _map_ports
+    python_port = mapping_function(spec, port, self._java_callback)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\_node_backend_launcher.py", line 459, in spec_to_python
+    return deserialize_custom_spec()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\_node_backend_launcher.py", line 436, in deserialize_custom_spec
+    incoming_port_type = self._extract_port_type_from_spec_data(data, port)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\_node_backend_launcher.py", line 504, in _extract_port_type_from_spec_data
+    raise kn.InvalidParametersError(
+knime.extension.nodes.InvalidParametersError: The provided input port type GPT4All Chat Model must be the same or a sub-type of the node's input port type Embeddings Port.
+
+2024-06-25 23:14:21,909 : WARN  : main :  : CloseablePythonNodeProxy : Text Embedder (Labs) : 3:23 : Traceback (most recent call last):
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\_node_backend_launcher.py", line 780, in getDialogRepresentation
+    dialog_context = kn.DialogCreationContext(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\knime\extension\nodes.py", line 574, in __init__
+    self._python_specs = specs_to_python_converter(specs, portmap)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\_node_backend_launcher.py", line 816, in _specs_to_python
+    inputs = self._map_ports(
+             ^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\_node_backend_launcher.py", line 855, in _map_ports
+    python_port = mapping_function(spec, port, self._java_callback)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\_node_backend_launcher.py", line 459, in spec_to_python
+    return deserialize_custom_spec()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\_node_backend_launcher.py", line 436, in deserialize_custom_spec
+    incoming_port_type = self._extract_port_type_from_spec_data(data, port)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\_node_backend_launcher.py", line 504, in _extract_port_type_from_spec_data
+    raise kn.InvalidParametersError(
+knime.extension.nodes.InvalidParametersError: The provided input port type GPT4All Chat Model must be the same or a sub-type of the node's input port type Embeddings Port.
+
+2024-06-25 23:16:13,059 : WARN  : main :  : CloseablePythonNodeProxy : Text Embedder (Labs) : 3:23 : Traceback (most recent call last):
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\_node_backend_launcher.py", line 780, in getDialogRepresentation
+    dialog_context = kn.DialogCreationContext(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\knime\extension\nodes.py", line 574, in __init__
+    self._python_specs = specs_to_python_converter(specs, portmap)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\_node_backend_launcher.py", line 816, in _specs_to_python
+    inputs = self._map_ports(
+             ^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\_node_backend_launcher.py", line 855, in _map_ports
+    python_port = mapping_function(spec, port, self._java_callback)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\_node_backend_launcher.py", line 459, in spec_to_python
+    return deserialize_custom_spec()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\_node_backend_launcher.py", line 436, in deserialize_custom_spec
+    incoming_port_type = self._extract_port_type_from_spec_data(data, port)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\_node_backend_launcher.py", line 504, in _extract_port_type_from_spec_data
+    raise kn.InvalidParametersError(
+knime.extension.nodes.InvalidParametersError: The provided input port type GPT4All Chat Model must be the same or a sub-type of the node's input port type Embeddings Port.
+
+2024-06-25 23:19:43,119 : WARN  : comm-pool-thread-46 :  : CloseablePythonNodeProxy : FAISS Vector Store Creator (Labs) : 3:37 : Traceback (most recent call last):
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\_node_backend_launcher.py", line 816, in _specs_to_python
+    inputs = self._map_ports(
+             ^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\_node_backend_launcher.py", line 855, in _map_ports
+    python_port = mapping_function(spec, port, self._java_callback)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\_node_backend_launcher.py", line 459, in spec_to_python
+    return deserialize_custom_spec()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\_node_backend_launcher.py", line 436, in deserialize_custom_spec
+    incoming_port_type = self._extract_port_type_from_spec_data(data, port)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\_node_backend_launcher.py", line 504, in _extract_port_type_from_spec_data
+    raise kn.InvalidParametersError(
+knime.extension.nodes.InvalidParametersError: The provided input port type GPT4All Chat Model must be the same or a sub-type of the node's input port type Embeddings Port.
+
+2024-06-25 23:19:43,119 : WARN  : comm-pool-thread-46 :  : Node : FAISS Vector Store Creator (Labs) : 3:37 : The provided input port type GPT4All Chat Model must be the same or a sub-type of the node's input port type Embeddings Port.
+2024-06-25 23:19:44,537 : WARN  : main :  : CloseablePythonNodeProxy : FAISS Vector Store Creator (Labs) : 3:37 : Traceback (most recent call last):
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\_node_backend_launcher.py", line 780, in getDialogRepresentation
+    dialog_context = kn.DialogCreationContext(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\knime\extension\nodes.py", line 574, in __init__
+    self._python_specs = specs_to_python_converter(specs, portmap)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\_node_backend_launcher.py", line 816, in _specs_to_python
+    inputs = self._map_ports(
+             ^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\_node_backend_launcher.py", line 855, in _map_ports
+    python_port = mapping_function(spec, port, self._java_callback)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\_node_backend_launcher.py", line 459, in spec_to_python
+    return deserialize_custom_spec()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\_node_backend_launcher.py", line 436, in deserialize_custom_spec
+    incoming_port_type = self._extract_port_type_from_spec_data(data, port)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\_node_backend_launcher.py", line 504, in _extract_port_type_from_spec_data
+    raise kn.InvalidParametersError(
+knime.extension.nodes.InvalidParametersError: The provided input port type GPT4All Chat Model must be the same or a sub-type of the node's input port type Embeddings Port.
+
+2024-06-26 09:18:40,716 : WARN  : ModalContext :  : Node : Missing Value : 3:18 : Column "Title" still contains missing values.
+Column "Division Name" still contains missing values.
+Column "Department Name" still contains missing values.
+Column "Class Name" still contains missing values.
+2024-06-26 09:18:40,871 : WARN  : ModalContext :  : Node : Text Embedder (Labs) : 3:23 : The provided input port type GPT4All Chat Model must be the same or a sub-type of the node's input port type Embeddings Port.
+2024-06-26 09:18:40,888 : WARN  : ModalContext :  : CloseablePythonNodeProxy : Text Embedder (Labs) : 3:23 : Traceback (most recent call last):
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\_node_backend_launcher.py", line 816, in _specs_to_python
+    inputs = self._map_ports(
+             ^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\_node_backend_launcher.py", line 855, in _map_ports
+    python_port = mapping_function(spec, port, self._java_callback)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\_node_backend_launcher.py", line 459, in spec_to_python
+    return deserialize_custom_spec()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\_node_backend_launcher.py", line 436, in deserialize_custom_spec
+    incoming_port_type = self._extract_port_type_from_spec_data(data, port)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\_node_backend_launcher.py", line 504, in _extract_port_type_from_spec_data
+    raise kn.InvalidParametersError(
+knime.extension.nodes.InvalidParametersError: The provided input port type GPT4All Chat Model must be the same or a sub-type of the node's input port type Embeddings Port.
+
+2024-06-26 09:18:40,889 : WARN  : ModalContext :  : Node : Text Embedder (Labs) : 3:23 : The provided input port type GPT4All Chat Model must be the same or a sub-type of the node's input port type Embeddings Port.
+2024-06-26 09:18:40,936 : WARN  : ModalContext :  : Node : FAISS Vector Store Creator (Labs) : 3:37 : The provided input port type GPT4All Chat Model must be the same or a sub-type of the node's input port type Embeddings Port.
+2024-06-26 09:18:40,942 : WARN  : ModalContext :  : CloseablePythonNodeProxy : FAISS Vector Store Creator (Labs) : 3:37 : Traceback (most recent call last):
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\_node_backend_launcher.py", line 816, in _specs_to_python
+    inputs = self._map_ports(
+             ^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\_node_backend_launcher.py", line 855, in _map_ports
+    python_port = mapping_function(spec, port, self._java_callback)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\_node_backend_launcher.py", line 459, in spec_to_python
+    return deserialize_custom_spec()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\_node_backend_launcher.py", line 436, in deserialize_custom_spec
+    incoming_port_type = self._extract_port_type_from_spec_data(data, port)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\_node_backend_launcher.py", line 504, in _extract_port_type_from_spec_data
+    raise kn.InvalidParametersError(
+knime.extension.nodes.InvalidParametersError: The provided input port type GPT4All Chat Model must be the same or a sub-type of the node's input port type Embeddings Port.
+
+2024-06-26 09:18:40,944 : WARN  : ModalContext :  : Node : FAISS Vector Store Creator (Labs) : 3:37 : The provided input port type GPT4All Chat Model must be the same or a sub-type of the node's input port type Embeddings Port.
+2024-06-26 09:32:33,578 : WARN  : main :  : CloseablePythonNodeProxy : Text Embedder (Labs) : 3:23 : Traceback (most recent call last):
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\_node_backend_launcher.py", line 780, in getDialogRepresentation
+    dialog_context = kn.DialogCreationContext(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\knime\extension\nodes.py", line 574, in __init__
+    self._python_specs = specs_to_python_converter(specs, portmap)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\_node_backend_launcher.py", line 816, in _specs_to_python
+    inputs = self._map_ports(
+             ^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\_node_backend_launcher.py", line 855, in _map_ports
+    python_port = mapping_function(spec, port, self._java_callback)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\_node_backend_launcher.py", line 459, in spec_to_python
+    return deserialize_custom_spec()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\_node_backend_launcher.py", line 436, in deserialize_custom_spec
+    incoming_port_type = self._extract_port_type_from_spec_data(data, port)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\_node_backend_launcher.py", line 504, in _extract_port_type_from_spec_data
+    raise kn.InvalidParametersError(
+knime.extension.nodes.InvalidParametersError: The provided input port type GPT4All Chat Model must be the same or a sub-type of the node's input port type Embeddings Port.
+
+2024-06-26 09:33:39,906 : WARN  : comm-pool-thread-5 :  : Node : Bar Chart : 3:20 : The selected frequency column "Clothing ID (Right)" does not exist in the table
+2024-06-26 09:33:41,472 : WARN  : KNIME-Worker-13-Joiner 3:21 :  : Node : Bar Chart : 3:20 : The selected frequency column "Clothing ID (Right)" does not exist in the table
+2024-06-26 09:35:02,391 : WARN  : comm-pool-thread-7 :  : Node : Pivot : 3:38 : No pivot columns selected.
+2024-06-26 09:35:58,636 : WARN  : comm-pool-thread-7 :  : Node : Bar Chart : 3:20 : The selected frequency column "Positive Feedback Count" does not exist in the table
+2024-06-26 09:37:08,986 : WARN  : KNIME-Worker-20-Pivot 3:38 :  : Node : Bar Chart : 3:20 : The selected category column "Department Name" does not exist in the table
+2024-06-26 09:37:10,091 : WARN  : KNIME-Worker-21-Missing Value 3:39 :  : Node : Bar Chart : 3:20 : The selected category column "Department Name" does not exist in the table
+2024-06-26 09:37:52,696 : WARN  : comm-pool-thread-7 :  : Node : Color Manager : 3:40 : Selected column "Response" with default nominal color mapping.
+2024-06-26 13:35:01,034 : WARN  : ModalContext :  : Node : Missing Value : 5:18 : Column "Title" still contains missing values.
+Column "Division Name" still contains missing values.
+Column "Department Name" still contains missing values.
+Column "Class Name" still contains missing values.
+2024-06-26 13:35:01,214 : WARN  : ModalContext :  : Node : Text Embedder (Labs) : 5:23 : The provided input port type GPT4All Chat Model must be the same or a sub-type of the node's input port type Embeddings Port.
+2024-06-26 13:35:01,234 : WARN  : ModalContext :  : CloseablePythonNodeProxy : Text Embedder (Labs) : 5:23 : Traceback (most recent call last):
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\_node_backend_launcher.py", line 816, in _specs_to_python
+    inputs = self._map_ports(
+             ^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\_node_backend_launcher.py", line 855, in _map_ports
+    python_port = mapping_function(spec, port, self._java_callback)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\_node_backend_launcher.py", line 459, in spec_to_python
+    return deserialize_custom_spec()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\_node_backend_launcher.py", line 436, in deserialize_custom_spec
+    incoming_port_type = self._extract_port_type_from_spec_data(data, port)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\_node_backend_launcher.py", line 504, in _extract_port_type_from_spec_data
+    raise kn.InvalidParametersError(
+knime.extension.nodes.InvalidParametersError: The provided input port type GPT4All Chat Model must be the same or a sub-type of the node's input port type Embeddings Port.
+
+2024-06-26 13:35:01,234 : WARN  : ModalContext :  : Node : Text Embedder (Labs) : 5:23 : The provided input port type GPT4All Chat Model must be the same or a sub-type of the node's input port type Embeddings Port.
+2024-06-26 13:35:01,266 : WARN  : ModalContext :  : Node : FAISS Vector Store Creator (Labs) : 5:37 : The provided input port type GPT4All Chat Model must be the same or a sub-type of the node's input port type Embeddings Port.
+2024-06-26 13:35:01,274 : WARN  : ModalContext :  : CloseablePythonNodeProxy : FAISS Vector Store Creator (Labs) : 5:37 : Traceback (most recent call last):
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\_node_backend_launcher.py", line 816, in _specs_to_python
+    inputs = self._map_ports(
+             ^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\_node_backend_launcher.py", line 855, in _map_ports
+    python_port = mapping_function(spec, port, self._java_callback)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\_node_backend_launcher.py", line 459, in spec_to_python
+    return deserialize_custom_spec()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\_node_backend_launcher.py", line 436, in deserialize_custom_spec
+    incoming_port_type = self._extract_port_type_from_spec_data(data, port)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\_node_backend_launcher.py", line 504, in _extract_port_type_from_spec_data
+    raise kn.InvalidParametersError(
+knime.extension.nodes.InvalidParametersError: The provided input port type GPT4All Chat Model must be the same or a sub-type of the node's input port type Embeddings Port.
+
+2024-06-26 13:35:01,274 : WARN  : ModalContext :  : Node : FAISS Vector Store Creator (Labs) : 5:37 : The provided input port type GPT4All Chat Model must be the same or a sub-type of the node's input port type Embeddings Port.
+2024-06-26 13:40:59,912 : WARN  : ModalContext :  : Node : Missing Value : 4:18 : Column "Title" still contains missing values.
+Column "Division Name" still contains missing values.
+Column "Department Name" still contains missing values.
+Column "Class Name" still contains missing values.
+2024-06-26 13:40:59,943 : WARN  : ModalContext :  : Node : Text Embedder (Labs) : 4:23 : The provided input port type GPT4All Chat Model must be the same or a sub-type of the node's input port type Embeddings Port.
+2024-06-26 13:40:59,952 : WARN  : ModalContext :  : CloseablePythonNodeProxy : Text Embedder (Labs) : 4:23 : Traceback (most recent call last):
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\_node_backend_launcher.py", line 816, in _specs_to_python
+    inputs = self._map_ports(
+             ^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\_node_backend_launcher.py", line 855, in _map_ports
+    python_port = mapping_function(spec, port, self._java_callback)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\_node_backend_launcher.py", line 459, in spec_to_python
+    return deserialize_custom_spec()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\_node_backend_launcher.py", line 436, in deserialize_custom_spec
+    incoming_port_type = self._extract_port_type_from_spec_data(data, port)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\_node_backend_launcher.py", line 504, in _extract_port_type_from_spec_data
+    raise kn.InvalidParametersError(
+knime.extension.nodes.InvalidParametersError: The provided input port type GPT4All Chat Model must be the same or a sub-type of the node's input port type Embeddings Port.
+
+2024-06-26 13:40:59,953 : WARN  : ModalContext :  : Node : Text Embedder (Labs) : 4:23 : The provided input port type GPT4All Chat Model must be the same or a sub-type of the node's input port type Embeddings Port.
+2024-06-26 13:40:59,965 : WARN  : ModalContext :  : Node : FAISS Vector Store Creator (Labs) : 4:37 : The provided input port type GPT4All Chat Model must be the same or a sub-type of the node's input port type Embeddings Port.
+2024-06-26 13:40:59,971 : WARN  : ModalContext :  : CloseablePythonNodeProxy : FAISS Vector Store Creator (Labs) : 4:37 : Traceback (most recent call last):
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\_node_backend_launcher.py", line 816, in _specs_to_python
+    inputs = self._map_ports(
+             ^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\_node_backend_launcher.py", line 855, in _map_ports
+    python_port = mapping_function(spec, port, self._java_callback)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\_node_backend_launcher.py", line 459, in spec_to_python
+    return deserialize_custom_spec()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\_node_backend_launcher.py", line 436, in deserialize_custom_spec
+    incoming_port_type = self._extract_port_type_from_spec_data(data, port)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Francesco\OneDrive\Desktop\APs\knime_5.3.0\plugins\org.knime.python3.nodes_5.3.0.v202406192149\src\main\python\_node_backend_launcher.py", line 504, in _extract_port_type_from_spec_data
+    raise kn.InvalidParametersError(
+knime.extension.nodes.InvalidParametersError: The provided input port type GPT4All Chat Model must be the same or a sub-type of the node's input port type Embeddings Port.
+
+2024-06-26 13:40:59,972 : WARN  : ModalContext :  : Node : FAISS Vector Store Creator (Labs) : 4:37 : The provided input port type GPT4All Chat Model must be the same or a sub-type of the node's input port type Embeddings Port.
+2024-06-26 13:42:34,632 : WARN  : main :  : Node : GroupBy : 4:34 : Group column 'Response' not in spec.
+2024-06-26 13:43:19,715 : WARN  : main :  : Node : Bar Chart : 4:20 : The selected category column "Review Text" does not exist in the table
+2024-06-26 13:43:29,477 : WARN  : main :  : Node : Color Manager : 4:35 : Selected column "Department Name" with default nominal color mapping.
+2024-06-26 13:43:44,187 : WARN  : main :  : Node : Bar Chart : 4:20 : The selected category column "Review Text" does not exist in the table
+2024-06-26 13:43:46,738 : WARN  : KNIME-Worker-20-Color Manager 4:35 :  : Node : Bar Chart : 4:20 : The selected category column "Review Text" does not exist in the table
+2024-06-26 13:44:35,788 : WARN  : main :  : Node : Pivot : 4:36 : No pivot columns selected.
+2024-06-26 13:45:16,386 : WARN  : comm-pool-thread-7 :  : Node : Pivot : 4:36 : No pivot columns selected.
+2024-06-26 13:45:18,445 : WARN  : KNIME-Worker-23-Joiner 4:21 :  : Node : Pivot : 4:36 : No pivot columns selected.
+2024-06-26 13:47:21,578 : WARN  : main :  : Node : Bar Chart : 4:20 : The selected category column "Department Name" does not exist in the table
+2024-06-26 13:47:26,133 : WARN  : main :  : Node : Bar Chart : 4:20 : The selected category column "Department Name" does not exist in the table
+2024-06-26 13:47:28,640 : WARN  : KNIME-Worker-26-Color Manager 4:35 :  : Node : Bar Chart : 4:20 : The selected category column "Department Name" does not exist in the table
+2024-06-26 14:14:12,713 : WARN  : ModalContext :  : Node : Missing Value : 4:18 : Column "Title" still contains missing values.
+Column "Division Name" still contains missing values.
+Column "Department Name" still contains missing values.
+Column "Class Name" still contains missing values.
+2024-06-26 14:23:44,005 : WARN  : ModalContext :  : Node : Missing Value : 4:18 : Column "Title" still contains missing values.
+Column "Division Name" still contains missing values.
+Column "Department Name" still contains missing values.
+Column "Class Name" still contains missing values.
+2024-06-26 14:24:22,270 : WARN  : ModalContext :  : Node : Missing Value : 4:18 : Column "Title" still contains missing values.
+Column "Division Name" still contains missing values.
+Column "Department Name" still contains missing values.
+Column "Class Name" still contains missing values.
+2024-06-26 14:35:52,321 : WARN  : comm-pool-thread-15 :  : Node : Value Lookup : 4:39 : Select a lookup column from the data table
+2024-06-26 14:35:59,196 : WARN  : comm-pool-thread-15 :  : Node : Value Lookup : 4:39 : Select a lookup column from the data table
+2024-06-26 14:36:05,279 : WARN  : comm-pool-thread-15 :  : Node : Value Lookup : 4:39 : Select a lookup column from the data table
+2024-06-26 14:36:07,420 : WARN  : comm-pool-thread-15 :  : Node : Value Lookup : 4:39 : Select a lookup column from the data table
+2024-06-26 16:56:37,140 : WARN  : KNIME-Worker-23-LLM Prompter (Labs) 4:3 :  : Node : Value Lookup : 4:39 : Select a lookup column from the data table
+2024-06-26 17:00:06,313 : WARN  : KNIME-Worker-32-String Manipulation 4:22 :  : Node : Value Lookup : 4:39 : Select a lookup column from the data table
+2024-06-26 17:00:34,429 : WARN  : main :  : Node : Value Lookup : 4:39 : Select a lookup column from the data table
+2024-06-26 17:00:36,437 : WARN  : KNIME-Worker-33-String Manipulation 4:22 :  : Node : Value Lookup : 4:39 : Select a lookup column from the data table
+2024-06-26 17:00:56,398 : WARN  : KNIME-Worker-35-Pivot 4:36 :  : Node : Color Manager : 4:35 : Color mapping does not match possible values.
+2024-06-26 17:01:01,797 : WARN  : KNIME-Worker-36-Missing Value 4:37 :  : Node : Color Manager : 4:35 : Color mapping does not match possible values.
+2024-06-26 23:27:47,802 : WARN  : ModalContext :  : Node : Missing Value : 4:18 : Column "Title" still contains missing values.
+Column "Division Name" still contains missing values.
+Column "Department Name" still contains missing values.
+Column "Class Name" still contains missing values.
+2024-06-27 09:49:31,420 : ERROR : ModalContext :  : CloseablePythonNodeProxyFactory : GPT4All Chat Model Connector : 3:2 : Python backend: The node was previously configured with a newer version of the extension, 5.3.0, while the current version is 5.2.1.
+2024-06-27 09:49:31,420 : ERROR : ModalContext :  : CloseablePythonNodeProxyFactory : GPT4All Chat Model Connector : 3:2 : Python backend: The node might not work as expected without being reconfigured.
+2024-06-27 09:49:31,570 : WARN  : ModalContext :  : Node : Missing Value : 3:18 : Column "Title" still contains missing values.
+Column "Division Name" still contains missing values.
+Column "Department Name" still contains missing values.
+Column "Class Name" still contains missing values.
+2024-06-27 09:49:31,599 : ERROR : ModalContext :  : CloseablePythonNodeProxyFactory : LLM Prompter : 3:3 : Python backend: The node was previously configured with a newer version of the extension, 5.3.0, while the current version is 5.2.1.
+2024-06-27 09:49:31,600 : ERROR : ModalContext :  : CloseablePythonNodeProxyFactory : LLM Prompter : 3:3 : Python backend: The node might not work as expected without being reconfigured.
+2024-06-27 10:29:07,715 : WARN  : ModalContext :  : FileNodePersistor : MISSING Local GPT4All Chat Model Connector (Labs) : 5:2 : Unable to load port content for node "MISSING Local GPT4All Chat Model Connector (Labs)": Invalid spec class "org.knime.python3.nodes.ports.PythonBinaryBlobPortObjectSpec"
+java.io.IOException: Invalid spec class "org.knime.python3.nodes.ports.PythonBinaryBlobPortObjectSpec"
+	at org.knime.core.node.FileNodePersistor.lambda$0(FileNodePersistor.java:422)
+	at java.base/java.util.Optional.orElseThrow(Unknown Source)
+	at org.knime.core.node.FileNodePersistor.loadPortObject(FileNodePersistor.java:422)
+	at org.knime.core.node.FileNodePersistor.loadPort(FileNodePersistor.java:374)
+	at org.knime.core.node.FileNodePersistor.loadPorts(FileNodePersistor.java:331)
+	at org.knime.core.node.FileNodePersistor.load(FileNodePersistor.java:996)
+	at org.knime.core.node.workflow.FileNativeNodeContainerPersistor.loadNCAndModelSettings(FileNativeNodeContainerPersistor.java:281)
+	at org.knime.core.node.workflow.FileSingleNodeContainerPersistor.loadNodeContainer(FileSingleNodeContainerPersistor.java:264)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:8967)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:8869)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:8983)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:8869)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8734)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8655)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8628)
+	at org.knime.core.node.workflow.WorkflowManager.loadProject(WorkflowManager.java:8473)
+	at org.knime.workbench.editor2.LoadWorkflowRunnable.run(LoadWorkflowRunnable.java:199)
+	at org.knime.ui.java.util.DesktopAPUtil.loadWorkflow(DesktopAPUtil.java:184)
+	at org.knime.ui.java.util.DesktopAPUtil.fetchAndLoadWorkflowWithTask(DesktopAPUtil.java:148)
+	at org.knime.ui.java.api.OpenProject.loadProject(OpenProject.java:261)
+	at org.knime.ui.java.api.OpenProject.openProjectInWebUIOnly(OpenProject.java:203)
+	at org.knime.ui.java.api.OpenProject.lambda$0(OpenProject.java:116)
+	at org.knime.ui.java.util.DesktopAPUtil.lambda$12(DesktopAPUtil.java:441)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
+2024-06-27 10:29:07,719 : WARN  : ModalContext :  : Node : MISSING Local GPT4All Chat Model Connector (Labs) : 5:2 : Node can't be executed - Node "Local GPT4All Chat Model Connector (Labs)" not available from extension "KNIME AI Extension (Labs)" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.python.llm" is not installed)
+2024-06-27 10:29:08,271 : WARN  : ModalContext :  : Node : Missing Value : 5:18 : Column "Title" still contains missing values.
+Column "Division Name" still contains missing values.
+Column "Department Name" still contains missing values.
+Column "Class Name" still contains missing values.
+2024-06-27 11:37:47,530 : ERROR : ModalContext :  : FileNativeNodeContainerPersistor : Use LLama3 as Local Model to perform sentiment analysis on Customer Review : 4 : Unable to load additional factory settings into node "Local GPT4All Chat Model Connector (Labs)": Unknown extension id 'org.knime.python.llm' encountered.
+2024-06-27 11:37:47,546 : ERROR : ModalContext :  : FileNativeNodeContainerPersistor : Use LLama3 as Local Model to perform sentiment analysis on Customer Review : 4 : Unable to load additional factory settings into node "LLM Prompter (Labs)": Unknown extension id 'org.knime.python.llm' encountered.
+2024-06-27 11:37:47,835 : WARN  : ModalContext :  : Node : Missing Value : 4:18 : Column "Title" still contains missing values.
+Column "Division Name" still contains missing values.
+Column "Department Name" still contains missing values.
+Column "Class Name" still contains missing values.
+2024-06-27 11:41:42,194 : ERROR : ModalContext :  : FileNativeNodeContainerPersistor : Use LLama3 as Local Model to perform sentiment analysis on Customer Review : 3 : Unable to load additional factory settings into node "Local GPT4All Chat Model Connector (Labs)": Unknown extension id 'org.knime.python.llm' encountered.
+2024-06-27 11:41:42,195 : ERROR : ModalContext :  : FileNativeNodeContainerPersistor : Use LLama3 as Local Model to perform sentiment analysis on Customer Review : 3 : Unable to load additional factory settings into node "LLM Prompter (Labs)": Unknown extension id 'org.knime.python.llm' encountered.
+2024-06-27 11:41:42,232 : WARN  : ModalContext :  : Node : Missing Value : 3:18 : Column "Title" still contains missing values.
+Column "Division Name" still contains missing values.
+Column "Department Name" still contains missing values.
+Column "Class Name" still contains missing values.
+2024-06-27 12:07:35,825 : WARN  : ModalContext :  : FileNodePersistor : MISSING Local GPT4All Chat Model Connector (Labs) : 4:2 : Unable to load port content for node "MISSING Local GPT4All Chat Model Connector (Labs)": Invalid spec class "org.knime.python3.nodes.ports.PythonBinaryBlobPortObjectSpec"
+java.io.IOException: Invalid spec class "org.knime.python3.nodes.ports.PythonBinaryBlobPortObjectSpec"
+	at org.knime.core.node.FileNodePersistor.lambda$0(FileNodePersistor.java:422)
+	at java.base/java.util.Optional.orElseThrow(Unknown Source)
+	at org.knime.core.node.FileNodePersistor.loadPortObject(FileNodePersistor.java:422)
+	at org.knime.core.node.FileNodePersistor.loadPort(FileNodePersistor.java:374)
+	at org.knime.core.node.FileNodePersistor.loadPorts(FileNodePersistor.java:331)
+	at org.knime.core.node.FileNodePersistor.load(FileNodePersistor.java:996)
+	at org.knime.core.node.workflow.FileNativeNodeContainerPersistor.loadNCAndModelSettings(FileNativeNodeContainerPersistor.java:281)
+	at org.knime.core.node.workflow.FileSingleNodeContainerPersistor.loadNodeContainer(FileSingleNodeContainerPersistor.java:264)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:8967)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:8869)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:8983)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:8869)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8734)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8655)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8628)
+	at org.knime.core.node.workflow.WorkflowManager.loadProject(WorkflowManager.java:8473)
+	at org.knime.workbench.editor2.LoadWorkflowRunnable.run(LoadWorkflowRunnable.java:199)
+	at org.knime.ui.java.util.DesktopAPUtil.loadWorkflow(DesktopAPUtil.java:184)
+	at org.knime.ui.java.util.DesktopAPUtil.fetchAndLoadWorkflowWithTask(DesktopAPUtil.java:148)
+	at org.knime.ui.java.util.AppStatePersistor$1.lambda$0(AppStatePersistor.java:282)
+	at org.knime.ui.java.util.DesktopAPUtil.lambda$12(DesktopAPUtil.java:441)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
+2024-06-27 12:07:35,826 : WARN  : ModalContext :  : Node : MISSING Local GPT4All Chat Model Connector (Labs) : 4:2 : Node can't be executed - Node "Local GPT4All Chat Model Connector (Labs)" not available from extension "KNIME AI Extension (Labs)" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.python.llm" is not installed)
+2024-06-27 12:07:35,870 : WARN  : ModalContext :  : Node : Missing Value : 4:18 : Column "Title" still contains missing values.
+Column "Division Name" still contains missing values.
+Column "Department Name" still contains missing values.
+Column "Class Name" still contains missing values.
+2024-06-27 12:13:15,855 : WARN  : ModalContext :  : FileNodePersistor : MISSING Local GPT4All Chat Model Connector (Labs) : 3:2 : Unable to load port content for node "MISSING Local GPT4All Chat Model Connector (Labs)": Invalid spec class "org.knime.python3.nodes.ports.PythonBinaryBlobPortObjectSpec"
+java.io.IOException: Invalid spec class "org.knime.python3.nodes.ports.PythonBinaryBlobPortObjectSpec"
+	at org.knime.core.node.FileNodePersistor.lambda$0(FileNodePersistor.java:422)
+	at java.base/java.util.Optional.orElseThrow(Unknown Source)
+	at org.knime.core.node.FileNodePersistor.loadPortObject(FileNodePersistor.java:422)
+	at org.knime.core.node.FileNodePersistor.loadPort(FileNodePersistor.java:374)
+	at org.knime.core.node.FileNodePersistor.loadPorts(FileNodePersistor.java:331)
+	at org.knime.core.node.FileNodePersistor.load(FileNodePersistor.java:996)
+	at org.knime.core.node.workflow.FileNativeNodeContainerPersistor.loadNCAndModelSettings(FileNativeNodeContainerPersistor.java:281)
+	at org.knime.core.node.workflow.FileSingleNodeContainerPersistor.loadNodeContainer(FileSingleNodeContainerPersistor.java:264)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:8967)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:8869)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:8983)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:8869)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8734)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8655)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8628)
+	at org.knime.core.node.workflow.WorkflowManager.loadProject(WorkflowManager.java:8473)
+	at org.knime.workbench.editor2.LoadWorkflowRunnable.run(LoadWorkflowRunnable.java:199)
+	at org.knime.ui.java.util.DesktopAPUtil.loadWorkflow(DesktopAPUtil.java:184)
+	at org.knime.ui.java.util.DesktopAPUtil.fetchAndLoadWorkflowWithTask(DesktopAPUtil.java:148)
+	at org.knime.ui.java.util.AppStatePersistor$1.lambda$0(AppStatePersistor.java:282)
+	at org.knime.ui.java.util.DesktopAPUtil.lambda$12(DesktopAPUtil.java:441)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
+2024-06-27 12:13:15,932 : WARN  : ModalContext :  : Node : MISSING Local GPT4All Chat Model Connector (Labs) : 3:2 : Node can't be executed - Node "Local GPT4All Chat Model Connector (Labs)" not available from extension "KNIME AI Extension (Labs)" (provided by "KNIME AG, Zurich, Switzerland"; plugin "org.knime.python.llm" is not installed)
+2024-06-27 12:13:16,187 : WARN  : ModalContext :  : Node : Missing Value : 3:18 : Column "Title" still contains missing values.
+Column "Division Name" still contains missing values.
+Column "Department Name" still contains missing values.
+Column "Class Name" still contains missing values.
+2024-06-27 12:23:18,826 : ERROR : ModalContext :  : FileNativeNodeContainerPersistor : Use LLama3 as Local Model to perform sentiment analysis on Customer Review : 4 : Unable to load additional factory settings into node "Local GPT4All Chat Model Connector (Labs)": Unknown extension id 'org.knime.python.llm' encountered.
+2024-06-27 12:23:18,828 : ERROR : ModalContext :  : FileNativeNodeContainerPersistor : Use LLama3 as Local Model to perform sentiment analysis on Customer Review : 4 : Unable to load additional factory settings into node "LLM Prompter (Labs)": Unknown extension id 'org.knime.python.llm' encountered.
+2024-06-27 12:23:18,977 : WARN  : ModalContext :  : Node : Missing Value : 4:18 : Column "Title" still contains missing values.
+Column "Division Name" still contains missing values.
+Column "Department Name" still contains missing values.
+Column "Class Name" still contains missing values.
+2024-06-27 14:56:38,238 : ERROR : ModalContext :  : CloseablePythonNodeProxyFactory : GPT4All Chat Model Connector : 5:2 : Python backend: The node was previously configured with a newer version of the extension, 5.3.0, while the current version is 5.2.1.
+2024-06-27 14:56:38,239 : ERROR : ModalContext :  : CloseablePythonNodeProxyFactory : GPT4All Chat Model Connector : 5:2 : Python backend: The node might not work as expected without being reconfigured.
+2024-06-27 14:56:38,491 : WARN  : ModalContext :  : Node : Missing Value : 5:18 : Column "Title" still contains missing values.
+Column "Division Name" still contains missing values.
+Column "Department Name" still contains missing values.
+Column "Class Name" still contains missing values.
+2024-06-27 14:56:38,569 : ERROR : ModalContext :  : CloseablePythonNodeProxyFactory : LLM Prompter : 5:3 : Python backend: The node was previously configured with a newer version of the extension, 5.3.0, while the current version is 5.2.1.
+2024-06-27 14:56:38,569 : ERROR : ModalContext :  : CloseablePythonNodeProxyFactory : LLM Prompter : 5:3 : Python backend: The node might not work as expected without being reconfigured.
+2024-07-02 16:35:47,847 : ERROR : ModalContext :  : CloseablePythonNodeProxyFactory : GPT4All Chat Model Connector : 4:2 : Python backend: The node was previously configured with a newer version of the extension, 5.3.0, while the current version is 5.2.1.
+2024-07-02 16:35:47,848 : ERROR : ModalContext :  : CloseablePythonNodeProxyFactory : GPT4All Chat Model Connector : 4:2 : Python backend: The node might not work as expected without being reconfigured.
+2024-07-02 16:35:48,051 : WARN  : ModalContext :  : Node : Missing Value : 4:18 : Column "Title" still contains missing values.
+Column "Division Name" still contains missing values.
+Column "Department Name" still contains missing values.
+Column "Class Name" still contains missing values.
+2024-07-02 16:35:48,102 : ERROR : ModalContext :  : CloseablePythonNodeProxyFactory : LLM Prompter : 4:3 : Python backend: The node was previously configured with a newer version of the extension, 5.3.0, while the current version is 5.2.1.
+2024-07-02 16:35:48,102 : ERROR : ModalContext :  : CloseablePythonNodeProxyFactory : LLM Prompter : 4:3 : Python backend: The node might not work as expected without being reconfigured.
+2024-07-02 16:35:48,154 : INFO  : ModalContext :  : ColumnarPreferenceUtils : LLM Prompter : 4:3 : Column Data Cache size is 8580 MB.

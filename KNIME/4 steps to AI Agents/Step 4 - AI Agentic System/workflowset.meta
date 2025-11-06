@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This file is auto-generated and is overwritten each time the workflow is saved.
+    The metadata have moved to the `workflow-metadata.xml` file.-->
+<KNIMEMetaInfo nrOfElements="2" xmlns="http://www.knime.org/2.9/metainfo">
+    <element form="multiline" name="Comments" read-only="false"><![CDATA[<p><strong>Step 4: AI Agentic System</strong></p><p></p><p>This AI-powered workflow dynamically selects and executes the most suitable tool based on user feedback, using LLM as a reasoning engine. It includes authentication to OpenAI, user input collection, tool list scanning, and a recursive loop where the LLM determines the correct path and actives the corresponding sub-workflow.</p>
+
+TAGS: AI,Agentic AI,Dynamic Tool,Tools,Call Workflow,Loop,Agentic Workflow]]></element>
+    <element form="text" name="Last Edited" read-only="true">2025-04-30 11:18:40 +0200</element>
+</KNIMEMetaInfo>

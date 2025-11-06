@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <entry key="developer_message" type="xstring" value="## TOOL CALLING%%00010If you are not sure about file content or codebase structure pertaining to %%00010the user's request, use your tools to read files and gather the relevant %%00010information: do NOT guess or make up an answer."/>
+        <entry key="user_message" type="xstring" value="Generate a gift for the input username without checking the review sentiment.%%00010Use the tool descriptions provided to choose the most suitable ones. If no tool is appropriate or available, respond with a polite apology.%%00010%%00010Avoid including any unnecessary details not directly relevant to solving the user's issue.%%00010"/>
+        <entry key="tool_column" type="xstring" value="Tool"/>
+        <entry key="conversation_column" type="xstring" isnull="true" value=""/>
+        <entry key="conversation_column_name" type="xstring" value="Conversation"/>
+        <entry key="recursion_limit" type="xint" value="25"/>
+        <entry key="debug" type="xboolean" value="false"/>
+        <entry key="data_message_prefix" type="xstring" value="## Data Tools Interface%%00010You have access to tools that can consume and produce data.%%00010The interaction with these tools is mediated via a data repository that keeps track of all available data items.%%00010The repository is represented as a map from IDs to data items.%%00010%%00010Each data item is represented by:%%00010- The name of the data%%00010- The description of the data%%00010- The type of data%%00010- The spec of the data giving a high-level overview of the data (e.g. the columns in a table)%%00010%%00010Note: You do not have access to the actual data content, only the metadata and IDs.%%00010%%00010## Using Tools with Data%%00010### Consuming Data:%%00010To pass data to a tool, provide the ID of the relevant data item.%%00010Once invoked, the tool will receive the data associated with that ID.%%00010%%00010### Producing Data:%%00010- Tools that produce data will include an update to the data repository in their tool message.%%00010- This update follows the same format as the initial data repository: A map of IDs to data items.%%00010%%00010You must incorporate these updates into your working view of the data repository.%%00010## Data repository:%%00010"/>
+        <entry key="json-type_Internals" type="xstring" value="OBJECT"/>
+        <entry key="extension_version_Internals" type="xstring" value="5.5.0"/>
+    </config>
+    <config key="variables"/>
+    <config key="nodeAnnotation">
+        <entry key="text" type="xstring" value="connects to LLM Agent%%00010reads dataset%%00010imports tools%%00010optionally imports conversation table%%00010sends prompts%%00010calls tools%%00010exports conversation tables and output data"/>
+        <entry key="contentType" type="xstring" value="text/plain"/>
+        <entry key="bgcolor" type="xint" value="16777215"/>
+        <entry key="x-coordinate" type="xint" value="0"/>
+        <entry key="y-coordinate" type="xint" value="0"/>
+        <entry key="width" type="xint" value="0"/>
+        <entry key="height" type="xint" value="0"/>
+        <entry key="alignment" type="xstring" value="CENTER"/>
+        <entry key="borderSize" type="xint" value="0"/>
+        <entry key="borderColor" type="xint" value="0"/>
+        <entry key="defFontSize" type="xint" value="-1"/>
+        <entry key="annotation-version" type="xint" value="20230412"/>
+        <config key="styles"/>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="IDLE"/>
+    <entry key="factory" type="xstring" value="org.knime.python3.nodes.extension.ExtensionNodeSetFactory$DynamicExtensionNodeFactory"/>
+    <entry key="node-name" type="xstring" value="Agent Prompter"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME AI Extension"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.python.llm"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="5.5.0.v202506251651"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME AI Extension"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.python.features.llm.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="5.5.0.v202506251651"/>
+    <entry key="factory-id-uniquifier" type="xstring" value="org.knime.python.llm_!_AgentPrompter2"/>
+    <config key="factory_settings">
+        <entry key="extension_id" type="xstring" value="org.knime.python.llm"/>
+        <entry key="node_id" type="xstring" value="AgentPrompter2"/>
+    </config>
+    <config key="node_creation_config">
+        <config key="Input Chat model # 0"/>
+        <config key="Input Tools # 1"/>
+        <config key="Conversation History"/>
+        <config key="Data inputs">
+            <config key="port_0">
+                <entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            </config>
+        </config>
+        <config key="Output Conversation # 0"/>
+        <config key="Data outputs">
+            <config key="port_0">
+                <entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            </config>
+        </config>
+    </config>
+    <entry key="name" type="xstring" value="Agent Prompter"/>
+    <entry key="hasContent" type="xboolean" value="false"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+        </config>
+        <config key="port_2">
+            <entry key="index" type="xint" value="2"/>
+            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
+    </config>
+</config>

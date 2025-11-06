@@ -1,0 +1,14 @@
+{
+    "openai-1": {
+        "label": "Label",
+        "type": "object",
+        "username": {
+            "type": "string",
+            "default": ""
+        },
+        "password": {
+            "type": "string",
+            "default": "*************"
+        }
+    }
+}

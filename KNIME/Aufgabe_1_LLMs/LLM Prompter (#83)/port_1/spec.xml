@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="spec.xml">
+    <entry key="spec_name" type="xstring" value="default"/>
+    <entry key="number_columns" type="xint" value="2"/>
+    <config key="column_spec_0">
+        <entry key="column_name" type="xstring" value="Prompt"/>
+        <config key="element_names">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="column_type">
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+        </config>
+        <config key="column_domain">
+            <config key="possible_values">
+                <entry key="array-size" type="xint" value="1"/>
+                <config key="0">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="Data Science is the field"/>
+                    </config>
+                </config>
+            </config>
+        </config>
+        <config key="column_properties"/>
+        <config key="meta_data"/>
+    </config>
+    <config key="column_spec_1">
+        <entry key="column_name" type="xstring" value="Response"/>
+        <config key="element_names">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="column_type">
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+        </config>
+        <config key="column_domain">
+            <config key="possible_values">
+                <entry key="array-size" type="xint" value="1"/>
+                <config key="0">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="...that deals with extracting insights and knowledge from data using various techniques, tools, and methodologies. Data science combines aspects of computer science, statistics, and domain-specific knowledge to analyze and interpret complex data sets.%%00010%%00010Some key characteristics of data science include:%%00010%%000101. **Data collection**: Gathering data from various sources, such as databases, files, or APIs.%%000102. **Data preprocessing**: Cleaning, transforming, and preparing the data for analysis.%%000103. **Analysis**: Applying statistical and machine learning techniques to identify patterns, trends, and correlations in the data.%%000104. **Insight generation**: Interpreting the results of the analysis to gain a deeper understanding of the data and its underlying phenomena.%%000105. **Communication**: Presenting the findings and insights to stakeholders in a clear and actionable manner.%%00010%%00010Data science has numerous applications across various industries, including:%%00010%%000101. **Business intelligence**: Informing business decisions with data-driven insights.%%000102. **Predictive maintenance**: Using machine learning to predict equipment failures and optimize maintenance schedules.%%000103. **Customer segmentation**: Identifying target customer groups for marketing campaigns.%%000104. **Recommendation systems**: Developing personalized product or service recommendations based on user behavior.%%000105. **Scientific research**: Analyzing large datasets in fields like genomics, climate science, or astronomy.%%00010%%00010Some of the key tools and technologies used in data science include:%%00010%%000101. **Programming languages**: Python, R, SQL%%000102. **Data visualization libraries**: Matplotlib, Seaborn, Tableau%%000103. **Machine learning frameworks**: scikit-learn, TensorFlow, PyTorch%%000104. **Big data processing engines**: Hadoop, Spark, Flink%%00010%%00010Overall, data science is a rapidly evolving field that requires a combination of technical skills, domain knowledge, and business acumen to extract insights from complex data sets and drive informed decision-making."/>
+                    </config>
+                </config>
+            </config>
+        </config>
+        <config key="column_properties"/>
+        <config key="meta_data"/>
+    </config>
+</config>

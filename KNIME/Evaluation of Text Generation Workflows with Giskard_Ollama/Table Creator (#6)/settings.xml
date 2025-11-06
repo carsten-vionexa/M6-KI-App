@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <config key="rowIndices">
+            <entry key="array-size" type="xint" value="10"/>
+            <entry key="0" type="xint" value="0"/>
+            <entry key="1" type="xint" value="1"/>
+            <entry key="2" type="xint" value="2"/>
+            <entry key="3" type="xint" value="3"/>
+            <entry key="4" type="xint" value="4"/>
+            <entry key="5" type="xint" value="5"/>
+            <entry key="6" type="xint" value="6"/>
+            <entry key="7" type="xint" value="7"/>
+            <entry key="8" type="xint" value="8"/>
+            <entry key="9" type="xint" value="9"/>
+        </config>
+        <config key="columnIndices">
+            <entry key="array-size" type="xint" value="10"/>
+            <entry key="0" type="xint" value="0"/>
+            <entry key="1" type="xint" value="0"/>
+            <entry key="2" type="xint" value="0"/>
+            <entry key="3" type="xint" value="0"/>
+            <entry key="4" type="xint" value="0"/>
+            <entry key="5" type="xint" value="0"/>
+            <entry key="6" type="xint" value="0"/>
+            <entry key="7" type="xint" value="0"/>
+            <entry key="8" type="xint" value="0"/>
+            <entry key="9" type="xint" value="0"/>
+        </config>
+        <config key="values">
+            <entry key="array-size" type="xint" value="10"/>
+            <entry key="0" type="xstring" value="AeroLux Air Purifier: Effortlessly purify your air with AeroLux, removing 99.97% of airborne particles in a sleek, quiet design."/>
+            <entry key="1" type="xstring" value="SonicFit Smart Fitness Band: Stay on top of your fitness goals with SonicFit, a waterproof band that tracks your activity, heart rate, and sleep patterns."/>
+            <entry key="2" type="xstring" value="EcoWave Solar Charger: Power your devices on the go with EcoWave, a portable solar charger offering sustainable energy through high-efficiency panels."/>
+            <entry key="3" type="xstring" value="GourmetBlend Coffee Maker: Brew barista-quality coffee at home with GourmetBlend, featuring a built-in grinder and customizable settings."/>
+            <entry key="4" type="xstring" value="PixelGlow Smart Lamp: Set the perfect mood with PixelGlow, a smart lamp offering adjustable brightness and color, controllable via app or voice."/>
+            <entry key="5" type="xstring" value="AquaPure Water Filtration System: Enjoy clean, refreshing water with AquaPure, an easy-to-install filtration system that removes harmful contaminants."/>
+            <entry key="6" type="xstring" value="ZenSound Wireless Earbuds: Experience premium sound with ZenSound, true wireless earbuds with noise cancellation and a 24-hour battery life."/>
+            <entry key="7" type="xstring" value="FlexiDesk Adjustable Standing Desk: Boost your productivity with FlexiDesk, an adjustable standing desk designed for ergonomic comfort and modern style."/>
+            <entry key="8" type="xstring" value="TruGlow LED Candle Set: Create a cozy ambiance with TruGlow, flameless LED candles that offer the warm glow of real candles without the mess."/>
+            <entry key="9" type="xstring" value="SmartBrew Tea Infuser: Brew the perfect cup every time with SmartBrew, a customizable tea infuser that ensures precise temperature and steeping."/>
+        </config>
+        <entry key="rowIdPrefix" type="xstring" value="Row"/>
+        <entry key="rowIdSuffix" type="xstring" value=""/>
+        <entry key="rowIdStartValue" type="xint" value="0"/>
+        <entry key="highlightOutputTable" type="xboolean" value="false"/>
+        <config key="columnProperties">
+            <config key="0">
+                <entry key="UserSetValues" type="xboolean" value="true"/>
+                <entry key="MissValuePattern" type="xstring" value=""/>
+                <entry key="FormatParameter" type="xstring" isnull="true" value=""/>
+                <entry key="ReadPossValsFromFile" type="xboolean" value="false"/>
+                <entry key="SkipThisColumn" type="xboolean" value="false"/>
+                <entry key="ColumnName" type="xstring" value="Product"/>
+                <config key="ColumnClass">
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <entry key="is_null" type="xboolean" value="false"/>
+                </config>
+            </config>
+        </config>
+    </config>
+    <config key="nodeAnnotation">
+        <entry key="text" type="xstring" value="Dataset that is used by%%00010Giskard to generate domain-%%00010specific probes"/>
+        <entry key="contentType" type="xstring" value="text/plain"/>
+        <entry key="bgcolor" type="xint" value="16777215"/>
+        <entry key="x-coordinate" type="xint" value="438"/>
+        <entry key="y-coordinate" type="xint" value="701"/>
+        <entry key="width" type="xint" value="106"/>
+        <entry key="height" type="xint" value="15"/>
+        <entry key="alignment" type="xstring" value="CENTER"/>
+        <entry key="borderSize" type="xint" value="0"/>
+        <entry key="borderColor" type="xint" value="0"/>
+        <entry key="defFontSize" type="xint" value="-1"/>
+        <entry key="annotation-version" type="xint" value="20230412"/>
+        <config key="styles"/>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="factory" type="xstring" value="org.knime.base.node.io.tablecreator.TableCreator2NodeFactory"/>
+    <entry key="node-name" type="xstring" value="Table Creator"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="5.5.1.v202507241550"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Base nodes"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="5.5.1.v202507241550"/>
+    <config key="factory_settings"/>
+    <entry key="name" type="xstring" value="Table Creator"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 10, Cols: 1"/>
+            <entry key="port_dir_location" type="xstring" value="port_1"/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" value="5ec03dd0-30d8-41fe-82bf-2178b801b1d3"/>
+    </config>
+</config>

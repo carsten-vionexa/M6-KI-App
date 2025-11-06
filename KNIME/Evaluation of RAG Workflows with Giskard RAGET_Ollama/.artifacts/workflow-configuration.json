@@ -1,0 +1,14 @@
+{
+    "dummy-credentials-1940": {
+        "label": "Label",
+        "type": "object",
+        "username": {
+            "type": "string",
+            "default": ""
+        },
+        "password": {
+            "type": "string",
+            "default": "*************"
+        }
+    }
+}

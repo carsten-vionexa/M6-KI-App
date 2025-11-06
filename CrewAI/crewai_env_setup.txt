@@ -1,0 +1,14 @@
+
+In Anaconda Prompt execute:
+
+1.
+conda create -c conda-forge -n crewai_env spyder numpy scipy pandas matplotlib python=3.12
+
+2. 
+conda activate crewai_env
+
+3.
+pip install langchain langchain-community ollama
+
+4.
+pip install crewai crewai_tools

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workflow-metadata content-type="text/html" xmlns="http://www.knime.org/core/node/workflow/metadata/v1.0">
+    <last-modified>2025-06-29T23:58:47.042+02:00</last-modified>
+    <description><![CDATA[<p><strong>Select Negatives</strong></p><p></p><p>This tool filters customer feedback to retain only the negative entries.</p>]]></description>
+    <tags>
+        <tag>Filter Negatives</tag>
+    </tags>
+</workflow-metadata>

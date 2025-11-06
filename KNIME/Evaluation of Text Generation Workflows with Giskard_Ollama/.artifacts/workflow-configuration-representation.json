@@ -1,0 +1,50 @@
+{
+    "dummy-credentials-1": {
+        "@class": "org.knime.js.base.node.configuration.input.credentials.CredentialsDialogNodeRepresentation",
+        "label": "Label",
+        "description": "Enter Description",
+        "required": true,
+        "defaultValue": {
+            "@class": "org.knime.js.base.node.configuration.input.credentials.CredentialsDialogNodeValue",
+            "isSavePassword": true,
+            "magicDefaultPassword": "*************",
+            "username": ""
+        },
+        "currentValue": {
+            "@class": "org.knime.js.base.node.configuration.input.credentials.CredentialsDialogNodeValue",
+            "isSavePassword": true,
+            "magicDefaultPassword": "*************",
+            "username": ""
+        },
+        "promptUsername": false,
+        "usernameLabel": "User",
+        "passwordLabel": "Password",
+        "useServerLoginCredentials": false,
+        "errorMessage": "",
+        "noDisplay": false
+    },
+    "credentials-43": {
+        "@class": "org.knime.js.base.node.configuration.input.credentials.CredentialsDialogNodeRepresentation",
+        "label": "Label",
+        "description": "Enter Description",
+        "required": true,
+        "defaultValue": {
+            "@class": "org.knime.js.base.node.configuration.input.credentials.CredentialsDialogNodeValue",
+            "isSavePassword": false,
+            "magicDefaultPassword": "*************",
+            "username": ""
+        },
+        "currentValue": {
+            "@class": "org.knime.js.base.node.configuration.input.credentials.CredentialsDialogNodeValue",
+            "isSavePassword": false,
+            "magicDefaultPassword": "*************",
+            "username": ""
+        },
+        "promptUsername": false,
+        "usernameLabel": "User",
+        "passwordLabel": "Password",
+        "useServerLoginCredentials": false,
+        "errorMessage": "",
+        "noDisplay": false
+    }
+}

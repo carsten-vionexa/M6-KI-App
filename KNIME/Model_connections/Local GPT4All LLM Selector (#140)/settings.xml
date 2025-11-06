@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <config key="settings">
+            <entry key="json-type_Internals" type="xstring" value="OBJECT"/>
+            <entry key="local_path" type="xstring" value=""/>
+            <entry key="n_threads" type="xint" value="0"/>
+        </config>
+        <entry key="model_type" type="xstring" value="CHAT"/>
+        <config key="templates">
+            <entry key="json-type_Internals" type="xstring" value="OBJECT"/>
+            <entry key="system_prompt_template" type="xstring" value="%1"/>
+            <entry key="prompt_template" type="xstring" value="### Human:%%00010%1%%00010### Assistant:%%00010"/>
+        </config>
+        <config key="params">
+            <entry key="json-type_Internals" type="xstring" value="OBJECT"/>
+            <entry key="max_token" type="xint" value="250"/>
+            <entry key="n_ctx" type="xint" value="2048"/>
+            <entry key="temperature" type="xdouble" value="0.2"/>
+            <entry key="top_k" type="xint" value="20"/>
+            <entry key="prompt_batch_size" type="xint" value="128"/>
+            <entry key="device" type="xstring" value="cpu"/>
+            <entry key="top_p" type="xdouble" value="0.15"/>
+        </config>
+        <entry key="json-type_Internals" type="xstring" value="OBJECT"/>
+        <entry key="extension_version_Internals" type="xstring" value="5.5.1"/>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="IDLE"/>
+    <config key="nodecontainer_message">
+        <entry key="type" type="xstring" value="WARNING"/>
+        <entry key="message" type="xstring" value="Path to local model is missing"/>
+    </config>
+    <entry key="factory" type="xstring" value="org.knime.python3.nodes.extension.ExtensionNodeSetFactory$DynamicExtensionNodeFactory"/>
+    <entry key="node-name" type="xstring" value="Local GPT4All LLM Selector"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME AI Extension"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.python.llm"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="5.5.1.v202507301443"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME AI Extension"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.python.features.llm.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="5.5.1.v202507301443"/>
+    <entry key="factory-id-uniquifier" type="xstring" value="org.knime.python.llm_!_GPT4AllChatModelConnector"/>
+    <config key="factory_settings">
+        <entry key="extension_id" type="xstring" value="org.knime.python.llm"/>
+        <entry key="node_id" type="xstring" value="GPT4AllChatModelConnector"/>
+    </config>
+    <config key="node_creation_config">
+        <config key="Output GPT4All Large Language Model # 0"/>
+    </config>
+    <entry key="name" type="xstring" value="Local GPT4All LLM Selector"/>
+    <entry key="hasContent" type="xboolean" value="false"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
+    </config>
+</config>

@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="spec.xml">
+    <entry key="spec_name" type="xstring" value="default"/>
+    <entry key="number_columns" type="xint" value="3"/>
+    <config key="column_spec_0">
+        <entry key="column_name" type="xstring" value="Product"/>
+        <config key="element_names">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="column_type">
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+        </config>
+        <config key="column_domain">
+            <config key="possible_values">
+                <entry key="array-size" type="xint" value="10"/>
+                <config key="0">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="AeroLux Air Purifier: Effortlessly purify your air with AeroLux, removing 99.97% of airborne particles in a sleek, quiet design."/>
+                    </config>
+                </config>
+                <config key="1">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="SonicFit Smart Fitness Band: Stay on top of your fitness goals with SonicFit, a waterproof band that tracks your activity, heart rate, and sleep patterns."/>
+                    </config>
+                </config>
+                <config key="2">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="EcoWave Solar Charger: Power your devices on the go with EcoWave, a portable solar charger offering sustainable energy through high-efficiency panels."/>
+                    </config>
+                </config>
+                <config key="3">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="GourmetBlend Coffee Maker: Brew barista-quality coffee at home with GourmetBlend, featuring a built-in grinder and customizable settings."/>
+                    </config>
+                </config>
+                <config key="4">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="PixelGlow Smart Lamp: Set the perfect mood with PixelGlow, a smart lamp offering adjustable brightness and color, controllable via app or voice."/>
+                    </config>
+                </config>
+                <config key="5">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="AquaPure Water Filtration System: Enjoy clean, refreshing water with AquaPure, an easy-to-install filtration system that removes harmful contaminants."/>
+                    </config>
+                </config>
+                <config key="6">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="ZenSound Wireless Earbuds: Experience premium sound with ZenSound, true wireless earbuds with noise cancellation and a 24-hour battery life."/>
+                    </config>
+                </config>
+                <config key="7">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="FlexiDesk Adjustable Standing Desk: Boost your productivity with FlexiDesk, an adjustable standing desk designed for ergonomic comfort and modern style."/>
+                    </config>
+                </config>
+                <config key="8">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="TruGlow LED Candle Set: Create a cozy ambiance with TruGlow, flameless LED candles that offer the warm glow of real candles without the mess."/>
+                    </config>
+                </config>
+                <config key="9">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="SmartBrew Tea Infuser: Brew the perfect cup every time with SmartBrew, a customizable tea infuser that ensures precise temperature and steeping."/>
+                    </config>
+                </config>
+            </config>
+        </config>
+        <config key="column_properties"/>
+        <config key="meta_data"/>
+    </config>
+    <config key="column_spec_1">
+        <entry key="column_name" type="xstring" value="Engineered Prompt"/>
+        <config key="element_names">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="column_type">
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+        </config>
+        <config key="column_domain">
+            <config key="possible_values">
+                <entry key="array-size" type="xint" value="10"/>
+                <config key="0">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="You are working at a company and write newsletter emails for new products or offers. Do not use emojis. Write an email for the following product:%%00010%%00010Product: AeroLux Air Purifier: Effortlessly purify your air with AeroLux, removing 99.97% of airborne particles in a sleek, quiet design."/>
+                    </config>
+                </config>
+                <config key="1">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="You are working at a company and write newsletter emails for new products or offers. Do not use emojis. Write an email for the following product:%%00010%%00010Product: SonicFit Smart Fitness Band: Stay on top of your fitness goals with SonicFit, a waterproof band that tracks your activity, heart rate, and sleep patterns."/>
+                    </config>
+                </config>
+                <config key="2">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="You are working at a company and write newsletter emails for new products or offers. Do not use emojis. Write an email for the following product:%%00010%%00010Product: EcoWave Solar Charger: Power your devices on the go with EcoWave, a portable solar charger offering sustainable energy through high-efficiency panels."/>
+                    </config>
+                </config>
+                <config key="3">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="You are working at a company and write newsletter emails for new products or offers. Do not use emojis. Write an email for the following product:%%00010%%00010Product: GourmetBlend Coffee Maker: Brew barista-quality coffee at home with GourmetBlend, featuring a built-in grinder and customizable settings."/>
+                    </config>
+                </config>
+                <config key="4">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="You are working at a company and write newsletter emails for new products or offers. Do not use emojis. Write an email for the following product:%%00010%%00010Product: PixelGlow Smart Lamp: Set the perfect mood with PixelGlow, a smart lamp offering adjustable brightness and color, controllable via app or voice."/>
+                    </config>
+                </config>
+                <config key="5">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="You are working at a company and write newsletter emails for new products or offers. Do not use emojis. Write an email for the following product:%%00010%%00010Product: AquaPure Water Filtration System: Enjoy clean, refreshing water with AquaPure, an easy-to-install filtration system that removes harmful contaminants."/>
+                    </config>
+                </config>
+                <config key="6">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="You are working at a company and write newsletter emails for new products or offers. Do not use emojis. Write an email for the following product:%%00010%%00010Product: ZenSound Wireless Earbuds: Experience premium sound with ZenSound, true wireless earbuds with noise cancellation and a 24-hour battery life."/>
+                    </config>
+                </config>
+                <config key="7">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="You are working at a company and write newsletter emails for new products or offers. Do not use emojis. Write an email for the following product:%%00010%%00010Product: FlexiDesk Adjustable Standing Desk: Boost your productivity with FlexiDesk, an adjustable standing desk designed for ergonomic comfort and modern style."/>
+                    </config>
+                </config>
+                <config key="8">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="You are working at a company and write newsletter emails for new products or offers. Do not use emojis. Write an email for the following product:%%00010%%00010Product: TruGlow LED Candle Set: Create a cozy ambiance with TruGlow, flameless LED candles that offer the warm glow of real candles without the mess."/>
+                    </config>
+                </config>
+                <config key="9">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="You are working at a company and write newsletter emails for new products or offers. Do not use emojis. Write an email for the following product:%%00010%%00010Product: SmartBrew Tea Infuser: Brew the perfect cup every time with SmartBrew, a customizable tea infuser that ensures precise temperature and steeping."/>
+                    </config>
+                </config>
+            </config>
+        </config>
+        <config key="column_properties"/>
+        <config key="meta_data"/>
+    </config>
+    <config key="column_spec_2">
+        <entry key="column_name" type="xstring" value="Response"/>
+        <config key="element_names">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="column_type">
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+        </config>
+        <config key="column_domain">
+            <config key="possible_values">
+                <entry key="array-size" type="xint" value="10"/>
+                <config key="0">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="**Subject:** Breathe Cleaner Air – Introducing the New AeroLux Air Purifier  %%00010%%00010---%%00010%%00010Hi [First Name],%%00010%%00010We’re excited to announce the latest addition to our home‑wellness lineup: the **AeroLux Air Purifier**. Designed for modern living, AeroLux delivers powerful filtration in a sleek, whisper‑quiet package—so you can enjoy fresher air without compromising style or peace.%%00010%%00010### Why AeroLux stands out%%00010%%00010- **99.97 % particle removal** – Captures dust, pollen, pet dander, smoke, and even microscopic allergens, meeting HEPA‑grade standards.%%00010- **Quiet operation** – Engineered to run at less than 30 dB, it’s barely audible, making it perfect for bedrooms, offices, or any space where tranquility matters.%%00010- **Elegant design** – A minimalist aluminum finish and compact footprint blend seamlessly with any décor.%%00010- **Smart controls** – Adjust settings, monitor air quality, and set timers from your smartphone or voice‑assistant with the intuitive AeroLux app.%%00010- **Energy‑efficient** – Low power consumption keeps your utility bills in check while delivering continuous protection.%%00010%%00010### Perfect for every room%%00010%%00010Whether you’re tackling seasonal allergies, protecting a nursery, or simply wanting a fresher living environment, AeroLux adapts to rooms up to 500 sq ft. Its auto‑mode senses air quality and adjusts fan speed automatically, ensuring optimal performance around the clock.%%00010%%00010### Special launch offer%%00010%%00010For a limited time, enjoy **15 % off** your AeroLux purchase plus free shipping. Use code **AEROLUX15** at checkout. The promotion ends **November 30**, so act now to secure cleaner air for the holidays.%%00010%%00010[Shop AeroLux Now →](#)%%00010%%00010---%%00010%%00010Thank you for trusting us to help you create healthier, more comfortable spaces. If you have any questions or need assistance selecting the right model, our support team is ready to help.%%00010%%00010Breathe easy,%%00010%%00010**The [Your Company] Team**  %%00010[Company Address] | [Phone] | [Email]  %%00010[Website] | [Unsubscribe]"/>
+                    </config>
+                </config>
+                <config key="1">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="**Subject:** Meet SonicFit – Your New Smart Companion for Healthier Living  %%00010%%00010---%%00010%%00010Hi [First Name],%%00010%%00010We’re excited to introduce the latest addition to our wellness lineup: the **SonicFit Smart Fitness Band**. Designed for anyone who wants to stay ahead of their fitness goals, SonicFit combines sleek design with powerful tracking features—so you can focus on progress, not the numbers.%%00010%%00010### Why SonicFit stands out%%00010%%00010- **All‑day activity monitoring** – Steps, calories, distance, and active minutes are captured automatically, giving you a clear picture of your daily movement.  %%00010- **Continuous heart‑rate tracking** – Real‑time data helps you train within your optimal zones and keep an eye on cardiovascular health.  %%00010- **Sleep analysis** – Detailed sleep stages and quality scores let you understand how rest impacts performance.  %%00010- **Waterproof durability** – With a 5 ATM rating, the band is safe for swimming, showering, and any weather conditions.  %%00010- **Smart notifications** – Receive calls, texts, and app alerts directly on your wrist without reaching for your phone.  %%00010%%00010### How SonicFit fits into your routine%%00010%%000101. **Set personalized goals** – Choose steps, distance, calories, or active minutes and let SonicFit keep you accountable.  %%000102. **Track progress in real time** – The intuitive companion app visualizes trends, highlights achievements, and suggests adjustments.  %%000103. **Optimize recovery** – Sleep insights guide you to better rest, while heart‑rate data helps you avoid overtraining.  %%00010%%00010### Special launch offer%%00010%%00010For a limited time, enjoy **15 % off** the SonicFit Smart Fitness Band plus **free shipping** on all orders placed before **November 30**. Use code **FITSTART15** at checkout.%%00010%%00010---%%00010%%00010Ready to elevate your fitness journey?  %%00010[Shop SonicFit Now] (https://www.yourcompany.com/sonicfit)%%00010%%00010If you have any questions, our support team is here to help—just reply to this email or call 1‑800‑555‑0199.%%00010%%00010Stay active, stay healthy.%%00010%%00010Best regards,%%00010%%00010**The Wellness Team**  %%00010Your Company Name  %%00010www.yourcompany.com | info@yourcompany.com  %%00010%%00010*Follow us:*  %%00010LinkedIn | Twitter | Instagram   (no emojis)"/>
+                    </config>
+                </config>
+                <config key="2">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="**Subject:** Meet EcoWave – Your Portable, Sustainable Power Solution  %%00010%%00010---%%00010%%00010**Hello [First Name],**%%00010%%00010Imagine never having to hunt for an outlet again while you’re on the road, at a campsite, or simply enjoying a day outdoors. With the **EcoWave Solar Charger**, that freedom is now within reach.%%00010%%00010### Why EcoWave stands out%%00010%%00010- **High‑efficiency solar panels** – Convert up to 23% of sunlight into usable power, delivering a fast charge even on partially cloudy days.  %%00010- **Compact, rugged design** – Lightweight aluminum housing and a fold‑flat form factor fit easily into a backpack, briefcase, or glove compartment.  %%00010- **Universal compatibility** – Equipped with USB‑C, USB‑A, and a built‑in 12 V car‑port, EcoWave powers smartphones, tablets, cameras, drones, and even small laptops.  %%00010- **Eco‑friendly power** – Reduce your carbon footprint by tapping into clean, renewable energy wherever the sun shines.  %%00010- **Smart safety features** – Over‑charge, over‑current, and temperature protection keep your devices and the charger safe.%%00010%%00010### Real‑world performance%%00010%%00010In our field tests, EcoWave delivered a full charge to a 4,000 mAh smartphone in just 2.5 hours of direct sunlight, and a 15 Wh tablet in under 5 hours. The built‑in LED indicator lets you see the current charging status at a glance.%%00010%%00010### Special launch offer%%00010%%00010For a limited time, we’re offering **15 % off** the EcoWave Solar Charger plus free worldwide shipping. Use code **ECO15** at checkout. The promotion ends **November 30**, so act now to secure your portable power source at the best price.%%00010%%00010### Ready to power your adventures?%%00010%%00010[Shop EcoWave Now →](#)%%00010%%00010If you have any questions or need assistance selecting the right accessories, our support team is just an email or phone call away.%%00010%%00010Thank you for choosing sustainable technology that keeps you connected—anywhere, anytime.%%00010%%00010Best regards,%%00010%%00010**The EcoWave Team**  %%00010[Company Name] – Innovation for a Greener Future  %%00010Phone: 1‑800‑555‑0199 | Email: support@company.com  %%00010Website: www.company.com/ecowave  %%00010%%00010*Follow us on LinkedIn, Twitter, and Instagram for the latest updates and user stories.*"/>
+                    </config>
+                </config>
+                <config key="3">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="**Subject:** Elevate Your Morning Routine with the New GourmetBlend Coffee Maker  %%00010%%00010**Pre‑header:** Barista‑quality coffee, freshly ground, right at home.%%00010%%00010---%%00010%%00010Hi [First Name],%%00010%%00010Imagine stepping into your kitchen and pressing a single button to enjoy a café‑level espresso, a silky latte, or a bold pour‑over—exactly the way you like it. The **GourmetBlend Coffee Maker** makes that vision a reality.%%00010%%00010### Why GourmetBlend stands out%%00010%%00010- **Integrated grinder** – Freshly grind beans to your preferred coarseness for maximum aroma and flavor.  %%00010- **Customizable brewing profiles** – Adjust temperature, pressure, and extraction time to match any coffee style, from a delicate Americano to a robust French press.  %%00010- **One‑touch convenience** – Save your favorite settings and brew with a single tap, even on the busiest mornings.  %%00010- **Premium build** – Stainless‑steel housing, BPA‑free water reservoir, and a quiet, low‑vibration motor for a sleek, durable countertop presence.  %%00010- **Smart connectivity** – Sync with the GourmetBlend app to schedule brews, receive maintenance alerts, and explore new recipes from world‑renowned baristas.%%00010%%00010### The experience you’ll love%%00010%%00010&gt; “The first cup I made with GourmetBlend tasted like it came from my favorite downtown café. The built‑in grinder is a game‑changer.”  %%00010&gt; — *Emily R., early‑adopter*%%00010%%00010### Limited‑time launch offer%%00010%%00010For the next **10 days only**, enjoy **15 % off** plus **free shipping** when you order through the link below. Use code **BREW15** at checkout.%%00010%%00010[Shop GourmetBlend Now]  %%00010%%00010---%%00010%%00010**Need help deciding?** Our coffee specialists are ready to answer any questions. Reply to this email or call 1‑800‑555‑COFFEE.%%00010%%00010Thank you for being part of our community. We can’t wait to hear about the perfect cup you create with GourmetBlend.%%00010%%00010Warm regards,%%00010%%00010The GourmetBlend Team  %%00010[Company Name] | [Website] | [Phone] | [Unsubscribe]  "/>
+                    </config>
+                </config>
+                <config key="4">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="**Subject:** Light Up Your Space with the New PixelGlow Smart Lamp  %%00010%%00010---%%00010%%00010Hi [First Name],%%00010%%00010Imagine a lamp that adapts to every moment—whether you’re winding down after a long day, hosting a dinner party, or powering through a creative project. Introducing **PixelGlow**, the smart lamp that puts the perfect ambiance at your fingertips.%%00010%%00010---%%00010%%00010### Why PixelGlow stands out%%00010%%00010| Feature | Benefit |%%00010|---------|----------|%%00010| **Adjustable Brightness &amp; 16 Million Colors** | Tailor the light to match any mood, activity, or décor. |%%00010| **Intuitive Mobile App** | Set schedules, create custom scenes, and sync with your favorite playlists—all from your phone. |%%00010| **Voice Control Compatibility** | Works seamlessly with Alexa, Google Assistant, and Siri—just say the word and the light follows. |%%00010| **Energy‑Efficient LEDs** | Enjoy vibrant illumination while keeping your electricity bill low. |%%00010| **Sleek, Minimalist Design** | A modern aesthetic that complements any interior style. |%%00010%%00010---%%00010%%00010### How PixelGlow transforms everyday moments%%00010%%00010- **Relax &amp; Unwind:** Dim to a soft amber hue for a calming bedtime routine.  %%00010- **Entertain &amp; Impress:** Switch to dynamic color cycles that sync with music for unforgettable gatherings.  %%00010- **Focus &amp; Productivity:** Choose a crisp white light that reduces eye strain during work or study sessions.  %%00010%%00010All of this is controlled through a single, user‑friendly app or simply by speaking to your voice assistant—no extra remotes, no hassle.%%00010%%00010---%%00010%%00010### Special Launch Offer%%00010%%00010For a limited time, enjoy **20 % off** the PixelGlow Smart Lamp plus **free shipping** on all orders placed before **November 30**. Use code **GLOW20** at checkout.%%00010%%00010[Shop Now →](#)%%00010%%00010---%%00010%%00010### Need help deciding?%%00010%%00010Our support team is ready to answer any questions you may have. Reply to this email or call us at **1‑800‑555‑LAMP**.%%00010%%00010Thank you for being a valued member of our community. Light up your world with PixelGlow—because the right light makes every moment better.%%00010%%00010Warm regards,%%00010%%00010**The PixelGlow Team**  %%00010[www.pixelglowlamp.com](#) | support@pixelglowlamp.com | 1‑800‑555‑LAMP  %%00010%%00010*You are receiving this email because you subscribed to our newsletter. If you’d prefer not to receive future updates, you may [unsubscribe here](#).*"/>
+                    </config>
+                </config>
+                <config key="5">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="**Subject:** Introducing AquaPure – Pure Water Made Simple  %%00010%%00010---%%00010%%00010**Dear [First Name],**  %%00010%%00010We’re excited to announce the launch of **AquaPure**, our newest water‑filtration solution designed to bring clean, refreshing water straight to your tap.%%00010%%00010### Why AquaPure stands out%%00010%%00010- **Comprehensive filtration** – Eliminates chlorine, lead, rust, and other harmful contaminants while preserving essential minerals.  %%00010- **Easy installation** – No professional plumber required; the system fits most standard kitchen and bathroom faucets in minutes.  %%00010- **Cost‑effective** – Reduces reliance on bottled water and lowers long‑term filtration expenses.  %%00010- **Eco‑friendly** – Decreases plastic waste and your household’s carbon footprint.  %%00010%%00010### What you’ll experience%%00010%%00010- Crisp, great‑tasting water for drinking, cooking, and brewing.  %%00010- Peace of mind knowing every glass is free from common pollutants.  %%00010- A sleek, unobtrusive unit that blends seamlessly with any décor.%%00010%%00010### Special launch offer%%00010%%00010For a limited time, enjoy **15 % off** the AquaPure Water Filtration System plus **free shipping** when you order before **November 30**. Use promo code **PURE15** at checkout.%%00010%%00010### Ready to upgrade your water?%%00010%%00010Visit our product page [www.yourcompany.com/aquapure] to learn more, watch the quick installation guide, and place your order. Our support team is standing by to answer any questions you may have.%%00010%%00010Thank you for trusting us to keep your home healthier and more sustainable. We look forward to helping you enjoy the pure taste of AquaPure.%%00010%%00010Warm regards,%%00010%%00010**[Your Name]**  %%00010Product Marketing Manager  %%00010[Company Name]  %%00010Phone: (555) 123‑4567 | Email: marketing@yourcompany.com  %%00010[Company Website] | [Unsubscribe]  %%00010%%00010---  %%00010%%00010*Pure water is just a click away.*"/>
+                    </config>
+                </config>
+                <config key="6">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="**Subject:** Introducing ZenSound Wireless Earbuds – Premium Sound, All‑Day Freedom  %%00010%%00010---%%00010%%00010Dear [First Name],%%00010%%00010We’re excited to announce the launch of our newest audio breakthrough: **ZenSound Wireless Earbuds**. Designed for music lovers, remote workers, and anyone who values crystal‑clear sound without compromise, ZenSound delivers an immersive listening experience wherever you go.%%00010%%00010### Why ZenSound stands out%%00010%%00010- **True Wireless Freedom** – No cords, no clutter. Each earbud fits snugly and stays securely in place, whether you’re commuting, exercising, or working from home.  %%00010- **Premium Sound Quality** – Engineered drivers produce rich bass, detailed mids, and crisp highs, so every genre sounds exactly as the artist intended.  %%00010- **Active Noise Cancellation** – Block out the world and focus on what matters. The adaptive ANC technology automatically adjusts to your environment for optimal isolation.  %%00010- **24‑Hour Battery Life** – A single charge gives you up to 8 hours of playback, and the compact charging case provides two additional full charges. That’s a full day of music, calls, and podcasts without hunting for an outlet.  %%00010- **Seamless Connectivity** – Pair instantly with any Bluetooth‑enabled device and enjoy stable, low‑latency streaming for both audio and voice calls.  %%00010- **Comfort &amp; Durability** – Ergonomic silicone tips in multiple sizes ensure a personalized fit, while the IPX5 rating protects against sweat and light rain.%%00010%%00010### Experience ZenSound today%%00010%%00010To celebrate the launch, we’re offering an exclusive **15 % discount** for the first 500 orders. Use code **ZENLAUNCH** at checkout.  %%00010%%00010[Shop ZenSound Wireless Earbuds]  %%00010%%00010*Free standard shipping on all orders. Returns are easy and hassle‑free within 30 days.*%%00010%%00010---%%00010%%00010**Need help?**  %%00010Our support team is ready to answer any questions you may have. Simply reply to this email or call us at 1‑800‑555‑0199.%%00010%%00010Thank you for being a valued member of our community. We can’t wait for you to hear the difference.%%00010%%00010Best regards,%%00010%%00010The ZenSound Team  %%00010[Company Name] | [Website] | [Phone]  %%00010%%00010---%%00010%%00010If you no longer wish to receive product updates, you may [unsubscribe] at any time."/>
+                    </config>
+                </config>
+                <config key="7">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="**Subject:** Transform Your Workspace with the New FlexiDesk Adjustable Standing Desk  %%00010%%00010---%%00010%%00010**Hi [First Name],**  %%00010%%00010We’re excited to introduce the latest addition to our ergonomic lineup – the **FlexiDesk Adjustable Standing Desk**. Designed for modern professionals who value both health and style, FlexiDesk helps you stay productive, comfortable, and focused throughout the day.%%00010%%00010---%%00010%%00010### Why FlexiDesk is a Game‑Changer%%00010%%00010| Feature | Benefit |%%00010|---------|----------|%%00010| **Smooth Dual‑Motor Lift** | Adjusts from 24&quot; to 50&quot; in seconds, allowing you to switch between sitting and standing with zero effort. |%%00010| **Ergonomic Memory Presets** | Save up to three preferred heights for quick recall, ensuring optimal posture for every task. |%%00010| **Sturdy, Quiet Frame** | Reinforced steel construction supports up to 200 lb while operating silently—perfect for open‑office environments. |%%00010| **Cable Management System** | Integrated channels keep cords organized and out of sight, maintaining a clean, professional look. |%%00010| **Modern Aesthetic** | Available in matte black, walnut, and brushed aluminum to complement any décor. |%%00010| **Eco‑Friendly Materials** | Made from 30 % recycled aluminum and sustainably sourced wood, aligning with your green initiatives. |%%00010%%00010---%%00010%%00010### Boost Your Productivity%%00010%%00010Research shows that alternating between sitting and standing can increase focus, reduce fatigue, and improve overall well‑being. With FlexiDesk, you’ll experience:%%00010%%00010- **Enhanced circulation** and reduced back strain.  %%00010- **Higher energy levels** during long meetings or brainstorming sessions.  %%00010- **Improved collaboration** as the adjustable height encourages dynamic work setups.%%00010%%00010---%%00010%%00010### Special Launch Offer%%00010%%00010For a limited time, enjoy **15 % off** the FlexiDesk Adjustable Standing Desk plus **free white‑glove assembly**. Use code **FLEXI15** at checkout. This offer expires **November 30, 2025**.%%00010%%00010---%%00010%%00010### Ready to Upgrade?%%00010%%00010Visit our product page to explore specifications, view 360° videos, and read testimonials from teams already benefiting from FlexiDesk.%%00010%%00010[Explore FlexiDesk Now →](#)%%00010%%00010If you have any questions or need assistance selecting the perfect finish, our dedicated support team is just an email or phone call away.%%00010%%00010---%%00010%%00010**Thank you for being part of our community.**  %%00010We look forward to helping you create a healthier, more productive workspace.%%00010%%00010Best regards,%%00010%%00010**[Your Name]**  %%00010Product Marketing Manager  %%00010[Company Name]  %%00010Phone: (555) 123‑4567  %%00010Email: marketing@[company].com  %%00010[Company Website]  %%00010%%00010*Follow us: LinkedIn | Twitter | Instagram*  "/>
+                    </config>
+                </config>
+                <config key="8">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="**Subject:** Light Up Every Moment – Introducing the TruGlow LED Candle Set  %%00010%%00010**Pre‑header:** Warm, mess‑free ambience at the touch of a button.%%00010%%00010---%%00010%%00010Hi [First Name],%%00010%%00010We’re excited to unveil our newest home‑enhancement must‑have: the **TruGlow LED Candle Set**. Whether you’re setting the scene for a quiet evening, a dinner party, or simply adding a touch of serenity to any room, TruGlow delivers the timeless charm of candlelight—without the flame, wax, or upkeep.%%00010%%00010---%%00010%%00010### Why TruGlow stands out%%00010%%00010| Feature | Benefit |%%00010|---------|----------|%%00010| **Real‑istic warm glow** | Advanced LED technology mimics the flicker and color temperature of a traditional candle, creating an authentic, soothing ambience. |%%00010| **Flameless safety** | No open flame means peace of mind for families, pets, and busy households. |%%00010| **Mess‑free convenience** | No wax drips, no smoke, no soot—just clean, consistent light that lasts. |%%00010| **Long‑lasting battery life** | Up to 200 hours of continuous illumination on a single set of AA batteries (included). |%%00010| **Touch‑activated &amp; timer options** | One‑tap on/off, plus a 3‑hour auto‑off timer for effortless control. |%%00010| **Elegant design** | Hand‑blown glass holders with a sleek, modern finish that complement any décor style. |%%00010| **Eco‑friendly** | Reusable, rechargeable, and eliminates the need for disposable candles. |%%00010%%00010---%%00010%%00010### Perfect for every setting%%00010%%00010- **Dining &amp; entertaining:** Set a romantic table or add a refined touch to gatherings.  %%00010- **Home décor:** Enhance shelves, mantels, or bathroom mirrors with a subtle, inviting glow.  %%00010- **Travel &amp; outdoor:** Compact and safe for cabins, RVs, or camping trips where open flames are prohibited.  %%00010- **Special occasions:** Weddings, anniversaries, or holiday celebrations—TruGlow provides the ambiance without the risk.%%00010%%00010---%%00010%%00010### Limited‑time launch offer%%00010%%00010To celebrate the release, we’re offering **15 % off** your first TruGlow LED Candle Set. Use code **GLOW15** at checkout. This promotion ends **Friday, November 15**, so act now to bring the warmth of candlelight into your home—risk‑free.%%00010%%00010[Shop TruGlow Now →](#)%%00010%%00010---%%00010%%00010### What our early testers are saying%%00010%%00010&gt; “I love that I can leave these on overnight without worrying about fire hazards. The glow looks just like real candles, and the battery lasts forever.” – *Emily R., Boston*  %%00010%%00010&gt; “Perfect for my restaurant’s patio. No smoke, no mess, just a beautiful ambience that guests notice.” – *Marco L., San Diego*  %%00010%%00010---%%00010%%00010If you have any questions or need assistance choosing the right set for your space, our customer‑care team is ready to help. Simply reply to this email or call us at **1‑800‑555‑0199**.%%00010%%00010Thank you for being a valued member of our community. We look forward to seeing how TruGlow brightens your moments.%%00010%%00010Warm regards,%%00010%%00010**The [Your Company] Team**  %%00010[Company Address] | [Phone] | [Website]  %%00010%%00010*You are receiving this email because you subscribed to our newsletter. If you’d prefer not to receive future updates, you may [unsubscribe here](#).*"/>
+                    </config>
+                </config>
+                <config key="9">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="**Subject:** Meet SmartBrew – The Future of Perfect Tea, Today  %%00010%%00010---%%00010%%00010**Hello [First Name],**%%00010%%00010Imagine a tea‑making experience that delivers the exact flavor you crave, cup after cup, without guesswork. That’s the promise of **SmartBrew**, our new customizable tea infuser designed for tea lovers who demand precision and convenience.%%00010%%00010### Why SmartBrew stands out%%00010%%00010- **Precision Temperature Control** – Set the water temperature to within 1°C of your ideal range. Whether you prefer a delicate white tea at 75 °C or a robust black tea at 95 °C, SmartBrew guarantees the perfect heat every time.  %%00010- **Adjustable Steeping Timer** – Choose a steep time from 30 seconds to 10 minutes, or let SmartBrew calculate the optimal duration based on the tea type you select.  %%00010- **Custom Profiles** – Save your favorite settings for multiple teas. One touch, and SmartBrew reproduces your preferred brew profile without re‑entering the details.  %%00010- **Sleek, Durable Design** – Crafted from BPA‑free, heat‑resistant glass and stainless steel, the infuser looks as good on the countertop as it performs in the kitchen.  %%00010- **Smartphone Integration** – The companion app lets you monitor temperature, receive alerts when your brew is ready, and explore curated recipes from tea experts worldwide.%%00010%%00010### The benefits you’ll feel%%00010%%00010- **Consistent Flavor** – No more over‑steeped bitterness or under‑extracted blandness.  %%00010- **Time Savings** – Set it and walk away; SmartBrew handles the rest.  %%00010- **Reduced Waste** – Brew it right the first time, so you use exactly the amount of tea you need.  %%00010- **Elevated Ritual** – Turn a daily habit into a refined, enjoyable ceremony.%%00010%%00010### Special launch offer%%00010%%00010For a limited time, we’re offering **15 % off** the SmartBrew Tea Infuser plus **free shipping** on all orders placed before **November 30**. Use code **BREW15** at checkout.%%00010%%00010[Shop SmartBrew Now →](#)%%00010%%00010---%%00010%%00010We’re excited to see how SmartBrew transforms your tea moments. If you have any questions or need assistance choosing the right settings for your favorite blends, our support team is ready to help.%%00010%%00010Warm regards,%%00010%%00010**The SmartBrew Team**  %%00010Customer Experience | smartbrew@company.com | 1‑800‑555‑0199  %%00010%%00010*Follow us for brewing tips and new tea releases:*  %%00010Website | Instagram | Facebook | Twitter   (links omitted for brevity)  "/>
+                    </config>
+                </config>
+            </config>
+        </config>
+        <config key="column_properties"/>
+        <config key="meta_data"/>
+    </config>
+</config>

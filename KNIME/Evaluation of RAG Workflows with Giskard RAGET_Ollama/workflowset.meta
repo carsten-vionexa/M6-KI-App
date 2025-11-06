@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This file is auto-generated and is overwritten each time the workflow is saved.
+    The metadata have moved to the `workflow-metadata.xml` file.-->
+<KNIMEMetaInfo nrOfElements="2" xmlns="http://www.knime.org/2.9/metainfo">
+    <element form="multiline" name="Comments" read-only="false"><![CDATA[<p>The <strong>Giskard RAGET Test Set Generator</strong> (<strong>R</strong>etrieval <strong>A</strong>ugmented <strong>G</strong>eneration <strong>E</strong>valuation <strong>T</strong>oolkit) is designed to create a diverse set of questions to evaluate RAG systems. The generated questions will vary in complexity, including simple, complex, distracting, situational and double types to comprehensively test the system's capabilities. In the provided example, we populate our knowledge base with the update pages from the 5.2 and 5.3 releases and generate embeddings for each paragraph. After that we generate questions related to this knowledge base that can be used to test against a RAG system.<br>For more information about RAGET and Giskard, visit: https://docs.giskard.ai/en/stable/index.html</p>
+
+URL: RAGET Test Set Generation https://docs.giskard.ai/en/stable/open_source/testset_generation/testset_generation/index.html
+URL: RAGET Evaluation https://docs.giskard.ai/en/stable/open_source/testset_generation/rag_evaluation/index.html
+
+TAGS: GenAI,Giskard,RAG,Retrieval Augmented Generation,RAGET]]></element>
+    <element form="text" name="Last Edited" read-only="true">2024-10-04 14:00:29 +0200</element>
+</KNIMEMetaInfo>

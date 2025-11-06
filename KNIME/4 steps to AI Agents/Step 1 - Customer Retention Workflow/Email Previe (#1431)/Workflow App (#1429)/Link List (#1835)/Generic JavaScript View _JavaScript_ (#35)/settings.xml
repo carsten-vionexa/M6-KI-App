@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <entry key="hideInWizard" type="xboolean" value="false"/>
+        <entry key="generateView" type="xboolean" value="false"/>
+        <entry key="maxRows" type="xint" value="2500"/>
+        <entry key="jsCode" type="xstring" value="names = `$${Sname_linkList}$$`.split(/\r?\n/)%%00010urls = `$${Surls_linkList}$$`.split(/\r?\n/)%%00010var containerDiv = document.createElement('div');%%00010containerDiv.id = 'link-list';%%00010%%00010names.forEach((name, index) =&gt; {%%00010    var linkItem = document.createElement('div');%%00010    linkItem.style.display = 'flex';%%00010    linkItem.style.alignItems = 'center';%%00010    linkItem.style.marginBottom = '10px';%%00010%%00010    var link = document.createElement('a');%%00010    link.href = urls[index];%%00010    link.target = '_blank';%%00010    link.style.textDecoration = 'none';%%00010    link.style.display = 'flex';%%00010    link.style.alignItems = 'center';%%00010    %%00010    var svg = document.createElementNS(&quot;http://www.w3.org/2000/svg&quot;, &quot;svg&quot;);%%00010    svg.setAttribute('fill', 'none');%%00010    svg.setAttribute('stroke-width', '1.77778px');%%00010    svg.setAttribute('stroke-linejoin', 'round');%%00010    svg.setAttribute('viewBox', '0 0 32 32');%%00010    svg.style.marginRight = '10px';%%00010    svg.style.width = '16px';%%00010    svg.style.height = '16px';%%00010    svg.className = 'link';%%00010    %%00010    var path = document.createElementNS(&quot;http://www.w3.org/2000/svg&quot;, &quot;path&quot;);%%00010    path.setAttribute('d', 'M17.3 3.3 L30 16 L17.3 28.7 M30 16 H2');%%00010    svg.appendChild(path);%%00010    link.appendChild(svg);%%00010%%00010    var textNode = document.createTextNode(name);%%00010    link.appendChild(textNode);%%00010    link.className = 'link';%%00010    %%00010    linkItem.appendChild(link);%%00010    containerDiv.appendChild(linkItem);%%00010});%%00010%%00010document.body.appendChild(containerDiv);"/>
+        <entry key="jsSVGCode" type="xstring" value=""/>
+        <entry key="cssCode" type="xstring" value=".link {%%00010%%00009font-family: Roboto, sans-serif;%%00010%%00009font-weight: bold;%%00010%%00009/* knime-dove-gray */%%00010    color: #6E6E6E;%%00010    stroke: #6E6E6E;%%00010}%%00010%%00010.link:hover{%%00010%%00009/* knime-masala */%%00010    color: #3E3A39;%%00010    stroke: #3E3A39;%%00010%%00009}%%00010"/>
+        <config key="dependencies">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <entry key="waitTime" type="xint" value="0"/>
+        <config key="outputVariables">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <entry key="customCSS" type="xstring" isnull="true" value=""/>
+        <entry key="sanitizeInput" type="xboolean" value="false"/>
+    </config>
+    <config key="nodeAnnotation">
+        <entry key="text" type="xstring" value="Link List view"/>
+        <entry key="contentType" type="xstring" value="text/plain"/>
+        <entry key="bgcolor" type="xint" value="16777215"/>
+        <entry key="x-coordinate" type="xint" value="0"/>
+        <entry key="y-coordinate" type="xint" value="0"/>
+        <entry key="width" type="xint" value="0"/>
+        <entry key="height" type="xint" value="0"/>
+        <entry key="alignment" type="xstring" value="CENTER"/>
+        <entry key="borderSize" type="xint" value="0"/>
+        <entry key="borderColor" type="xint" value="0"/>
+        <entry key="defFontSize" type="xint" value="-1"/>
+        <entry key="annotation-version" type="xint" value="20230412"/>
+        <config key="styles"/>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="IDLE"/>
+    <entry key="factory" type="xstring" value="org.knime.js.base.node.viz.generic3.GenericJSViewNodeFactory"/>
+    <entry key="node-name" type="xstring" value="Generic JavaScript View (JavaScript) (legacy)"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME JavaScript Base Views"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.js.views"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="5.5.0.v202506240828"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME JavaScript Views"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.js.views.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="5.5.0.v202506240828"/>
+    <config key="factory_settings"/>
+    <entry key="name" type="xstring" value="Generic JavaScript View (JavaScript) (legacy)"/>
+    <entry key="hasContent" type="xboolean" value="false"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+        </config>
+        <config key="port_2">
+            <entry key="index" type="xint" value="2"/>
+            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
+    </config>
+</config>

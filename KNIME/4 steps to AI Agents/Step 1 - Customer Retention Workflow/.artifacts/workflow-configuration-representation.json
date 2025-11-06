@@ -1,0 +1,24 @@
+{
+    "credentials-2011": {
+        "@class": "org.knime.js.base.node.configuration.input.credentials.CredentialsDialogNodeRepresentation",
+        "label": "Label",
+        "description": "Enter Description",
+        "required": true,
+        "defaultValue": {
+            "@class": "org.knime.js.base.node.configuration.input.credentials.CredentialsDialogNodeValue",
+            "isSavePassword": false,
+            "username": ""
+        },
+        "currentValue": {
+            "@class": "org.knime.js.base.node.configuration.input.credentials.CredentialsDialogNodeValue",
+            "isSavePassword": false,
+            "username": ""
+        },
+        "promptUsername": true,
+        "usernameLabel": "User",
+        "passwordLabel": "Password",
+        "useServerLoginCredentials": false,
+        "errorMessage": "",
+        "noDisplay": false
+    }
+}

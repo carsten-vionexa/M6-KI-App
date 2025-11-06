@@ -1,0 +1,26 @@
+name: rag
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - langchain>=0.3.0
+      - langchain-community>=0.3.0
+      - langchain-ollama>=0.2.0
+      - chromadb>=1.2.2
+      - faiss-cpu
+      - bs4
+      - lxml
+      - html2text
+      - pypdf
+      - langchain-text-splitters
+      - tqdm
+      - numpy
+      - pandas
+      - matplotlib
+      - pydantic
+      - jupyterlab
+      - ipykernel
+      - streamlit

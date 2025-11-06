@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="spec.xml">
+    <entry key="spec_name" type="xstring" value="default"/>
+    <entry key="number_columns" type="xint" value="1"/>
+    <config key="column_spec_0">
+        <entry key="column_name" type="xstring" value="Engineered Prompt"/>
+        <config key="element_names">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="column_type">
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+        </config>
+        <config key="column_domain">
+            <config key="possible_values">
+                <entry key="array-size" type="xint" value="10"/>
+                <config key="0">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="You are working at a company and write newsletter emails for new products or offers. Do not use emojis. Write an email for the following product:%%00010%%00010Product: AeroLux Air Purifier: Effortlessly purify your air with AeroLux, removing 99.97% of airborne particles in a sleek, quiet design."/>
+                    </config>
+                </config>
+                <config key="1">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="You are working at a company and write newsletter emails for new products or offers. Do not use emojis. Write an email for the following product:%%00010%%00010Product: SonicFit Smart Fitness Band: Stay on top of your fitness goals with SonicFit, a waterproof band that tracks your activity, heart rate, and sleep patterns."/>
+                    </config>
+                </config>
+                <config key="2">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="You are working at a company and write newsletter emails for new products or offers. Do not use emojis. Write an email for the following product:%%00010%%00010Product: EcoWave Solar Charger: Power your devices on the go with EcoWave, a portable solar charger offering sustainable energy through high-efficiency panels."/>
+                    </config>
+                </config>
+                <config key="3">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="You are working at a company and write newsletter emails for new products or offers. Do not use emojis. Write an email for the following product:%%00010%%00010Product: GourmetBlend Coffee Maker: Brew barista-quality coffee at home with GourmetBlend, featuring a built-in grinder and customizable settings."/>
+                    </config>
+                </config>
+                <config key="4">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="You are working at a company and write newsletter emails for new products or offers. Do not use emojis. Write an email for the following product:%%00010%%00010Product: PixelGlow Smart Lamp: Set the perfect mood with PixelGlow, a smart lamp offering adjustable brightness and color, controllable via app or voice."/>
+                    </config>
+                </config>
+                <config key="5">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="You are working at a company and write newsletter emails for new products or offers. Do not use emojis. Write an email for the following product:%%00010%%00010Product: AquaPure Water Filtration System: Enjoy clean, refreshing water with AquaPure, an easy-to-install filtration system that removes harmful contaminants."/>
+                    </config>
+                </config>
+                <config key="6">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="You are working at a company and write newsletter emails for new products or offers. Do not use emojis. Write an email for the following product:%%00010%%00010Product: ZenSound Wireless Earbuds: Experience premium sound with ZenSound, true wireless earbuds with noise cancellation and a 24-hour battery life."/>
+                    </config>
+                </config>
+                <config key="7">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="You are working at a company and write newsletter emails for new products or offers. Do not use emojis. Write an email for the following product:%%00010%%00010Product: FlexiDesk Adjustable Standing Desk: Boost your productivity with FlexiDesk, an adjustable standing desk designed for ergonomic comfort and modern style."/>
+                    </config>
+                </config>
+                <config key="8">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="You are working at a company and write newsletter emails for new products or offers. Do not use emojis. Write an email for the following product:%%00010%%00010Product: TruGlow LED Candle Set: Create a cozy ambiance with TruGlow, flameless LED candles that offer the warm glow of real candles without the mess."/>
+                    </config>
+                </config>
+                <config key="9">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="You are working at a company and write newsletter emails for new products or offers. Do not use emojis. Write an email for the following product:%%00010%%00010Product: SmartBrew Tea Infuser: Brew the perfect cup every time with SmartBrew, a customizable tea infuser that ensures precise temperature and steeping."/>
+                    </config>
+                </config>
+            </config>
+        </config>
+        <config key="column_properties"/>
+        <config key="meta_data"/>
+    </config>
+</config>

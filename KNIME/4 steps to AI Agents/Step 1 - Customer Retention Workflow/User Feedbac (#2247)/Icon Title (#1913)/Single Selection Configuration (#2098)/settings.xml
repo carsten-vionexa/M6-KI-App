@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <config key="defaultValue">
+            <config key="variable_value">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="Activity"/>
+            </config>
+        </config>
+        <entry key="hideInDialog" type="xboolean" value="false"/>
+        <entry key="parameterName" type="xstring" value="icon-selection"/>
+        <entry key="label" type="xstring" value="Icon"/>
+        <entry key="description" type="xstring" value="The icon to be displayed along with the title."/>
+        <entry key="required" type="xboolean" value="true"/>
+        <entry key="flowVariableName" type="xstring" value="icon-selection"/>
+        <config key="possible_choices">
+            <entry key="array-size" type="xint" value="331"/>
+            <entry key="0" type="xstring" value="Activity"/>
+            <entry key="1" type="xstring" value="AI Brain"/>
+            <entry key="2" type="xstring" value="AI General"/>
+            <entry key="3" type="xstring" value="AI Neural"/>
+            <entry key="4" type="xstring" value="Align Center"/>
+            <entry key="5" type="xstring" value="Align Left"/>
+            <entry key="6" type="xstring" value="Align Right"/>
+            <entry key="7" type="xstring" value="Arrow Back"/>
+            <entry key="8" type="xstring" value="Arrow Down"/>
+            <entry key="9" type="xstring" value="Arrow Download"/>
+            <entry key="10" type="xstring" value="Arrow Dropdown"/>
+            <entry key="11" type="xstring" value="Arrow Left"/>
+            <entry key="12" type="xstring" value="Arrow Move"/>
+            <entry key="13" type="xstring" value="Arrow Next Double"/>
+            <entry key="14" type="xstring" value="Arrow Next"/>
+            <entry key="15" type="xstring" value="Arrow Prev Double"/>
+            <entry key="16" type="xstring" value="Arrow Prev"/>
+            <entry key="17" type="xstring" value="Arrow Right"/>
+            <entry key="18" type="xstring" value="Arrow Up"/>
+            <entry key="19" type="xstring" value="Arrows Collapse"/>
+            <entry key="20" type="xstring" value="Arrows Expand"/>
+            <entry key="21" type="xstring" value="Arrows Order Left Right"/>
+            <entry key="22" type="xstring" value="Arrows Order"/>
+            <entry key="23" type="xstring" value="Arrows Upload"/>
+            <entry key="24" type="xstring" value="Attachment"/>
+            <entry key="25" type="xstring" value="Award"/>
+            <entry key="26" type="xstring" value="Axis X"/>
+            <entry key="27" type="xstring" value="Axis Y"/>
+            <entry key="28" type="xstring" value="Battery Level"/>
+            <entry key="29" type="xstring" value="Battery Lightning"/>
+            <entry key="30" type="xstring" value="Bell"/>
+            <entry key="31" type="xstring" value="Blockquote"/>
+            <entry key="32" type="xstring" value="Bold"/>
+            <entry key="33" type="xstring" value="Bookmark"/>
+            <entry key="34" type="xstring" value="Both Flow Variables"/>
+            <entry key="35" type="xstring" value="Brush"/>
+            <entry key="36" type="xstring" value="Bulb"/>
+            <entry key="37" type="xstring" value="Calendar"/>
+            <entry key="38" type="xstring" value="Cancel Execution"/>
+            <entry key="39" type="xstring" value="Cart Bulb"/>
+            <entry key="40" type="xstring" value="Cart Heart"/>
+            <entry key="41" type="xstring" value="Cart"/>
+            <entry key="42" type="xstring" value="Centralized"/>
+            <entry key="43" type="xstring" value="Chart Bars Grouped"/>
+            <entry key="44" type="xstring" value="Chart Bars Horiz"/>
+            <entry key="45" type="xstring" value="Chart Bars Stacked"/>
+            <entry key="46" type="xstring" value="Chart Bars Vert"/>
+            <entry key="47" type="xstring" value="Chart Candlestick"/>
+            <entry key="48" type="xstring" value="Chart Donut"/>
+            <entry key="49" type="xstring" value="Chart Dots"/>
+            <entry key="50" type="xstring" value="Chart Hierarchy"/>
+            <entry key="51" type="xstring" value="Chart Line"/>
+            <entry key="52" type="xstring" value="Chart Pie"/>
+            <entry key="53" type="xstring" value="Chart Polar"/>
+            <entry key="54" type="xstring" value="Check"/>
+            <entry key="55" type="xstring" value="Checkboxes"/>
+            <entry key="56" type="xstring" value="Circle Arrow Down"/>
+            <entry key="57" type="xstring" value="Circle Arrow Left"/>
+            <entry key="58" type="xstring" value="Circle Arrow Right"/>
+            <entry key="59" type="xstring" value="Circle Arrow Up"/>
+            <entry key="60" type="xstring" value="Circle Check"/>
+            <entry key="61" type="xstring" value="Circle Close"/>
+            <entry key="62" type="xstring" value="Circle Help"/>
+            <entry key="63" type="xstring" value="Circle Info"/>
+            <entry key="64" type="xstring" value="Circle Key"/>
+            <entry key="65" type="xstring" value="Circle Minus"/>
+            <entry key="66" type="xstring" value="Circle Pause"/>
+            <entry key="67" type="xstring" value="Circle Play"/>
+            <entry key="68" type="xstring" value="Circle Plus"/>
+            <entry key="69" type="xstring" value="Circle Stop"/>
+            <entry key="70" type="xstring" value="Circle Warning"/>
+            <entry key="71" type="xstring" value="Close"/>
+            <entry key="72" type="xstring" value="Closed Eye"/>
+            <entry key="73" type="xstring" value="Cloud Close"/>
+            <entry key="74" type="xstring" value="Cloud Component"/>
+            <entry key="75" type="xstring" value="Cloud Download"/>
+            <entry key="76" type="xstring" value="Cloud Knime"/>
+            <entry key="77" type="xstring" value="Cloud Login"/>
+            <entry key="78" type="xstring" value="Cloud Remote"/>
+            <entry key="79" type="xstring" value="Cloud Rest"/>
+            <entry key="80" type="xstring" value="Cloud Sync"/>
+            <entry key="81" type="xstring" value="Cloud Upload"/>
+            <entry key="82" type="xstring" value="Cloud Workflow"/>
+            <entry key="83" type="xstring" value="Code Html"/>
+            <entry key="84" type="xstring" value="Code Json"/>
+            <entry key="85" type="xstring" value="Cog Api"/>
+            <entry key="86" type="xstring" value="Cog Check"/>
+            <entry key="87" type="xstring" value="Cog Pause"/>
+            <entry key="88" type="xstring" value="Cog Play"/>
+            <entry key="89" type="xstring" value="Cog Plus"/>
+            <entry key="90" type="xstring" value="Cog Running"/>
+            <entry key="91" type="xstring" value="Cog"/>
+            <entry key="92" type="xstring" value="Cogs"/>
+            <entry key="93" type="xstring" value="Collection"/>
+            <entry key="94" type="xstring" value="Color Palette"/>
+            <entry key="95" type="xstring" value="Comment"/>
+            <entry key="96" type="xstring" value="Component"/>
+            <entry key="97" type="xstring" value="Computer Desktop"/>
+            <entry key="98" type="xstring" value="Cookie"/>
+            <entry key="99" type="xstring" value="Copy"/>
+            <entry key="100" type="xstring" value="Cube"/>
+            <entry key="101" type="xstring" value="Cut"/>
+            <entry key="102" type="xstring" value="Db"/>
+            <entry key="103" type="xstring" value="Deployment"/>
+            <entry key="104" type="xstring" value="Diamond"/>
+            <entry key="105" type="xstring" value="Divider"/>
+            <entry key="106" type="xstring" value="Duplicate"/>
+            <entry key="107" type="xstring" value="Early Bird"/>
+            <entry key="108" type="xstring" value="Emoticon Smile"/>
+            <entry key="109" type="xstring" value="Execute All"/>
+            <entry key="110" type="xstring" value="Execution Context Shared"/>
+            <entry key="111" type="xstring" value="Export"/>
+            <entry key="112" type="xstring" value="Expose Flow Variables"/>
+            <entry key="113" type="xstring" value="Extension Community"/>
+            <entry key="114" type="xstring" value="Extension Partner"/>
+            <entry key="115" type="xstring" value="Extension"/>
+            <entry key="116" type="xstring" value="Eye"/>
+            <entry key="117" type="xstring" value="Faq"/>
+            <entry key="118" type="xstring" value="File Cog"/>
+            <entry key="119" type="xstring" value="File Csv"/>
+            <entry key="120" type="xstring" value="File Docx"/>
+            <entry key="121" type="xstring" value="File Export"/>
+            <entry key="122" type="xstring" value="File Html"/>
+            <entry key="123" type="xstring" value="File List Numbers"/>
+            <entry key="124" type="xstring" value="File Md"/>
+            <entry key="125" type="xstring" value="File Odp"/>
+            <entry key="126" type="xstring" value="File Ods"/>
+            <entry key="127" type="xstring" value="File Odt"/>
+            <entry key="128" type="xstring" value="File Pdf"/>
+            <entry key="129" type="xstring" value="File Plus"/>
+            <entry key="130" type="xstring" value="File Pptx"/>
+            <entry key="131" type="xstring" value="File Ps"/>
+            <entry key="132" type="xstring" value="File Question"/>
+            <entry key="133" type="xstring" value="File Text Stack"/>
+            <entry key="134" type="xstring" value="File Text"/>
+            <entry key="135" type="xstring" value="File Xls"/>
+            <entry key="136" type="xstring" value="File Xlsx"/>
+            <entry key="137" type="xstring" value="File Xml"/>
+            <entry key="138" type="xstring" value="File Zip Exe"/>
+            <entry key="139" type="xstring" value="File Zip"/>
+            <entry key="140" type="xstring" value="Filter Check"/>
+            <entry key="141" type="xstring" value="Filter"/>
+            <entry key="142" type="xstring" value="Flag Fan"/>
+            <entry key="143" type="xstring" value="Flag Moving"/>
+            <entry key="144" type="xstring" value="Flag"/>
+            <entry key="145" type="xstring" value="Folder Connected"/>
+            <entry key="146" type="xstring" value="Folder Lense"/>
+            <entry key="147" type="xstring" value="Folder Lock"/>
+            <entry key="148" type="xstring" value="Folder Plus"/>
+            <entry key="149" type="xstring" value="Folder Workflow"/>
+            <entry key="150" type="xstring" value="Folder"/>
+            <entry key="151" type="xstring" value="Forum"/>
+            <entry key="152" type="xstring" value="Government"/>
+            <entry key="153" type="xstring" value="Gradient Continious"/>
+            <entry key="154" type="xstring" value="Gradient"/>
+            <entry key="155" type="xstring" value="Graduate Hat"/>
+            <entry key="156" type="xstring" value="Grid"/>
+            <entry key="157" type="xstring" value="Group Admin Global"/>
+            <entry key="158" type="xstring" value="Group External"/>
+            <entry key="159" type="xstring" value="Headline Sub"/>
+            <entry key="160" type="xstring" value="Headline"/>
+            <entry key="161" type="xstring" value="Heart Get"/>
+            <entry key="162" type="xstring" value="Heart Give"/>
+            <entry key="163" type="xstring" value="Heart Plus"/>
+            <entry key="164" type="xstring" value="Heart"/>
+            <entry key="165" type="xstring" value="Help"/>
+            <entry key="166" type="xstring" value="History"/>
+            <entry key="167" type="xstring" value="House"/>
+            <entry key="168" type="xstring" value="Import"/>
+            <entry key="169" type="xstring" value="Industry"/>
+            <entry key="170" type="xstring" value="Install"/>
+            <entry key="171" type="xstring" value="Integrations"/>
+            <entry key="172" type="xstring" value="Interactive"/>
+            <entry key="173" type="xstring" value="Interpolation"/>
+            <entry key="174" type="xstring" value="Italic"/>
+            <entry key="175" type="xstring" value="Joy"/>
+            <entry key="176" type="xstring" value="Key"/>
+            <entry key="177" type="xstring" value="Label"/>
+            <entry key="178" type="xstring" value="Layout Editor"/>
+            <entry key="179" type="xstring" value="Leave"/>
+            <entry key="180" type="xstring" value="Lens"/>
+            <entry key="181" type="xstring" value="Lense Check"/>
+            <entry key="182" type="xstring" value="Lense Minus"/>
+            <entry key="183" type="xstring" value="Lense Plus"/>
+            <entry key="184" type="xstring" value="Lense Workflow"/>
+            <entry key="185" type="xstring" value="Lightning"/>
+            <entry key="186" type="xstring" value="Line Thickness"/>
+            <entry key="187" type="xstring" value="Line Type"/>
+            <entry key="188" type="xstring" value="Link External"/>
+            <entry key="189" type="xstring" value="Link"/>
+            <entry key="190" type="xstring" value="Linked Component"/>
+            <entry key="191" type="xstring" value="Linked Metanode"/>
+            <entry key="192" type="xstring" value="List Check"/>
+            <entry key="193" type="xstring" value="List Numbers"/>
+            <entry key="194" type="xstring" value="List Thumbs"/>
+            <entry key="195" type="xstring" value="List"/>
+            <entry key="196" type="xstring" value="Load"/>
+            <entry key="197" type="xstring" value="Local Space"/>
+            <entry key="198" type="xstring" value="Lock Open"/>
+            <entry key="199" type="xstring" value="Lock Workflow"/>
+            <entry key="200" type="xstring" value="Lock"/>
+            <entry key="201" type="xstring" value="Magic Wand"/>
+            <entry key="202" type="xstring" value="Mail"/>
+            <entry key="203" type="xstring" value="Media Article"/>
+            <entry key="204" type="xstring" value="Media Browser"/>
+            <entry key="205" type="xstring" value="Media Image"/>
+            <entry key="206" type="xstring" value="Media Video"/>
+            <entry key="207" type="xstring" value="Menu Nav"/>
+            <entry key="208" type="xstring" value="Menu Options"/>
+            <entry key="209" type="xstring" value="Metanode Add"/>
+            <entry key="210" type="xstring" value="Metanode"/>
+            <entry key="211" type="xstring" value="Microphone"/>
+            <entry key="212" type="xstring" value="Minus Small"/>
+            <entry key="213" type="xstring" value="Mountain"/>
+            <entry key="214" type="xstring" value="Move From Space To Space"/>
+            <entry key="215" type="xstring" value="Network Workflow"/>
+            <entry key="216" type="xstring" value="Network"/>
+            <entry key="217" type="xstring" value="Node Attachment"/>
+            <entry key="218" type="xstring" value="Node Cog"/>
+            <entry key="219" type="xstring" value="Node Description"/>
+            <entry key="220" type="xstring" value="Node Id"/>
+            <entry key="221" type="xstring" value="Node Name"/>
+            <entry key="222" type="xstring" value="Node Plus"/>
+            <entry key="223" type="xstring" value="Node Stack"/>
+            <entry key="224" type="xstring" value="Node Workflow"/>
+            <entry key="225" type="xstring" value="Node"/>
+            <entry key="226" type="xstring" value="Nodes Align Horiz"/>
+            <entry key="227" type="xstring" value="Nodes Align Vert"/>
+            <entry key="228" type="xstring" value="Nodes Connect"/>
+            <entry key="229" type="xstring" value="Nodes Disconnect"/>
+            <entry key="230" type="xstring" value="Not Approved"/>
+            <entry key="231" type="xstring" value="Only Flow Variables"/>
+            <entry key="232" type="xstring" value="Open In New Window"/>
+            <entry key="233" type="xstring" value="Ordered List"/>
+            <entry key="234" type="xstring" value="Os Apple"/>
+            <entry key="235" type="xstring" value="Os Linux"/>
+            <entry key="236" type="xstring" value="Os Windows"/>
+            <entry key="237" type="xstring" value="Paper Flier"/>
+            <entry key="238" type="xstring" value="Parachute"/>
+            <entry key="239" type="xstring" value="Pause"/>
+            <entry key="240" type="xstring" value="Pencil"/>
+            <entry key="241" type="xstring" value="Perspective Switch"/>
+            <entry key="242" type="xstring" value="Pharma"/>
+            <entry key="243" type="xstring" value="Plane Arrival"/>
+            <entry key="244" type="xstring" value="Play"/>
+            <entry key="245" type="xstring" value="Plugin Input"/>
+            <entry key="246" type="xstring" value="Plugin Output"/>
+            <entry key="247" type="xstring" value="Plugin"/>
+            <entry key="248" type="xstring" value="Plus Small"/>
+            <entry key="249" type="xstring" value="Plus"/>
+            <entry key="250" type="xstring" value="Private Space"/>
+            <entry key="251" type="xstring" value="Range Horiz"/>
+            <entry key="252" type="xstring" value="Range Vert"/>
+            <entry key="253" type="xstring" value="Redo"/>
+            <entry key="254" type="xstring" value="Reexecution"/>
+            <entry key="255" type="xstring" value="Reload"/>
+            <entry key="256" type="xstring" value="Remote"/>
+            <entry key="257" type="xstring" value="Reset All"/>
+            <entry key="258" type="xstring" value="Retail"/>
+            <entry key="259" type="xstring" value="Robotic"/>
+            <entry key="260" type="xstring" value="Rocket"/>
+            <entry key="261" type="xstring" value="Rows Select"/>
+            <entry key="262" type="xstring" value="Rss"/>
+            <entry key="263" type="xstring" value="Save As"/>
+            <entry key="264" type="xstring" value="Save"/>
+            <entry key="265" type="xstring" value="Secret"/>
+            <entry key="266" type="xstring" value="Selected Cancel"/>
+            <entry key="267" type="xstring" value="Selected Execute"/>
+            <entry key="268" type="xstring" value="Selected Reset"/>
+            <entry key="269" type="xstring" value="Selection Publish"/>
+            <entry key="270" type="xstring" value="Selection Subscribe"/>
+            <entry key="271" type="xstring" value="Server Rack Workflow"/>
+            <entry key="272" type="xstring" value="Server Racks"/>
+            <entry key="273" type="xstring" value="Settings"/>
+            <entry key="274" type="xstring" value="Share"/>
+            <entry key="275" type="xstring" value="Shield Check"/>
+            <entry key="276" type="xstring" value="Shield Close"/>
+            <entry key="277" type="xstring" value="Shield Knime"/>
+            <entry key="278" type="xstring" value="Shield Question"/>
+            <entry key="279" type="xstring" value="Shield Users"/>
+            <entry key="280" type="xstring" value="Shield"/>
+            <entry key="281" type="xstring" value="Shortcuts"/>
+            <entry key="282" type="xstring" value="Sign Warning"/>
+            <entry key="283" type="xstring" value="Site"/>
+            <entry key="284" type="xstring" value="Social Facebook"/>
+            <entry key="285" type="xstring" value="Social Instagram"/>
+            <entry key="286" type="xstring" value="Social Linkedin"/>
+            <entry key="287" type="xstring" value="Social Meetup"/>
+            <entry key="288" type="xstring" value="Social Reddit"/>
+            <entry key="289" type="xstring" value="Social Twitter"/>
+            <entry key="290" type="xstring" value="Social Xing"/>
+            <entry key="291" type="xstring" value="Social Youtube"/>
+            <entry key="292" type="xstring" value="Speedo"/>
+            <entry key="293" type="xstring" value="Sphere"/>
+            <entry key="294" type="xstring" value="Sprint"/>
+            <entry key="295" type="xstring" value="Star"/>
+            <entry key="296" type="xstring" value="Steps 1 3"/>
+            <entry key="297" type="xstring" value="Stop"/>
+            <entry key="298" type="xstring" value="Strikethrough"/>
+            <entry key="299" type="xstring" value="Suitcase"/>
+            <entry key="300" type="xstring" value="Switch"/>
+            <entry key="301" type="xstring" value="Team Group Admin"/>
+            <entry key="302" type="xstring" value="Team Group"/>
+            <entry key="303" type="xstring" value="Team Management"/>
+            <entry key="304" type="xstring" value="Text Style"/>
+            <entry key="305" type="xstring" value="Text"/>
+            <entry key="306" type="xstring" value="Thumbs Down"/>
+            <entry key="307" type="xstring" value="Thumbs Up"/>
+            <entry key="308" type="xstring" value="Time"/>
+            <entry key="309" type="xstring" value="Tooltip"/>
+            <entry key="310" type="xstring" value="Trash"/>
+            <entry key="311" type="xstring" value="Trophy"/>
+            <entry key="312" type="xstring" value="Underline"/>
+            <entry key="313" type="xstring" value="Undo"/>
+            <entry key="314" type="xstring" value="Unordered List"/>
+            <entry key="315" type="xstring" value="Upper Lower Case"/>
+            <entry key="316" type="xstring" value="User Avatar"/>
+            <entry key="317" type="xstring" value="User Female"/>
+            <entry key="318" type="xstring" value="User Male"/>
+            <entry key="319" type="xstring" value="User Workflow"/>
+            <entry key="320" type="xstring" value="User"/>
+            <entry key="321" type="xstring" value="Users"/>
+            <entry key="322" type="xstring" value="Value Max"/>
+            <entry key="323" type="xstring" value="Value Min"/>
+            <entry key="324" type="xstring" value="View Cards"/>
+            <entry key="325" type="xstring" value="View List"/>
+            <entry key="326" type="xstring" value="Wifi"/>
+            <entry key="327" type="xstring" value="Workflow Node Stack"/>
+            <entry key="328" type="xstring" value="Workflow Time"/>
+            <entry key="329" type="xstring" value="Workflow"/>
+            <entry key="330" type="xstring" value="Wrench"/>
+        </config>
+        <entry key="type" type="xstring" value="Dropdown"/>
+        <entry key="limit_number_visible_options" type="xboolean" value="false"/>
+        <entry key="number_visible_options" type="xint" value="5"/>
+    </config>
+    <config key="nodeAnnotation">
+        <entry key="text" type="xstring" value="Select Icon-%%00010dropdown menu%%00010%%00010Deleted from possible choices%%00010the following icons:%%00010%%00010Square Asterix Yellow%%00010%%00010Square Minus Red%%00010%%00010Square Plus Green%%00010%%00010Bullet List%%00010%%00010Because the viewBox value is%%00010different and the SVG is more complex"/>
+        <entry key="contentType" type="xstring" value="text/plain"/>
+        <entry key="bgcolor" type="xint" value="16777215"/>
+        <entry key="x-coordinate" type="xint" value="0"/>
+        <entry key="y-coordinate" type="xint" value="0"/>
+        <entry key="width" type="xint" value="0"/>
+        <entry key="height" type="xint" value="0"/>
+        <entry key="alignment" type="xstring" value="CENTER"/>
+        <entry key="borderSize" type="xint" value="0"/>
+        <entry key="borderColor" type="xint" value="0"/>
+        <entry key="defFontSize" type="xint" value="-1"/>
+        <entry key="annotation-version" type="xint" value="20230412"/>
+        <config key="styles"/>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="IDLE"/>
+    <config key="nodecontainer_message">
+        <entry key="type" type="xstring" value="WARNING"/>
+        <entry key="message" type="xstring" value="Component does not have input data, execute upstream nodes first"/>
+    </config>
+    <entry key="factory" type="xstring" value="org.knime.js.base.node.configuration.selection.single.SingleSelectionDialogNodeFactory"/>
+    <entry key="node-name" type="xstring" value="Single Selection Configuration"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Quick Form Nodes"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.js.quickforms"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="5.5.1.v202507301243"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Quick Forms"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.js.quickforms.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="5.5.2.v202509301642"/>
+    <config key="factory_settings"/>
+    <entry key="name" type="xstring" value="Single Selection Configuration"/>
+    <entry key="hasContent" type="xboolean" value="false"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
+    </config>
+</config>

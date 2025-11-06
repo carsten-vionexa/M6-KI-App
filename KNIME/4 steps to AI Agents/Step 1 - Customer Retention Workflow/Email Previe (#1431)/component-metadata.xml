@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component-metadata content-type="text/plain" xmlns="http://www.knime.org/core/node/workflow/metadata/v1.0">
+    <last-modified>2024-03-06T13:38:28.507+01:00</last-modified>
+    <description/>
+    <component-type>Visualizer</component-type>
+    <icon>iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFESURBVHgBzVPbcYMwEJSAAuggdBABDaQEdxA6CK7ApII4FYQSKMH5hgG5A6ggzj+P7GoURs44M874JzcDku50q9XeSYgbTfKXJEmGIXL8fdu2JSdKqcjzvMxN8n2/qutarw4AFD+R6UNymKbpBqNyYwRFPOfcExeMwXmeS631aVmWUEr54SaDUQ6G+zOAOI5Li7zDBg2a66lYx2DyZOm/YF1x7xkATspt8LNpmgPWKwDYdPC/A+RtmqbtOI4iCAIDEBglpTS0kHQkZavJyZ7eA2CLRK4HCor9d/hexb8w0we8G6gPjp+0e4ystYI2j24c9O9xpWdUSRsNGERZiu8NtlQb+A7QIwJY0XXd4MQfIGLI+VoFNoyTnLEPxBXmlpHq71hKJO9ZlT8BsPdxtyPrzA4UV9pvj4nNU1EkvodLbFzNbrIvxVGhTXBnZQIAAAAASUVORK5CYII=</icon>
+    <in-ports>
+        <port name="Port 1">No description available</port>
+    </in-ports>
+    <out-ports/>
+</component-metadata>

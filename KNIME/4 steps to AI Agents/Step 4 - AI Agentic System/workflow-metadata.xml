@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workflow-metadata content-type="text/html" xmlns="http://www.knime.org/core/node/workflow/metadata/v1.0">
+    <last-modified>2025-04-30T11:18:40.523+02:00</last-modified>
+    <description><![CDATA[<p><strong>Step 4: AI Agentic System</strong></p><p></p><p>This AI-powered workflow dynamically selects and executes the most suitable tool based on user feedback, using LLM as a reasoning engine. It includes authentication to OpenAI, user input collection, tool list scanning, and a recursive loop where the LLM determines the correct path and actives the corresponding sub-workflow.</p>]]></description>
+    <tags>
+        <tag>AI</tag>
+        <tag>Agentic AI</tag>
+        <tag>Dynamic Tool</tag>
+        <tag>Tools</tag>
+        <tag>Call Workflow</tag>
+        <tag>Loop</tag>
+        <tag>Agentic Workflow</tag>
+    </tags>
+</workflow-metadata>

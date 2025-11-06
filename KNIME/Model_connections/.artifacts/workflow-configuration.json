@@ -1,0 +1,38 @@
+{
+    "huggingface-credentials-134": {
+        "label": "Label",
+        "type": "object",
+        "username": {
+            "type": "string",
+            "default": "username"
+        },
+        "password": {
+            "type": "string",
+            "default": null
+        }
+    },
+    "credentials-82": {
+        "label": "Label",
+        "type": "object",
+        "username": {
+            "type": "string",
+            "default": "username"
+        },
+        "password": {
+            "type": "string",
+            "default": null
+        }
+    },
+    "dummy-credentials-1": {
+        "label": "Label",
+        "type": "object",
+        "username": {
+            "type": "string",
+            "default": ""
+        },
+        "password": {
+            "type": "string",
+            "default": "*************"
+        }
+    }
+}

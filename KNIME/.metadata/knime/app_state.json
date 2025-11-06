@@ -1,0 +1,103 @@
+{
+  "version" : "5.5.2.v202509292032",
+  "projects" : [ {
+    "name" : "Evaluation of RAG Workflows with Giskard RAGET_Ollama",
+    "active" : true,
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "relativePath" : "Evaluation of RAG Workflows with Giskard RAGET_Ollama"
+    }
+  } ],
+  "mostRecentlyUsedProjects" : [ {
+    "name" : "KNIME_project",
+    "timeUsed" : "2025-11-03T10:13:52.742697+01:00",
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "projectType" : "WORKFLOW",
+      "relativePath" : "KNIME_project"
+    }
+  }, {
+    "name" : "Aufgabe_1_LLMs",
+    "timeUsed" : "2025-11-03T10:14:27.998439+01:00",
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "projectType" : "WORKFLOW",
+      "relativePath" : "Aufgabe_1_LLMs"
+    }
+  }, {
+    "name" : "Model_connections",
+    "timeUsed" : "2025-11-03T10:15:52.441083+01:00",
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "projectType" : "WORKFLOW",
+      "relativePath" : "Model_connections"
+    }
+  }, {
+    "name" : "Use Ollama as Local Model to perform sentiment analysis",
+    "timeUsed" : "2025-11-03T13:57:47.740855+01:00",
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "projectType" : "WORKFLOW",
+      "relativePath" : "Use Ollama as Local Model to perform sentiment analysis"
+    }
+  }, {
+    "name" : "Step 1 - Customer Retention Workflow",
+    "timeUsed" : "2025-11-05T12:08:12.444703+01:00",
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "projectType" : "WORKFLOW",
+      "relativePath" : "4 steps to AI Agents/Step 1 - Customer Retention Workflow"
+    }
+  }, {
+    "name" : "Step 2 - Tool Generate Gift",
+    "timeUsed" : "2025-11-05T12:10:07.828664+01:00",
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "projectType" : "WORKFLOW",
+      "relativePath" : "4 steps to AI Agents/Step 2 - Tool Generate Gift"
+    }
+  }, {
+    "name" : "Step 3 - AI Agentic System_for one tool",
+    "timeUsed" : "2025-11-05T12:10:22.768147+01:00",
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "projectType" : "WORKFLOW",
+      "relativePath" : "4 steps to AI Agents/Step 3 - AI Agentic System_for one tool"
+    }
+  }, {
+    "name" : "Step 4 - AI Agentic System",
+    "timeUsed" : "2025-11-05T12:12:58.650006+01:00",
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "projectType" : "WORKFLOW",
+      "relativePath" : "4 steps to AI Agents/Step 4 - AI Agentic System"
+    }
+  }, {
+    "name" : "Evaluation of Text Generation Workflows with Giskard_Ollama",
+    "timeUsed" : "2025-11-06T11:16:00.601915+01:00",
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "projectType" : "WORKFLOW",
+      "relativePath" : "Evaluation of Text Generation Workflows with Giskard_Ollama"
+    }
+  }, {
+    "name" : "Evaluation of RAG Workflows with Giskard RAGET_Ollama",
+    "timeUsed" : "2025-11-06T11:42:17.426709+01:00",
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "projectType" : "WORKFLOW",
+      "relativePath" : "Evaluation of RAG Workflows with Giskard RAGET_Ollama"
+    }
+  } ]
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This file is auto-generated and is overwritten each time the workflow is saved.
+    The metadata have moved to the `workflow-metadata.xml` file.-->
+<KNIMEMetaInfo nrOfElements="2" xmlns="http://www.knime.org/2.9/metainfo">
+    <element form="multiline" name="Comments" read-only="false"><![CDATA[<p><strong>Step 1: Customer Retention Workflow</strong></p><p></p><p>This workflow identifies unsatisfied users through automated analysis and responds with an apology email, including a custom gift.</p><ol><li><p>Collect user feedback.</p></li><li><p>Analyze sentiment.</p></li><li><p>Identify users with negative feedback.</p></li><li><p>Generate a custom gift.</p></li><li><p>Detect the language.</p></li><li><p>Prepare and send a personalized follow up email.</p></li></ol>
+
+TAGS: AI,LLM,Sentiment Analysis,Language Detector,Send Email]]></element>
+    <element form="text" name="Last Edited" read-only="true">2025-04-30 11:11:52 +0200</element>
+</KNIMEMetaInfo>

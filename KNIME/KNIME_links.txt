@@ -1,0 +1,4 @@
+https://www.knime.com/blog/guide-to-build-your-own-LLM-solutions
+https://www.knime.com/blog/create-vector-store-gpt4all
+https://www.knime.com/blog/mitigate-hallucinations-in-LLMs-with-RAG
+https://www.knime.com/blog/build-an-ai-agent-in-4-steps

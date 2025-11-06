@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This file is auto-generated and is overwritten each time the workflow is saved.
+    The metadata have moved to the `workflow-metadata.xml` file.-->
+<KNIMEMetaInfo nrOfElements="2" xmlns="http://www.knime.org/2.9/metainfo">
+    <element form="multiline" name="Comments" read-only="false">You can easily download and run the workflow directly in your KNIME installation. We recommend that you use the latest version of the KNIME Analytics Platform for optimal performance.
+
+In order to run the workflow you need an OpenAI API key. If you don't have one yet, register with OpenAI and create a new API key at https://platform.openai.com/account/api-keys
+
+Please keep in mind that OpenAI will deprecate models on a regular basis. For more information about available models visit: https://platform.openai.com/docs/models
+
+For information about the cost of using OpenAI models visit https://openai.com/pricing
+
+URL: OpenAI API Keys https://platform.openai.com/account/api-keys
+URL: Model Documentation https://platform.openai.com/docs/models
+
+TAGS: OpenAI,AI,Generative AI,LLM</element>
+    <element form="text" name="Last Edited" read-only="true">2024-02-09 10:39:35 +0100</element>
+</KNIMEMetaInfo>

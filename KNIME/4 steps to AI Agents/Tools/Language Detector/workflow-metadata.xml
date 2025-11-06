@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workflow-metadata content-type="text/html" xmlns="http://www.knime.org/core/node/workflow/metadata/v1.0">
+    <last-modified>2025-06-29T23:59:03.012+02:00</last-modified>
+    <description><![CDATA[<p><strong>Language Detection</strong></p><p></p><p>Detects the language of the feedback using Large Language Model (LLM). Each comment is labeled with its corresponding language.</p>]]></description>
+    <tags>
+        <tag>AI</tag>
+        <tag>LLM</tag>
+        <tag>Language Detector</tag>
+        <tag>OpenAI</tag>
+    </tags>
+</workflow-metadata>

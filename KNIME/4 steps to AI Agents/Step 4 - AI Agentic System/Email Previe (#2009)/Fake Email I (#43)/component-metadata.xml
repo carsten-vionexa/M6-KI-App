@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component-metadata content-type="text/plain" xmlns="http://www.knime.org/core/node/workflow/metadata/v1.0">
+    <last-modified>2023-12-04T15:46:22.101+01:00</last-modified>
+    <description>The component uses a Java code snippet in the "Java Edit Variable" node to create a sandbox email server instance within the workflow. When the component is executed, the email server is up and ready to use and is "deleted" when reset.
+
+The Java node generates flow variables containing the email server address, server IMAP port, and credentials of three fictitious users. The link to the Java libraries used for building the Java snippet is in the "External resources" section.
+
+Next, we use a "Send Email" node inside a loop to send ten fake emails with attachments to our recently created inbox. Notice that we are sending the emails to the User2.
+
+To run the component, we must save the following items in the workflow's data area:
+
+1. The jar (Java Archives) files of the libraries used in the Java snippet.
+2. The CSV file named "email_synthetic_data.csv" contains all the necessary information to create the emails, such as the sender, subject, email body, and attachment file names. It is important to note that the data is artificially generated synthetic data specifically created for this use case.
+3. The Excel file attachments.
+
+The final output includes:
+A ready-to-use email inbox sandbox with one main folder (INBOX).
+Ten fake emails with attachments in the Inbox folder.
+Four empty folders.</description>
+    <component-type>Source</component-type>
+    <icon>iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADKSURBVHgB3ZLLDcIwEEQdxwWkAyjBSpQz0AF0QCqADqADUgIdACVwzkemg7RAAbaZRY4UBSyCcoI5+Kedt961Gft5BTQkSXKy1t6+MgbBpKqqTLj9HQczrXWmlGqGAOI43tPMaUD2BrQF53yZpqn0maSUcxjX3TPe3dR1neMWFLTrm1HmRgghEXP0AlpIGIYXQLYua0RrgK9lWeb9+BcAqSgKZYw5U3MBO9AavVHvYgXzyDVzxT6Is5EaDXiWgD8wbd91qOCJ2H/oAUOPR6127ID8AAAAAElFTkSuQmCC</icon>
+    <in-ports/>
+    <out-ports>
+        <port name="Email Server flow variables">The component generates flow variables containing the email server address, server IMAP port, and credentials of three fictitious users.</port>
+    </out-ports>
+</component-metadata>

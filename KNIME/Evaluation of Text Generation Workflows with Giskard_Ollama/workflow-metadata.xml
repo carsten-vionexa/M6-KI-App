@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workflow-metadata content-type="text/html" xmlns="http://www.knime.org/core/node/workflow/metadata/v1.0">
+    <last-modified>2024-09-11T13:18:08.504+02:00</last-modified>
+    <description><![CDATA[<p></p><p>This workflow uses the <strong>Giskard LLM Scanner </strong>node to scan a text generation workflow for common vulnerabilities. Giskard’s LLM scan is designed to conduct in-depth assessments of domain-specific models.</p><p>You can download and run the workflow directly in your KNIME Analytics Platform. For optimal performance, we recommend using the latest version of KNIME AP.</p><p>In order to run the workflow you need an OpenAI API key. If you don't have one yet, register with OpenAI and create a new API key at https://platform.openai.com/account/api-keys</p><p>Please keep in mind that OpenAI will deprecate models on a regular basis. For more information about available models visit: https://platform.openai.com/docs/models For information about the cost of using OpenAI models visit https://openai.com/pricing</p>]]></description>
+    <tags>
+        <tag>GenAI</tag>
+        <tag>Giskard</tag>
+        <tag>LLM</tag>
+        <tag>RAG</tag>
+        <tag>Retrieval Augmented Generation</tag>
+    </tags>
+    <links>
+        <link href="https://docs.giskard.ai/en/stable/knowledge/llm_vulnerabilities/index.html">LLM Vulnerabilities</link>
+        <link href="https://docs.giskard.ai/en/stable/knowledge/llm_vulnerabilities/index.html">Giskard LLM Scan</link>
+    </links>
+</workflow-metadata>

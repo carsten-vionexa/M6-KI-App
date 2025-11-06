@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workflow-metadata content-type="text/html" xmlns="http://www.knime.org/core/node/workflow/metadata/v1.0">
+    <last-modified>2025-04-30T11:11:52.442+02:00</last-modified>
+    <description><![CDATA[<p><strong>Step 1: Customer Retention Workflow</strong></p><p></p><p>This workflow identifies unsatisfied users through automated analysis and responds with an apology email, including a custom gift.</p><ol><li><p>Collect user feedback.</p></li><li><p>Analyze sentiment.</p></li><li><p>Identify users with negative feedback.</p></li><li><p>Generate a custom gift.</p></li><li><p>Detect the language.</p></li><li><p>Prepare and send a personalized follow up email.</p></li></ol>]]></description>
+    <tags>
+        <tag>AI</tag>
+        <tag>LLM</tag>
+        <tag>Sentiment Analysis</tag>
+        <tag>Language Detector</tag>
+        <tag>Send Email</tag>
+    </tags>
+</workflow-metadata>
